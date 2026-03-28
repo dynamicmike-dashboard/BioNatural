@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "event": "message",
+        "filters": {
+          "keywords": ["MENU", "SHOP", "PURE"]
+        }
+      },
+      "name": "Instagram Trigger",
+      "type": "n8n-nodes-base.instagramTrigger",
+      "position": [100, 200]
+    },
+    {
+      "parameters": {
+        "action": "executeQuery",
+        "query": "SELECT direct_url, name->>'en' as product_name FROM products WHERE keywords @> ARRAY[{{$node[\"Instagram Trigger\"].json[\"message\"]}}]::text[] LIMIT 1"
+      },
+      "name": "Supabase Fetch",
+      "type": "n8n-nodes-base.supabase",
+      "position": [300, 200]
+    },
+    {
+      "parameters": {
+        "message": "Thanks for your interest in {{$node[\"Supabase Fetch\"].json[\"product_name\"]}}! Here is the link: {{$node[\"Supabase Fetch\"].json[\"direct_url\"]}}"
+      },
+      "name": "Instagram Reply",
+      "type": "n8n-nodes-base.instagram",
+      "position": [500, 200]
+    }
+  ]
+}

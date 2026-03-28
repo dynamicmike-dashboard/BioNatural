@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tertiary-container: #d09b00;
+  --color-on-primary-fixed-variant: #2c5000;
+  --color-on-error: #ffffff;
+  --color-inverse-surface: #2e3229;
+  --color-on-tertiary-container: #4b3600;
+  --color-on-secondary: #ffffff;
+  --color-tertiary-fixed: #ffdfa0;
+  --color-inverse-primary: #9dd761;
+  --color-on-secondary-fixed: #052100;
+  --color-inverse-on-surface: #eff2e4;
+  --color-on-tertiary: #ffffff;
+  --color-surface-container-high: #e7eadc;
+  --color-primary-fixed: #b8f47a;
+  --color-surface: #f8fbed;
+  --color-secondary: #346a1f;
+  --color-on-primary-fixed: #0e2000;
+  --color-surface-tint: #3c6a00;
+  --color-surface-bright: #f8fbed;
+  --color-secondary-fixed: #b5f397;
+  --color-on-surface: #191d15;
+  --color-surface-dim: #d9dbce;
+  --color-on-background: #191d15;
+  --color-primary-fixed-dim: #9dd761;
+  --color-on-secondary-container: #396f23;
+  --color-on-primary-container: #234100;
+  --color-primary: #3c6a00;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-highest: #e1e4d6;
+  --color-surface-container: #edefe2;
+  --color-on-primary: #ffffff;
+  --color-on-error-container: #93000a;
+  --color-background: #f8fbed;
+  --color-error: #ba1a1a;
+  --color-outline: #737a68;
+  --color-secondary-container: #b2f094;
+  --color-on-secondary-fixed-variant: #1c5207;
+  --color-tertiary: #795900;
+  --color-tertiary-fixed-dim: #f8bd2a;
+  --color-on-tertiary-fixed: #261a00;
+  --color-surface-variant: #e1e4d6;
+  --color-primary-container: #7cb342;
+  --color-on-surface-variant: #424939;
+  --color-error-container: #ffdad6;
+  --color-surface-container-low: #f2f5e7;
+  --color-on-tertiary-fixed-variant: #5c4300;
+  --color-secondary-fixed-dim: #9ad77e;
+  --color-outline-variant: #c2c9b5;
+
+  --font-headline: "Montserrat", "Plus Jakarta Sans", sans-serif;
+  --font-body: "Open Sans", "Inter", sans-serif;
+  --font-label: "Open Sans", "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body selection:bg-primary-container/30;
+    min-height: max(884px, 100dvh);
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/65 backdrop-blur-md border border-[#7cb342]/15;
+  }
+  
+  .dark .glass-card {
+    @apply bg-[#191d15]/80 border border-[#9dd761]/10;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    @apply inline-block leading-none;
+  }
+}

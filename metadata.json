@@ -1,0 +1,7 @@
+{
+  "name": "BioNatural - Bilingual Brain & Middleware",
+  "description": "Bilingual logic engine and API middleware for Odoo, Rappi, and Mercado Libre with automated order routing.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
