@@ -1,6 +1,6 @@
 {
-  "name": "BioNatural - Bilingual Brain & Middleware",
-  "description": "Bilingual logic engine and API middleware for Odoo, Rappi, and Mercado Libre with automated order routing.",
+  "name": "BioNatural - Bilingual Logic Architect",
+  "description": "Full-stack Next.js-style backend for BioNatural. Includes Supabase-powered headless CMS with localized content, n8n-ready inventory sync webhook, and a reservation engine with WhatsApp notifications via Tinytalk.",
   "requestFramePermissions": [
     "geolocation"
   ]
