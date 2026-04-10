@@ -50,4 +50,8 @@ This manual outlines the 4-tier Command Center architecture of the BioNatural di
 * **Assistance:** For technical support or system resets, contact the Project Architect.
 
 ---
+### ⚙️ Power Grid: Gestión de Energía (API)
+Meybell & Mike: Para gestionar los costos de IA y las llaves del sistema (Gemini, Firecrawl), accedan a:
+**[bio-natural.vercel.app/admin/config](https://bio-natural.vercel.app/admin/config)**
+
 *BioNatural Operating System | April 2026*

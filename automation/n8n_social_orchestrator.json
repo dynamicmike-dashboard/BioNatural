@@ -1,0 +1,117 @@
+{
+  "name": "BioNatural - AI Content Engine (Imagen & Teable)",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "baseId": "teable_base_id",
+        "tableId": "teable_table_id",
+        "viewId": "teable_view_id",
+        "filter": "{\"Post_Status\": \"Approved\"}"
+      },
+      "name": "Teable Trigger",
+      "type": "n8n-nodes-base.teable",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "model": "gemini-1.5-pro",
+        "prompt": "Refine this social media caption for a premium Japandi-style wellness brand. Keep it bilingual (EN/ES).\n\nOriginal: {{ $node[\"Teable Trigger\"].json[\"caption_en\"] }}\n\nInclude subtle emojis and the following keywords: {{ $node[\"Teable Trigger\"].json[\"bot_keyword\"] }}\n\nEnsure the tone is high-end, conscious, and inviting."
+      },
+      "name": "Gemini: Caption Refiner",
+      "type": "n8n-nodes-base.googleGemini",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "model": "imagen-3",
+        "prompt": "{{ $node[\"Teable Trigger\"].json[\"image_prompt\"] }} style: minimal japandi, high-end photography, soft lighting.",
+        "quality": "HD"
+      },
+      "name": "Google Imagen: Visual Factory",
+      "type": "n8n-nodes-base.googleImagen",
+      "typeVersion": 1,
+      "position": [650, 300]
+    },
+    {
+      "parameters": {
+        "table": "social_posts",
+        "columns": [
+          "product_focus",
+          "caption_final",
+          "image_url",
+          "bot_keyword"
+        ]
+      },
+      "name": "Supabase: Save Post",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "channel": "Instagram",
+        "caption": "{{ $node[\"Gemini: Caption Refiner\"].json[\"text\"] }}",
+        "imageUrl": "{{ $node[\"Google Imagen: Visual Factory\"].json[\"url\"] }}"
+      },
+      "name": "Meta: Instagram Post",
+      "type": "n8n-nodes-base.instagram",
+      "typeVersion": 1,
+      "position": [1050, 300]
+    }
+  ],
+  "connections": {
+    "Teable Trigger": {
+      "main": [
+        [
+          {
+            "node": "Gemini: Caption Refiner",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemini: Caption Refiner": {
+      "main": [
+        [
+          {
+            "node": "Google Imagen: Visual Factory",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Imagen: Visual Factory": {
+      "main": [
+        [
+          {
+            "node": "Supabase: Save Post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Supabase: Save Post": {
+      "main": [
+        [
+          {
+            "node": "Meta: Instagram Post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

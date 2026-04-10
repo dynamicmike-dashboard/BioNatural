@@ -1,0 +1,3599 @@
+{
+  "redirects": [
+    {
+      "source": "/nuevos-proveedores",
+      "destination": "/proveedores",
+      "permanent": true
+    },
+    {
+      "source": "/franquicia",
+      "destination": "/franquicia",
+      "permanent": true
+    },
+    {
+      "source": "/menu",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/contacto",
+      "destination": "/contacto",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/politica-de-privacidad",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/promociones-2",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/productos-exclusivos",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/404-2",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/encuesta-de-satisfaccion",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/premio",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/test",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/newsletter",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/quienes-somos",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/bolsa-de-trabajo",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/contacto",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/premio/gracias",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/encuesta-de-satisfaccion-backup",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/premio/gracias-backup",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/encuesta-de-satisfaccion-v5",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/premio/gracias-tienda",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/encuesta-de-satisfaccion-tienda",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/nuevos-proveedores",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/franquicia",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/compra-finalizada",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-quinta-avenida",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-sucursal-tulum-2/esp",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-sucursal-tulum-2/eng",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/registro-tulum",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/confirmacion-registro",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/registro-tulum/mensaje-registro-inauguracion-bio-natural-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tulum",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/sucursales",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/reservas",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-tulum-bk",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/extras-bebidas",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/extras",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/extras",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hard-kombucha-pepino-blue-spirulina-coctail",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/mango-te-verde-hard-kombucha-coctail",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hard-kombucha-glass",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hard-kombucha-shot",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/kombucha-karmencita-375-ml",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/kombucha-bruja-sana",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hamburguesa-beyond",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hamburguesa-de-pollo-vegano-crujiente",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/omelette-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/enchiladas-suizas-con-pollo-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/sabias-que-si-tomas-colageno-con-cafe-podrias-estar-tirando-tu-dinero",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/fortalece-tu-intestino-y-refuerza-tu-inmunidad-con-alimentos-fermentados-gut-health",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/el-poder-de-la-biotina-el-romero-y-la-cola-de-caballo-para-un-cabello-saludable",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/ahora-en-bio-natural-los-clientes-y-empleados-banorte-tienen-un-beneficio-exclusivo-%f0%9f%8c%bf",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/celebra-el-ano-nuevo-con-bio-natural-playa-del-carmen",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hard-kombucha-pepino-con-menta",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hard-kombucha-mango",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hard-kombucha-natural",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pastel-de-chocolate-keto-con-helado-de-brownie-keto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/proteina-expresso-chocolate",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bambaconproteina",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/boneless-de-coliflor",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/celebra-tus-posadas-y-regala-salud-en-bio-natural",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/bio-natural-extiende-su-horario-de-invierno-en-playa-del-carmen-mexico-%f0%9f%8c%9f",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/bio-natural-lanza-iniciativa-para-ayudar-a-los-perritos-del-refugio-el-arca-%f0%9f%90%be%f0%9f%92%9a",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/bio-natural-celebra-13-anos-con-una-cena-con-causa-y-un-evento-especial-en-5ta-con-40-%f0%9f%8c%b1%e2%9c%a8",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/bio-natural-celebra-13-anos-apoyando-causas-nobles-con-eats-meets-and-beats",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu/smoothies",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tostada-de-aguacate-con-hummus-de-betabel-y-hongos",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/tostadas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/24-hours-process-to-make-the-only-one-vegan-raw-keto-pizza-in-playa-del-carmen",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/buscas-una-fuente-de-proteinas-completa-y-saludable-descubre-el-tempeh",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hamburguesa-tempeh",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pizza-de-salmon-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tacos-baja",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/gringa-de-pastor-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/blue-tide-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/salmon-vegano-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bali-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/bowls",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pinapple-espresso",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/oj-americano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/troublle-espresso",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/matcha-dessert",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/matcha-latte",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/beet-late",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/coco-matcha",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/fresa-latte",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/nuevo-menu-saludable-y-delicioso-un-camino-hacia-el-cambio-al-estilo-de-vida-bio-natural",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/affogato",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/trufa-vegana-keto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/ensalada-green-power",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/trio-de-hummus",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/entradas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chilaquiles-con-salsa-de-aguacate",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/capresse-toast",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tostada-de-salmon-vegano-y-pesto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tostada-de-aguacate-con-kimchi-y-tempeh",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tostada-de-aguacate-con-kimchi-y-huevo-ponche",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevos-rancheros",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tostadas-de-aguacate-hummus",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevos-al-gusto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/enchiladas-olmecas",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/wafles-de-matcha",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/wafles-de-cacao",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/rebanada-de-pizza",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pizza-mozzarella-pesto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/arcoiris-pizza",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pizza-con-aceitunas-kalamata",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/burrito-gluten-free",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/burrito-vegetariano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/baguette-de-no-milanesa",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/baguette-mediterraneo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/baguette-de-tofu-ahumado",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/baquette-de-aguacate",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/comida-rapida",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pizza-con-aguacate",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-cherry-fit-woman",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chai-pre-work-out-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pasta-crudivegana-pesto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pasta-crudivegana-marinara",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pasta-crudivegana-champinon",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pepino-azul",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-betabel",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-cherry-fit-woman",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-chai-pre-work-out",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/real-acai-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/ceviche-vegano-super-protein",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/papas-rusticas-gourmet",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/15-mejores-restaurantes-en-playa-del-carmen-mexico",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/que-productos-veganos-tienen-mas-proteinas",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/a-que-llamamos-productos-organicos",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-manzanilla-con-maca-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-de-matcha-organico-con-leche-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-chai-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/infusion-de-menta-jengibre-y-limon-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/macchiato-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/expresso-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/capuchino-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cafe-organico-americano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cafe-moka-con-cacao-organico-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cafe-crema-de-cacahuate-y-maca-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/vegan-banana-split-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/raw-cheese-cake-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/carrot-cake-crudivegano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/helados-veganos-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/brownie-gluten-free-o-raw-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tonico-de-curcuma-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/limon-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jengibre-3-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/inmunidad-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/despierta-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/antigripal-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/spirulina-5grs-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/orgain-30grs-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/one-nature-30grs-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/mct-5ml-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/maca-5grs-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/lucuma-5grs-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jengibre-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hemp-30grs-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/falcon-30grs-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cbd-1ml-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/verde-matcha-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/proteina-expresso-chocolate-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/mango-matcha-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/ginger-mango-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/energy-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/detox-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/caribeno-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cacao-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bio-natural-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bamba-spirulina-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bamba-hemp-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bamba-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/acai-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-verde-con-mango-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-de-romero-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/limonada-frappe-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/kombucha-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-verde-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-naranja-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/infusion-de-menta-con-jengibre-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/horchata-de-amaranto-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/fresco-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/citricos-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bio-te-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/berries-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bebida-alcalina-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/aloe-vera-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-natural-embotellada-grande-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-mineral-san-pellegrino-grande-tulum-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-mineral-san-pellegrino-chica-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-de-limon-con-chia-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-de-coco-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-pana-500ml-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/oro-liquido-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/muy-sano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/magnifico-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-pina-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-pepino-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-manzana-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-pepino-o-apio-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/happy-ginger-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/colon-cleaner-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cold-detox-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/protein-bowl-organica-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-caribeno-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cacao-bowl-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/super-ensalada-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/ensalada-arabe-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/teriyaki-y-tofu-bowl-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/taco-bowl-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-mexicano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-mexicano-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-arabe-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-pastor-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-falafel-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-con-huevo-y-chorizo-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tahini-hummus-dips-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/salsa-tzatziki-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/salmon-ahumado-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/queso-brie-feta-cabra-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/queso-vegano-de-almendras-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/queso-cheddar-vegano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/parmesano-vegano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/parmesano-regular-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pan-organico-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pan-gluten-free-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/mezcla-de-quesos-organicos-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevo-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/frijoles-negros-organicos-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/falafel-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/crema-de-cacahuate-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chorizo-vegano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/arroz-integral-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/arroz-basmati-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/aguacate-extra-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hamburguesa-bionatural-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tacos-de-pastor-de-soya-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/falafel-al-plato-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/curry-con-tofu-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/arroz-mujaddara-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/risotto-keto-de-coliflor-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-burger-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/menu-ifantil-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/sopa-del-dia-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/papas-rusticas-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/nachos-veganos-bio-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hummus-con-crudites-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/guacamole-raw-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/alitas-de-coliflor-veganas-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hotcakes-ositos-amorosos-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/enchiladas-huicholas-2-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chilaquiles-bio-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/nuestra-omelette-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevos-benedictinos-roquefort-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tostada-de-aguacate-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hotcake-bio-natural-bio-natural-pancakes-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/copa-de-fresa-strawberry-cup-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/smoothie-bowls-tuluim",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/cafe-y-tes-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/postres-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/ensaladas-y-bowls-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/pitas-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/comidas-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/desayunos-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/bebidas-tulum",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-mineral-san-pellegrino-grande-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-mineral-s-pellegrino-750ml",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-mineral-s-pellegrino-250ml",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-caribeno",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/arroz-basmati",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/risotto-keto-de-coliflor",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/beneficios-espirulina",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/vegano-vs-vegetariano",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/queso-cheddar-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/papas-rusticas",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-pepino",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/helados-veganos",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tostada-de-aguacate",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tartar-de-muertos-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tartar-de-muertos",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-de-romero",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-verde-con-mango",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-chai",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/carrot-cake-crudivegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/alitas-de-coliflor",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/holbox",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/pan-keto-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/muffin-de-zanahoria-50-gr-keto-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/pasta-keto-80gr-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/ketotillas-160gr-keto-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/ketotopos-100gr-keto-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/brownie-keto-45gr-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/galleta-chocochip-keto-40-gr-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/granola-keto-250-gr-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/muffin-chocolate-keto-56-gr-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/keto/chocolatin-keto-40-gr-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/base-para-pizza-precocida-keto-100gr-healthy-brand",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hamburguesa-bionatural",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/galleta-de-arroz-ajonjoli-72gr-bsd-foods",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/galleta-de-arroz-quinoa-bsd-foods-72gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/alfajor-marplatense-gioccolato",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/chips-papas-espinaca-tomate-gluten-free-ines-42-5gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/aceite-de-mct-puro-now-473ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/agua-de-coco-a-de-coco-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/bebida-artesanal-niu-de-maracuya-350ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/cereales-y-granolas/granola-gourmet-quinoa-platano-natural-company-312gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/agua-alcalina-garrafon-refil-select-aquaclyva-20lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/galletas-de-amaranto-y-girasol-sano-mundo-120gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/inciensos/incienso-copal-paquete-10-varitas-axaatic",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pastas-granos-y-legumbres/chia-negra-cerealisimo-350gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/especias-y-salsas/salsa-de-soya-aminoacidos-liquidos-braggs-473ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/pan-organico-variedad-de-granos-alpine-valley-680gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pastas-granos-y-legumbres/linaza-en-polvo-cerepack-1kg",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/especias-y-salsas/sal-flor-de-sal-aires-del-campo-250gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pastas-granos-y-legumbres/frijol-negro-great-1kg",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/nueces-y-frutos-secos/mango-enchilado-120gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pastas-granos-y-legumbres/semillas-de-girasol-cerepak-500gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/chicle-organico-canela-mini-15gr-chicza",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/jabon-uiixol-coco-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/nueces-y-frutos-secos/nuez-organica-aires-del-campo-150gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/taco-oriental-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/endulzantes-y-mieles/miel-de-abeja-yokzonot-700gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/totanjos-totopos-de-maiz-con-fibra-70gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/kalan-obleas-de-arandanos-60gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/bebida-de-almendra-organica-vainilla-kirkland-946ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/galleta-de-arroz-saladitas-bsd-foods-72gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/strudel-de-manzana-y-canela-gioccolato",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/colageno-hidrolizado-puro-con-biotina-y-ah-vidanat-300gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/tortilla-de-arroz-integral-gluten-free-ezequiel-342gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/amaranto-con-chocolate-sin-azucar-picard-15gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/inciensos/incienso-copal-de-los-dioses-naturismo",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pastas-granos-y-legumbres/arroz-blanco-sano-mundo-1kg",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/kixocolatl-chocolate-pimienta-y-especias-80gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/kixocolatl-amargo-con-pimienta-rosa-80gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/equilibrio-y-radiacion/protector-de-radiacion-24k",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/cereales-y-granolas/avena-de-coccion-rapida-sin-gluten-bobs-red-mill-794gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-de-coco-calahua-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/chorizo-de-soja-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/especias-y-salsas/sal-fina-aires-del-campo-250gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aceites-y-vinagres-comestibles/aceite-de-coco-organico-a-de-coco-946gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/endulzantes-y-mieles/miel-floracion-de-girasol-aires-del-campo-350gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/agua-de-coco-organica-acapulcoco-330ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/tostalinaza-avena-anis-con-piloncillo",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/galletas-de-avena-120gr-sano",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/especias-y-salsas/caldo-organico-pollo-aires-de-campo-946ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/brocheta-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/te-verde-gud-330ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/cereales-y-granolas/cereal-organico-fruti-campo-220gr-campo-vivo",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/bistek-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-de-arroz-gud-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/nueces-y-frutos-secos/coco-deshidratado-aires-de-campo-250gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/limonada-con-chia-bio-natural-500ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/melograno-san-pellegrino-330ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/superfoods/maca-peruana-sabia-madre-tierra-250gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/bolsa-negra-de-tela-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/nueces-y-frutos-secos/platano-macho-deshidratado-saweya-130grs",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/alga-marina-sazonada-y-tostada-kirkland-17gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/sincategorizar/obleas-kalan-matcha-60gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/hamburguesa-tofu-avena-healthy-evolution-450-gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/charritos-limon-quali-40gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aromas-aceites-esenciales/aceite-esencia-jojoba-bio-natural-10ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/hamburguesas-de-soja-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/jabon-uiixol-menta-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/pasta-dental-gel-arbol-de-te-y-neem-181gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/galletas-de-amaranto-c-chocochispas-4pzas-quali",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/kixocolatl-con-leche-suggar-free-80gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aromas-aceites-esenciales/aceite-esencial-centella-asiatica-bio-natural-10ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/cereales-y-granolas/amaranto-organico-aires-del-campo-250gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/pan-cereales-germinados-sin-harina-ezekiel-680gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros-productos/popote-de-bambu-sin-cepillo-ecologico",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/bebida-aloe-vera-sabor-mango-t-best-500ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/agua-marina-bio-natural-390ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros-productos/popote-de-acero-con-cepillo-cero-plastico",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/aguacate-pz",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/cereales-y-granolas/avena-adc-500gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/agua-mineral-san-pellegrino-505-ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/bebida-de-aloe-vera-1-5-lts-t-best",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aromas-aceites-esenciales/aceite-esencial-almendras-dulces-bio-natural-10ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/carne-al-adobo-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/kixocolatl-dark-suggar-free-80gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aceites-y-vinagres-comestibles/aceite-de-coco-extra-virgen-aires-del-campo-473-ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alimentos-refrigerados/yogurth-griego-kirkland-907gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/brownie-nueces-y-ganache-gioccolato",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/obleas-de-amaranto-golmex-27gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/natures-bakery-blueberry-56-6gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/chispi-chocos-waah-48gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/kixocolatl-limon-y-almendras-80gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/paleta-sintos-individual",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/gomitas-de-ositos-yummy-earth-71gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/brownie-dulce-de-leche-y-almendras-gioccolato",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/yerba-mate-efervescente-guayakil-354ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/salchichas-de-tofu-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/tabaco-organico-ciggies-25gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/brownie-con-cacao-y-avellanas-gioccolato",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-de-coco-con-azucar-gud-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/totanjos-totopos-de-maiz-con-fibra-200gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alimentos-refrigerados/yogurth-natural-bove-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/barra-de-raspberry-natures-baker-57gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pollo-organico-congelado/pechuga-de-pollo-con-hueso-aires-de-campo-kg",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-de-soya-sin-azucar-gud-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/datil-bio-natural-200gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/chicharitos-bio-natural-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/nueces-y-frutos-secos/coco-rallado-bio-natural-100-gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/superfoods/curcuma-en-polvo-bio-natural-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/arroz-basmati-bio-natural-340gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/seitan-clasico-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/cereales-y-granolas/granola-bio-natural-400gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/agua-alcalina-bio-natural-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/bio-te-bio-natural-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/brownie-horneado-gluten-free-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/queso-de-almendras-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/falafel-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/seitan-japones-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/seitan-mediterraneo-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/seitan-mexicano-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/limonada-menta-con-chia-bio-natural-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/hummus-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/nuggets-veganos-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/cilindro-de-vidrio-bio-natural-600ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/salchichas-de-soja-healthy-evolution-450gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/te-de-menta-con-jengibre-bio-natural-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aromas-aceites-esenciales/aceite-esencial-tea-tree-bio-natural-10ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/carne-de-hamburguesa-vegana-bio-natural-180gr-pz",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pollo-organico-congelado/milanesa-de-pollo-organico-aires-del-campo",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/mazapan-con-cacahuate-alnat-43gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/cepillo-dental-de-bambu",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/crema-de-cacahuate-organica-kirkland-793gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-de-coco-sin-azucar-gud-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/otros-productos/papel-de-canamo-organico-1-1-4",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/agua-de-coco-bio-natural-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/agua-alcalina-bio-natural-500ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alimentos-refrigerados/tofu-organico-house-foods-396gr-2",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/cloruro-de-magnesio-maxicloruro-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/pan-organico-daves-killer-580gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alimentos-refrigerados/queso-tipo-manchego-bove-400gr-2",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-nuez-de-macadamia-gud-1lt",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aromas-aceites-esenciales/aceite-esencial-lavanda-bio-natural-10ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/jabon-uiixon-violetas-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/galletas-de-arroz-con-quinoa-okko-140gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/clorofila-con-spirulina-vidanat-500ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-deslactosada-bove-1lt-2",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alimentos-refrigerados/tofu-al-chipotle-sano-mundo-200gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alimentos-refrigerados/tofu-finas-hierbas-sano-mundo-200gr-2",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/yogurth-de-coco-vegano-bio-natural",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/tabaco-natural-flor-morada-25gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/jabon-uiixol-mandarina-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/agua-santa-maria-1lt-2",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/clorofila-hierbabuena-vidanat-500ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/chicle-organico-chicza-menta-15gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/proteina-organica-one-nature-chocolate-40gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aromas-aceites-esenciales/aceite-esencial-bio-natural-sandalo-10ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pollo-organico-congelado/salchichas-organicas-de-pollo-aires-de-campo-400gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/jabon-uiixol-lavanda-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/alimentos-refrigerados/queso-amarillo-vegano-gud-180gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/obleas-de-coco-kalan-60gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/jabon-uiixol-sandia-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/gel-desinfectante-bio-natural-60ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/veggies-straws-ranch-surtido-vegetales-28gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pastas-granos-y-legumbres/arroz-integral-y-quinoa-organica-kirkland-240gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/semillas-de-hemp-sin-cascara-bio-natural-100gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/kixocolatl-con-cafe-80gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/carnes-veganas/soya-texturizada-sano-mundo-500gr-2",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pastas-granos-y-legumbres/lentejas-organica-aires-del-campo-500gr-2",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/churranjos-linaza-chia-ajon-nopal-70gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/obleas-skinny-40gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/kixocolatl-dark-80gr",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/botanas-saludables/tostalinaz-mini-28pz",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aceites-y-vinagres-comestibles/vinagre-sidra-de-manzana-braggs-946ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/superfoods/levadura-nutricional-braggs-127-grs",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/barras-dulces/mazapan-de-spirulina",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aromas-aceites-esenciales/eucalipto-aceite-esencial-bio-natural-10ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/especias-y-salsas/amino-de-coco-braggs-296ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/te-de-menta-con-jengibre-y-limon-bio-natural-500ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/aceites-y-vinagres-comestibles/vinagre-de-sidra-de-manzana-braggs-473ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/pollo-organico-congelado/pechuga-de-pollo-deshuesada-kg",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/los-mas-vendidos/cbd-oil-950mg",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/gel-desinfectante-bio-natural-1tl",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/leche-y-sustitutos-de-leche/leche-de-almendras-s-azucar",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/kombucha-la-bruja-islena",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/cereales-y-granolas/avena-rolada-great",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/bebidas-saludables/kombucha-bruja-sana",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/agricultura/semillas-agroecologicas",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/jugo-de-naranja-bio-natural-1tl",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/huevos-organicos-docenera",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/productos/exclusivos-bio/gel-desinfectante-bio-natural-250ml",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jengibre-3",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/inmunidad-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/despierta-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/limon-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tonico-de-curcuma-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/antigripal-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/berries",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/fresco",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-verde",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cbd-1ml",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/mct-5ml",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-manzana",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-pepino-o-apio",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/raw-cheese-cake",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/vegan-banana-split",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hotcakes-ositos-amorosos",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-burger",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/desayunos",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hotcake-veganos-sensacion",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hotcakes-bio-natural",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/plato-de-frutas",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/super-ensalada",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/teriyaki-y-tofu-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevos-benedictinos-roquefort",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/nuestra-omelette",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/desayuno-fitness-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chilaquiles-bio",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/enchiladas-huicholas-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/protein-bowl-organica",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cacao-bowl-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/caribbean-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/ensalada-arabe",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/yogurt-de-almendras-berrys",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/yogurt-de-coco-frutos-del-huerto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/caribeno-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/protein-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bisquet-con-queso-de-almendra-y-huevo-organico",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/desayuno-fitness-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-de-matcha-organico-con-leche",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/te-manzanilla-con-maca",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/infusion-de-menta-jengibre-y-limon",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/capuchino",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cafe-crema-de-cacahuate-y-maca",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cafe-moka-con-cacao-organico",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/macchiato",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/expresso",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cafe-organico-americano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/energy-ball",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/brownie-gluten-free-o-raw",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/copa-de-fruta-y-helado",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/copa-de-helados",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pay-de-queso-crudivegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/brownie-gluten-free",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/crema-de-cacahuate",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/salsa-tzatziki",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tahini-hummus-dips",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pan-organico",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/salmon-ahumado",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/queso-vegano-de-almendras",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/queso-brie-feta-cabra",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/parmesano-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/parmesano-regular",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/frijoles-negros-organicos",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/falafel",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chorizo-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/aguacate-extra",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tacos-de-pastor-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-pastor",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-con-huevo-y-chorizo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/pita-falafel",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/falafel-al-plato",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/sopa-del-dia-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/nachos-veganos-bio",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/guacamole-raw",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hummus-con-crudites",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/sopa-de-verduras",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/sopa-del-dia",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-mexicano-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-mexicano-con-huevo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-mexicano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-con-huevo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-de-quinoa-mexicano-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bowl-arabe",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/taco-bowl",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/convierte-tu-platillo-en-solo-claras",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevos-benedictos-con-salmon-ahumado",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevos-benedictos-roquefort",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/huevos-con-chorizo-vegano-tulum",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/omelete-de-champinones",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/con-queso-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/omelette-mediterraneo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/sin-huevo-con-queso-de-arroz-y-nueces-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/con-chorizo-vegano-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chilaquiles-ahogados",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/sin-huevo-con-queso-de-arroz-y-nueces",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/con-chorizo-vegano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/con-huevo-y-chorizo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/con-huevo",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/chilaquiles-bio-natural",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hotcake-bio-natural",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/copa-fresa-yogurt-coco",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/copa-de-fresa",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jengibre-2",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/maca-5grs",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/lucuma-5grs",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/spirulina-5grs",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/falcon-30grs",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/orgain-30grs",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/one-nature-30grs",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/hemp-30grs",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/limonada-con-chia",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/horchata-de-amaranto",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/kombucha",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-de-coco",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/limonada-frappe",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-naranja",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/bebida-alcalina",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/agua-evian-1l",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-mango-matcha",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-bamba-spirulina",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-bamba-hemp",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-energy",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-bamba",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-acai",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-cacao",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-verde-matcha",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-proteina-espresso-chocolate",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-bio-natural",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/smoothie-ginger-mango",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/limon",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jengibre",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/inmunidad",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/despierta",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/tonico-de-curcuma",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/antigripal",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/colon-cleaner",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/cold-detox",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/oro-liquido",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/magnifico",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/muy-sano",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/happy-ginger",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-pina",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu-item/jugo-de-zanahoria",
+      "destination": "/restaurante",
+      "permanent": true
+    },
+    {
+      "source": "/menu/cafe-y-tes",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/postres",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/smoothie-bowls",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/pitas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/especiales-bionatural",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/ensaladas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu/bebidas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/como-son-los-muebles-veganos-y-de-que-estan-hechos",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/5-tacos-veganos-mas-ricos-que-los-de-carne",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/flores-la-alternativa-a-los-pesticidas-quimicos",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/veganismo",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/00081099000690l",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/amame_low",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/superfoods",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/img_0167",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/ruleta",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-04",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/en/veganismo",
+      "destination": "/?lang=en&from=/en/veganismo",
+      "permanent": true
+    },
+    {
+      "source": "/en/aceitesyvinagres",
+      "destination": "/?lang=en&from=/en/aceitesyvinagres",
+      "permanent": true
+    },
+    {
+      "source": "/en/img_2449",
+      "destination": "/?lang=en&from=/en/img_2449",
+      "permanent": true
+    },
+    {
+      "source": "/screenshot_20190217-134502",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-09",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/menu-03",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/5622-1",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/banana-jpg",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/brownie-empaque",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/7501639308275_3-jpg",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/qualy-canela",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/en/img_2423",
+      "destination": "/?lang=en&from=/en/img_2423",
+      "permanent": true
+    },
+    {
+      "source": "/en/contacto",
+      "destination": "/?lang=en&from=/en/contacto",
+      "permanent": true
+    },
+    {
+      "source": "/en/img_2445",
+      "destination": "/?lang=en&from=/en/img_2445",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/cacao",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/limonada",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/desinfectante",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/nopal",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/cepillo",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/aceite",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/tag/veganismo-es",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/eucalipto",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-category/superfoods",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/biote",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/huevos",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/brownie-empaque",
+      "destination": "/?lang=en&from=/en/brownie-empaque",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/lenteja",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/frijol",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/pan-keto",
+      "destination": "/?lang=en&from=/en/pan-keto",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/spirulina",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/galletas",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/adobo",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/mazapan",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/7501639308275_3-jpg",
+      "destination": "/?lang=en&from=/en/7501639308275_3-jpg",
+      "permanent": true
+    },
+    {
+      "source": "/mazapan-alnat-2",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/en/promociones-marzo_tabloide",
+      "destination": "/?lang=en&from=/en/promociones-marzo_tabloide",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/aceite",
+      "destination": "/?lang=en&from=/en/product-tag/aceite",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/organico",
+      "destination": "/?lang=en&from=/en/product-tag/organico",
+      "permanent": true
+    },
+    {
+      "source": "/product-category/alimentos-refrigerados",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-category/exclusivos-bio",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/ajonjoli",
+      "destination": "/?lang=en&from=/en/product-tag/ajonjoli",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/almendras",
+      "destination": "/?lang=en&from=/en/product-tag/almendras",
+      "permanent": true
+    },
+    {
+      "source": "/en/menu/smoothie-bowls",
+      "destination": "/?lang=en&from=/en/menu/smoothie-bowls",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/clorofila",
+      "destination": "/?lang=en&from=/en/product-tag/clorofila",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/alimento",
+      "destination": "/?lang=en&from=/en/product-tag/alimento",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/mora-azul",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/aceite-esencial",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/deshidratado",
+      "destination": "/?lang=en&from=/en/product-tag/deshidratado",
+      "permanent": true
+    },
+    {
+      "source": "/jabon-uiixol-miel-100gr",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/agua-alcalina",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/promociones-marzo_tabloide-01",
+      "destination": "/?lang=en&from=/en/promociones-marzo_tabloide-01",
+      "permanent": true
+    },
+    {
+      "source": "/detour-bar-43gr-jpg",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/tea-tree",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-tag/maiz",
+      "destination": "/?lang=en&from=/en/product-tag/maiz",
+      "permanent": true
+    },
+    {
+      "source": "/en/product-category/superfoods",
+      "destination": "/?lang=en&from=/en/product-category/superfoods",
+      "permanent": true
+    },
+    {
+      "source": "/en/bolsa-de-trabajo",
+      "destination": "/?lang=en&from=/en/bolsa-de-trabajo",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/chocolate-keto",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/bio-logotipo-rs-02",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/familia-healthy-keto-brand",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/miel-floracion",
+      "destination": "/tienda",
+      "permanent": true
+    },
+    {
+      "source": "/en/natural-colors-background",
+      "destination": "/?lang=en&from=/en/natural-colors-background",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/dj_luna_mailing_mesa-de-trabajo-1",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/product-tag/soya-texturizada",
+      "destination": "/tienda",
+      "permanent": true
+    }
+  ]
+}
