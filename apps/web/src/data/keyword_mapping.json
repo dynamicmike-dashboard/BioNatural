@@ -1,0 +1,152 @@
+{
+  "CHLOROPHYLL": {
+    "product_id": "BN-001",
+    "name": "Chlorophyll",
+    "url": "/tienda/producto/BN-001"
+  },
+  "SPIRULINA": {
+    "product_id": "BN-002",
+    "name": "Spirulina",
+    "url": "/tienda/producto/BN-002"
+  },
+  "VITAMIN": {
+    "product_id": "BN-003",
+    "name": "Vitamin C",
+    "url": "/tienda/producto/BN-003"
+  },
+  "GABA": {
+    "product_id": "BN-004",
+    "name": "GABA",
+    "url": "/tienda/producto/BN-004"
+  },
+  "MACA": {
+    "product_id": "BN-005",
+    "name": "Maca",
+    "url": "/tienda/producto/BN-005"
+  },
+  "ASHWAGANDHA": {
+    "product_id": "BN-006",
+    "name": "Ashwagandha",
+    "url": "/tienda/producto/BN-006"
+  },
+  "LION'S": {
+    "product_id": "BN-007",
+    "name": "Lion's Mane",
+    "url": "/tienda/producto/BN-007"
+  },
+  "MAGNESIUM": {
+    "product_id": "BN-008",
+    "name": "Magnesium Glycinate",
+    "url": "/tienda/producto/BN-008"
+  },
+  "REISHI": {
+    "product_id": "BN-009",
+    "name": "Reishi",
+    "url": "/tienda/producto/BN-009"
+  },
+  "OMEGA": {
+    "product_id": "BN-010",
+    "name": "Omega 3",
+    "url": "/tienda/producto/BN-010"
+  },
+  "MENOPAUSE": {
+    "product_id": "BN-011",
+    "name": "Menopause Support",
+    "url": "/tienda/producto/BN-011"
+  },
+  "DETOX": {
+    "product_id": "BN-012",
+    "name": "Detox Clay",
+    "url": "/tienda/producto/BN-012"
+  },
+  "WHEATGRASS": {
+    "product_id": "BN-013",
+    "name": "Wheatgrass",
+    "url": "/tienda/producto/BN-013"
+  },
+  "MORINGA": {
+    "product_id": "BN-014",
+    "name": "Moringa",
+    "url": "/tienda/producto/BN-014"
+  },
+  "CHLORELLA": {
+    "product_id": "BN-015",
+    "name": "Chlorella",
+    "url": "/tienda/producto/BN-015"
+  },
+  "BEE": {
+    "product_id": "BN-016",
+    "name": "Bee Pollen",
+    "url": "/tienda/producto/BN-016"
+  },
+  "ORGANIC": {
+    "product_id": "BN-017",
+    "name": "Organic Honey",
+    "url": "/tienda/producto/BN-017"
+  },
+  "APPLE": {
+    "product_id": "BN-018",
+    "name": "Apple Cider Vinegar",
+    "url": "/tienda/producto/BN-018"
+  },
+  "ALOE": {
+    "product_id": "BN-019",
+    "name": "Aloe Vera Gel",
+    "url": "/tienda/producto/BN-019"
+  },
+  "GINGER": {
+    "product_id": "BN-020",
+    "name": "Ginger",
+    "url": "/tienda/producto/BN-020"
+  },
+  "TURMERIC": {
+    "product_id": "BN-021",
+    "name": "Turmeric Powder",
+    "url": "/tienda/producto/BN-021"
+  },
+  "CURCUMIN": {
+    "product_id": "BN-022",
+    "name": "Curcumin",
+    "url": "/tienda/producto/BN-022"
+  },
+  "METHYL": {
+    "product_id": "BN-023",
+    "name": "Methyl B-12",
+    "url": "/tienda/producto/BN-023"
+  },
+  "D3": {
+    "product_id": "BN-024",
+    "name": "D3 + K2",
+    "url": "/tienda/producto/BN-024"
+  },
+  "PROBIOTICS": {
+    "product_id": "BN-025",
+    "name": "Probiotics",
+    "url": "/tienda/producto/BN-025"
+  },
+  "DIGESTIVE": {
+    "product_id": "BN-026",
+    "name": "Digestive Enzymes",
+    "url": "/tienda/producto/BN-026"
+  },
+  "L-GLUTAMINE": {
+    "product_id": "BN-027",
+    "name": "L-Glutamine",
+    "url": "/tienda/producto/BN-027"
+  },
+  "ACTIVATED": {
+    "product_id": "BN-028",
+    "name": "Activated Charcoal",
+    "url": "/tienda/producto/BN-028"
+  },
+  "MILK": {
+    "product_id": "BN-029",
+    "name": "Milk Thistle",
+    "url": "/tienda/producto/BN-029"
+  },
+  "QUERCETIN": {
+    "product_id": "BN-030",
+    "name": "Quercetin",
+    "url": "/tienda/producto/BN-030"
+  }
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "odoo_id": "BN-001",
+    "name_en": "Chlorophyll"
+  },
+  {
+    "odoo_id": "BN-002",
+    "name_en": "Spirulina"
+  },
+  {
+    "odoo_id": "BN-003",
+    "name_en": "Vitamin C"
+  },
+  {
+    "odoo_id": "BN-004",
+    "name_en": "GABA"
+  },
+  {
+    "odoo_id": "BN-005",
+    "name_en": "Maca"
+  },
+  {
+    "odoo_id": "BN-006",
+    "name_en": "Ashwagandha"
+  },
+  {
+    "odoo_id": "BN-007",
+    "name_en": "Lion's Mane"
+  },
+  {
+    "odoo_id": "BN-008",
+    "name_en": "Magnesium Glycinate"
+  },
+  {
+    "odoo_id": "BN-009",
+    "name_en": "Reishi"
+  },
+  {
+    "odoo_id": "BN-010",
+    "name_en": "Omega 3"
+  },
+  {
+    "odoo_id": "BN-011",
+    "name_en": "Menopause Support"
+  },
+  {
+    "odoo_id": "BN-012",
+    "name_en": "Detox Clay"
+  },
+  {
+    "odoo_id": "BN-013",
+    "name_en": "Wheatgrass"
+  },
+  {
+    "odoo_id": "BN-014",
+    "name_en": "Moringa"
+  },
+  {
+    "odoo_id": "BN-015",
+    "name_en": "Chlorella"
+  },
+  {
+    "odoo_id": "BN-016",
+    "name_en": "Bee Pollen"
+  },
+  {
+    "odoo_id": "BN-017",
+    "name_en": "Organic Honey"
+  },
+  {
+    "odoo_id": "BN-018",
+    "name_en": "Apple Cider Vinegar"
+  },
+  {
+    "odoo_id": "BN-019",
+    "name_en": "Aloe Vera Gel"
+  },
+  {
+    "odoo_id": "BN-020",
+    "name_en": "Ginger"
+  },
+  {
+    "odoo_id": "BN-021",
+    "name_en": "Turmeric Powder"
+  },
+  {
+    "odoo_id": "BN-022",
+    "name_en": "Curcumin"
+  },
+  {
+    "odoo_id": "BN-023",
+    "name_en": "Methyl B-12"
+  },
+  {
+    "odoo_id": "BN-024",
+    "name_en": "D3 + K2"
+  },
+  {
+    "odoo_id": "BN-025",
+    "name_en": "Probiotics"
+  },
+  {
+    "odoo_id": "BN-026",
+    "name_en": "Digestive Enzymes"
+  },
+  {
+    "odoo_id": "BN-027",
+    "name_en": "L-Glutamine"
+  },
+  {
+    "odoo_id": "BN-028",
+    "name_en": "Activated Charcoal"
+  },
+  {
+    "odoo_id": "BN-029",
+    "name_en": "Milk Thistle"
+  },
+  {
+    "odoo_id": "BN-030",
+    "name_en": "Quercetin"
+  },
+  {
+    "odoo_id": "BN-031",
+    "name_en": "Elderberry"
+  },
+  {
+    "odoo_id": "BN-032",
+    "name_en": "Zinc Picolinate"
+  },
+  {
+    "odoo_id": "BN-033",
+    "name_en": "Iron Bisglycinate"
+  },
+  {
+    "odoo_id": "BN-034",
+    "name_en": "Biotin"
+  },
+  {
+    "odoo_id": "BN-035",
+    "name_en": "Hyaluronic Acid"
+  },
+  {
+    "odoo_id": "BN-036",
+    "name_en": "Tea Tree Oil"
+  },
+  {
+    "odoo_id": "BN-037",
+    "name_en": "Lavender Oil"
+  },
+  {
+    "odoo_id": "BN-038",
+    "name_en": "Eucalyptus Oil"
+  },
+  {
+    "odoo_id": "BN-039",
+    "name_en": "Peppermint Oil"
+  },
+  {
+    "odoo_id": "BN-040",
+    "name_en": "Extra Virgin Coconut Oil"
+  },
+  {
+    "odoo_id": "BN-041",
+    "name_en": "Almond Flour"
+  },
+  {
+    "odoo_id": "BN-042",
+    "name_en": "Monk Fruit"
+  },
+  {
+    "odoo_id": "BN-043",
+    "name_en": "Stevia Drops"
+  },
+  {
+    "odoo_id": "BN-044",
+    "name_en": "MCT Oil"
+  },
+  {
+    "odoo_id": "BN-045",
+    "name_en": "Ginseng Complex"
+  },
+  {
+    "odoo_id": "BN-046",
+    "name_en": "Rhodiola Rosea"
+  },
+  {
+    "odoo_id": "BN-047",
+    "name_en": "Holy Basil (Tulsi)"
+  },
+  {
+    "odoo_id": "BN-048",
+    "name_en": "Bacopa Monnieri"
+  },
+  {
+    "odoo_id": "BN-049",
+    "name_en": "Cordyceps Mushroom"
+  },
+  {
+    "odoo_id": "BN-050",
+    "name_en": "Turkey Tail"
+  },
+  {
+    "odoo_id": "BN-051",
+    "name_en": "Shiitake Extract"
+  },
+  {
+    "odoo_id": "BN-052",
+    "name_en": "Maitake Mushroom"
+  },
+  {
+    "odoo_id": "BN-053",
+    "name_en": "Valerian Root"
+  },
+  {
+    "odoo_id": "BN-054",
+    "name_en": "Melatonin 3mg"
+  },
+  {
+    "odoo_id": "BN-055",
+    "name_en": "Passionflower"
+  },
+  {
+    "odoo_id": "BN-056",
+    "name_en": "Lemon Balm"
+  },
+  {
+    "odoo_id": "BN-057",
+    "name_en": "Chamomile Tea"
+  },
+  {
+    "odoo_id": "BN-058",
+    "name_en": "Senna Leaves"
+  },
+  {
+    "odoo_id": "BN-059",
+    "name_en": "Psyllium Husk"
+  },
+  {
+    "odoo_id": "BN-060",
+    "name_en": "Brewer's Yeast"
+  },
+  {
+    "odoo_id": "BN-061",
+    "name_en": "Camu Camu Powder"
+  },
+  {
+    "odoo_id": "BN-062",
+    "name_en": "Acerola Cherry"
+  },
+  {
+    "odoo_id": "BN-063",
+    "name_en": "Nutritional Yeast"
+  },
+  {
+    "odoo_id": "BN-064",
+    "name_en": "Hemp Seeds"
+  },
+  {
+    "odoo_id": "BN-065",
+    "name_en": "Chia Seeds"
+  },
+  {
+    "odoo_id": "BN-066",
+    "name_en": "Golden Milk Mix"
+  },
+  {
+    "odoo_id": "BN-067",
+    "name_en": "Matcha Tea Ceremonial"
+  },
+  {
+    "odoo_id": "BN-068",
+    "name_en": "Pau d'Arco"
+  },
+  {
+    "odoo_id": "BN-069",
+    "name_en": "Garlic Extract"
+  },
+  {
+    "odoo_id": "BN-070",
+    "name_en": "Oregano Oil Capsules"
+  },
+  {
+    "odoo_id": "BN-071",
+    "name_en": "Silica"
+  },
+  {
+    "odoo_id": "BN-072",
+    "name_en": "Ginkgo Biloba"
+  }
+]
