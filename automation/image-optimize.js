@@ -2,14 +2,15 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const IMG_DIR = './apps/web/public/img';
+const IMG_DIR = path.join(process.cwd(), 'apps', 'web', 'public', 'img');
 
-if (!fs.existsSync(path.resolve(__dirname, '..', IMG_DIR))) {
-  fs.mkdirSync(path.resolve(__dirname, '..', IMG_DIR), { recursive: true });
+if (!fs.existsSync(IMG_DIR)) {
+  fs.mkdirSync(IMG_DIR, { recursive: true });
 }
 
 async function optimizeImages() {
-  const dir = path.resolve(__dirname, '..', IMG_DIR);
+  const dir = IMG_DIR;
+  if (!fs.existsSync(dir)) return;
   const files = fs.readdirSync(dir);
   
   for (const file of files) {

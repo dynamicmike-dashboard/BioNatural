@@ -24,6 +24,9 @@ function checkFiles(dir) {
   });
 }
 
-const targetDirs = ['./apps/web/public', './apps/web/src/assets'];
-targetDirs.forEach(dir => checkFiles(path.resolve(__dirname, '..', dir)));
+const targetDirs = [
+  path.join(process.cwd(), 'apps', 'web', 'public'),
+  path.join(process.cwd(), 'apps', 'web', 'src', 'assets')
+];
+targetDirs.forEach(dir => checkFiles(dir));
 console.log('✅ Asset Halt Protocol passed: No large videos detected.');

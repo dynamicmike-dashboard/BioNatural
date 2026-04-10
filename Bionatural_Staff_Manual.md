@@ -1,54 +1,53 @@
-# 🌿 BioNatural: System Operating Manual (Staff & Admin)
+# 🌿 BioNatural: Digital Operations Manual
 **Building the Franchise of the Future**
 
 This manual outlines the 4-tier Command Center architecture of the BioNatural digital ecosystem.
 
 ---
 
-## 1. 🛒 Customer Hub (The Website)
-**URL:** [http://localhost:3000](http://localhost:3000) (Demo) / [bio-natural.mx](https://bio-natural.mx) (Live)
-* **Staff Role:** None. The site is automated.
-* **Key Feature:** The **AI Concierge**. It handles customer queries 24/7 using the "Smart Brain" data stored in Supabase.
+## 1. 🛒 Customer Portal (The Website)
+**URL:** [https://bio-natural.vercel.app](https://bio-natural.vercel.app)
+* **Role:** Automated.
+* **Key Feature:** The **AI Sales Concierge**. It handles customer queries 24/7 using the comprehensive product knowledge base.
 
 ---
 
-## 2. 📱 Social Content Hub
-**Access:** Teable -> `Content Calendar` Table
+## 2. 📱 Content Management Hub
+**Access:** Marketing & Social Dashboard
 **Role: Social Media Manager**
 * **Workflow:**
-  1. Log into the **"Social Pipeline"** Kanban View.
-  2. Review the pre-generated captions in **EN/ES**.
-  3. Drag a post card from "Draft" -> "Approved".
-  4. **Automation:** Once "Approved," n8n will prepare the post or notify the manager via WhatsApp with the assets.
-* **Rule:** Do NOT edit product pricing. You can only view product benefits to ensure accurate captions.
+  1. Log into the **"Content Pipeline"** view.
+  2. Review the pre-generated marketing captions in **English & Spanish**.
+  3. Change the status of a post from "Draft" to "Approved."
+  4. **Automation:** The system will automatically finalize the post assets and notify you when they are ready for publishing.
+* **Guideline:** View product benefits here to ensure captions are accurate, but do not modify product data.
 
 ---
 
-## 3. 📦 Staff Operations Hub
-**Access:** Teable -> `Master Inventory` Table
-**Role: Warehouse/Buyer/Staff**
+## 3. 📦 Operations & Stock Hub
+**Access:** Inventory Dashboard
+**Role: Warehouse / Store Staff**
 * **Workflow:**
-  1. Use the **"Stock Master"** Grid View.
+  1. Use the **"Stock Master"** view.
   2. Update **Price** or **Stock Status** (In Stock / Out of Stock).
-  3. **Direct Sync:** Changes here update the Website and Chatbot within 60 seconds.
-* **Rule:** You only have access to 200 high-priority products. 
+  3. **Direct Sync:** All changes update the public website and the AI Concierge instantly.
+* **Guideline:** Focus exclusively on the Top 200 Hero products for high-performance inventory management.
 
 ---
 
-## 4. 👑 Admin Command Center
-**Access:** Teable -> `Admin Dashboard` Table
-**Role: Owner (Meybell) / Architect (Mike)**
+## 4. 👑 Executive Command Center
+**Access:** Admin Dashboard
+**Role: Management (Meybell / Mike)**
 * **Workflow:**
-  1. **Analytics:** View the counts for New Provider Leads and Franchise Applicants.
-  2. **Editorial:** Write or AI-optimize Blog Posts in the "Editorial Desk."
-  3. **Authorizations:** Grant or revoke staff access to the Teable Views.
-* **Rule:** Full system access.
+  1. **Analytics:** Monitor real-time leads for New Providers and Franchise applications.
+  2. **Editorial:** Write, edit, and optimize historical blog content.
+  3. **System Control:** Manage staff access permissions and oversight.
 
 ---
 
-### 🆘 Emergency Instructions
-* **System Down:** Restart the terminal and run `node automation/final-system-sync.js`.
-* **Database Errors:** All data is backed up daily in the `F:/migration/` folder.
+### 🆘 Support & Maintenance
+* **Data Safety:** All product and historical data is backed up daily to the legacy archive.
+* **Assistance:** For technical support or system resets, contact the Project Architect.
 
 ---
-*Created by Antigravity for BioNatural | April 2026*
+*BioNatural Operating System | April 2026*

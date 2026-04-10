@@ -6,8 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev --workspaces",
-    "build": "node ./automation/asset-halt.js && node ./automation/image-optimize.js && npm run build --workspaces",
+    "dev": "npm run dev --workspace=web",
+    "build": "node ./automation/asset-halt.js && node ./automation/image-optimize.js && npm run build --workspace=web",
     "prebuild": "node ./automation/asset-halt.js && node ./automation/image-optimize.js"
   },
   "devDependencies": {
