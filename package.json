@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=web",
-    "build": "npm run build --workspace=web && cp -r apps/web/.next . && cp -r apps/web/public .",
+    "build": "npm run build --workspace=web && cp -r apps/web/public .",
     "prebuild": "node ./automation/asset-halt.js && node ./automation/image-optimize.js"
   },
   "devDependencies": {

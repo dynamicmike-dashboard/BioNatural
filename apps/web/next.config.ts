@@ -8,6 +8,7 @@ const withPWA = require("next-pwa")({
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@bionatural/ui"],
+  distDir: "../../.next",
 };
 
 export default withPWA(nextConfig);
