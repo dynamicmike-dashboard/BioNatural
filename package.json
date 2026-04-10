@@ -7,13 +7,10 @@
   ],
   "scripts": {
     "dev": "npm run dev --workspace=web",
-    "build": "npm run build --workspace=web && cp -r apps/web/public .",
+    "build": "npm run build --workspace=web",
     "prebuild": "node ./automation/asset-halt.js && node ./automation/image-optimize.js"
   },
   "devDependencies": {
-    "typescript": "^5.8.2",
-    "next": "16.2.2",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "typescript": "^5.8.2"
   }
 }

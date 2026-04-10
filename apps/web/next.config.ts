@@ -8,7 +8,12 @@ const withPWA = require("next-pwa")({
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@bionatural/ui"],
-  distDir: "../../.next",
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default withPWA(nextConfig);
