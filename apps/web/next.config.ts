@@ -7,7 +7,7 @@ const withPWA = require("next-pwa")({
 });
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  transpilePackages: ["@bionatural/ui"],
 };
 
 export default withPWA(nextConfig);
