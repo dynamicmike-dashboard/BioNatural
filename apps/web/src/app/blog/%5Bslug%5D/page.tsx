@@ -1,9 +1,8 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
+export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
   // In a real app, we would fetch the post from Supabase using the slug
   // For now, we show a premium template
   
