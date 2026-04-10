@@ -27,9 +27,25 @@ export default async function ProductPage({
   const description = product[`description_${lang.toLowerCase()}`] || product.description_en;
   const seoTag = product.seo_stealth_tag;
 
+  // Semantic Recommendations Logic
+  const clusters: Record<string, string[]> = {
+    'Stress & Sleep': ['BN-004', 'BN-006', 'BN-008', 'BN-009', 'BN-053'],
+    'Detox & Gut': ['BN-001', 'BN-015', 'BN-025', 'BN-026', 'BN-028', 'BN-029'],
+    'Energy & Focus': ['BN-002', 'BN-007', 'BN-013', 'BN-044', 'BN-056']
+  };
+
+  const currentCluster = Object.values(clusters).find(c => c.includes(product.Odoo_ID)) || [];
+  const relatedIds = currentCluster.filter(id => id !== product.Odoo_ID).slice(0, 3);
+
+  const { data: relatedProducts } = await supabase
+    .from("Master_Inventory")
+    .select("*")
+    .in("Odoo_ID", relatedIds);
+
   return (
     <article className="max-w-7xl mx-auto p-8 lg:py-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+        {/* ... existing product detail content ... */}
         {/* Product Images */}
         <div className="space-y-4">
           <div className="aspect-square bg-white rounded-[40px] overflow-hidden relative shadow-2xl border border-gray-100 group transition-transform hover:scale-[1.01]">
@@ -71,24 +87,12 @@ export default async function ProductPage({
              </div>
           </header>
 
-          {/* Key Benefits - New Section */}
-          {product.benefits_en && product.benefits_en.length > 0 && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {product[`benefits_${lang.toLowerCase()}`]?.map((benefit: string, index: number) => (
-                <div key={index} className="flex items-center gap-3 bg-[#F9FBE7] p-4 rounded-2xl border border-[#DCEDC8]">
-                  <div className="w-2 h-2 rounded-full bg-[#8BC34A]" />
-                  <p className="text-sm font-bold text-[#33691E]">{benefit}</p>
-                </div>
-              ))}
-            </div>
-          )}
-
           <div className="prose prose-lg text-gray-600 font-medium leading-relaxed max-w-none border-t border-gray-100 pt-8">
             <p className="whitespace-pre-line">{description}</p>
           </div>
 
           {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-4 border-b border-gray-100 pb-12">
              <button className="flex-2 px-10 py-6 bg-[#2E7D32] text-white rounded-[28px] font-black text-xl hover:bg-[#1B5E20] transition-all transform shadow-2xl shadow-[#2E7D32]/30 active:scale-95">
                 {lang === "en" ? "Proceed to Checkout" : "Continuar al Pago"}
              </button>
@@ -96,18 +100,34 @@ export default async function ProductPage({
                 {lang === "en" ? "Add to Cart" : "Agregar"}
              </button>
           </div>
-
-          <footer className="pt-8 border-t border-gray-50">
-             <div className="flex items-center gap-4 text-xs font-bold text-gray-400 uppercase tracking-widest">
-                <span>Free Local Delivery</span>
-                <span>•</span>
-                <span>Secure Checkout</span>
-                <span>•</span>
-                <span>BioNatural Quality</span>
-             </div>
-          </footer>
         </div>
       </div>
+
+      {/* Semantic Recommendations - The SEOLLM Hub */}
+      {relatedProducts && relatedProducts.length > 0 && (
+        <section className="mt-24 pt-24 border-t-4 border-[#F1F8E9]">
+          <h2 className="text-4xl font-black text-[#1B5E20] tracking-tighter mb-12">Complete Your Wellness</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {relatedProducts.map((rel: any) => (
+              <a 
+                key={rel.Odoo_ID}
+                href={`/tienda/producto/${rel.Odoo_ID}?lang=${lang}`}
+                className="group p-6 bg-white rounded-[40px] border border-gray-100 hover:border-[#8BC34A] transition-all shadow-xl hover:shadow-2xl hover:shadow-[#8BC34A]/10"
+              >
+                <div className="aspect-square bg-[#F9FBE7] rounded-[30px] mb-6 relative overflow-hidden">
+                  {rel.image_url ? (
+                    <Image src={rel.image_url} alt={rel.name_en} fill className="object-contain p-8 group-hover:scale-110 transition-transform" />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-[#8BC34A] font-black">BioNatural</div>
+                  )}
+                </div>
+                <h3 className="text-xl font-black text-[#1B5E20] group-hover:text-[#2E7D32]">{rel[`name_${lang.toLowerCase()}`] || rel.name_en}</h3>
+                <p className="text-sm font-bold text-[#8BC34A] mt-2 uppercase tracking-widest">{rel.category}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
     </article>
   );
 }
