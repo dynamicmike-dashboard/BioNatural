@@ -1,0 +1,482 @@
+[
+  {
+    "name_en": "ENCHILADAS SUIZAS CON POLLO VEGANO",
+    "category": "Restaurant",
+    "price": 240,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2025/06/EnchiladasSuizas.png",
+    "description_en": "Tres enchiladas rellenas con jugoso \"pollo\" vegano, alto en proteína (13 g por porción), bañadas en una deliciosa salsa verde cremosa y gratinadas con queso 100 % vegano. Todo el sabor de la cocina mexicana tradicional… ¡sin nada de origen animal! Perfectas para cuidar tu salud sin sacrificar el antojo.",
+    "odoo_id": "REST-ENCHILADAS"
+  },
+  {
+    "name_en": "PLATO DE FRUTAS CON YOGURT DE COCO CON MATCHA",
+    "category": "Restaurant",
+    "price": 169,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PLATO-FRUTAS-YOGURT-COCO-MATCHA-600x600.jpg",
+    "description_en": "$169 Deliciosa combinación de frutas de temporada con yogurt de coco con matcha. |     |     | | --- | --- | | - Con muesli y jarabe de agave | \\+ .00 |",
+    "odoo_id": "REST-PLATO-DE-F"
+  },
+  {
+    "name_en": "HOTCAKES BIO-NATURAL",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/HOTCAKES-BIO-600x600.jpg",
+    "description_en": "$189 Hotcakes de harina de amaranto, huevo y leche de vaca, bañados en salsa de cajeta orgánica con rebanadas de plátano, espolvoreados con almendras fileteadas y coco. |     |     | | --- | --- | | - Gluten free | \\+ .00 | | - Con helado vegano\\* | \\+ $ 95.00 | | - Libre de gluten y con helado vegano\\* | \\+ $ 110.00 | | _\\*Coconut, vanilla, chocolate and hazelnut ice cream._ |",
+    "odoo_id": "REST-HOTCAKES-B"
+  },
+  {
+    "name_en": "HOTCAKE VEGAN SENSATION",
+    "category": "Restaurant",
+    "price": 209,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/HOTCAKES-VEGANOS-SENSACION-600x600.jpg",
+    "description_en": "$209 Torre de hotcakes veganos intercalados con mantequilla de cacahuate y plátano, fresas y yogur de coco, coronados con crema de limón vegana, compota de frutos rojos y coco; decorados con chispas de chocolate, uva verde, blue berries, fresas, compota de frutos rojos y menta. |     |     | | --- | --- | | - Gluten free | \\+ .00 | | - Con helado vegano\\* | \\+ $ 95.00 | | - Libre de gluten y con helado vegano\\* | \\+ $ 110.00 | | _\\*Coconut, vanilla, chocolate and hazelnut ice cream._ |",
+    "odoo_id": "REST-HOTCAKE-VE"
+  },
+  {
+    "name_en": "LOVING BEARS HOTCAKES",
+    "category": "Restaurant",
+    "price": 130,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/HOTCAKES-OSITOS-600x600.jpg",
+    "description_en": "$130 Hotcakes de harina de amaranto en forma de ositos, acompañados con plátano, fresa y chocolate. |     |     | | --- | --- | | - Gluten free | \\+ .00 | | - Con helado vegano\\* | \\+ $ 95.00 | | - Libre de gluten y con helado vegano\\* | \\+ $ 110.00 | | _\\*Coconut, vanilla, chocolate and hazelnut ice cream._ |",
+    "odoo_id": "REST-LOVING-BEA"
+  },
+  {
+    "name_en": "WAFLES DE CACAO",
+    "category": "Restaurant",
+    "price": 219,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/WAFLES-CACAO-600x600.jpg",
+    "description_en": "Harina de amaranto, harina de avena, leche de almendra y cacao orgánico, acompañados de plátano, fresas, salsa de frutos rojos y helado vegano. |     |     | | --- | --- | | - Gluten free | \\+ $ 25.00 |",
+    "odoo_id": "REST-WAFLES-DE-"
+  },
+  {
+    "name_en": "WAFLES DE MATCHA",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/WAFLES-MATCHA-600x600.jpg",
+    "description_en": "Harina de amaranto, harina de avena, leche de almendra y matcha, acompañados de plátano, blueberries, salsa de frutos rojos y yogurt de coco. |     |     | | --- | --- | | - Gluten free | \\+ $ 25.00 |",
+    "odoo_id": "REST-WAFLES-DE-"
+  },
+  {
+    "name_en": "HUICHOLAS ENCHILADAS",
+    "category": "Restaurant",
+    "price": 185,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/ENCHILADAS-HUICHOLAS-600x600.jpg",
+    "description_en": "$185 Enchiladas rellenas con huevo de rancho y chorizo vegano con la salsa de su elección (roja o verde) acompañados con ensalada (lechuga, zanahoria, cebolla, jitomate, vinagreta y mix de semillas), frijoles refritos y decoradas con queso vegano o rawmesano, cebolla, y cilantro. |     |     | | --- | --- | | - Sin huevo, con chorizo, tofú y rawmesano | .00 | | - Gluten free | \\+ $ 40.00 |",
+    "odoo_id": "REST-HUICHOLAS-"
+  },
+  {
+    "name_en": "HUEVOS RANCHEROS",
+    "category": "Restaurant",
+    "price": 145,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/HUEVOS-RANCHEROS-600x600.jpg",
+    "description_en": "Dos tostadas bañadas de frijol, dos huevos estrellados, cubierta con salsa roja, crema y queso, acompañados con plátano macho frito.",
+    "odoo_id": "REST-HUEVOS-RAN"
+  },
+  {
+    "name_en": "FITNESS BREAKFAST",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/DESAYUNO-FITNESS-600x600.jpg",
+    "description_en": "$189 Cuatro claras de huevo de rancho con tomate, cebolla, champiñones, acompañados con frijoles orgánicos, y ensalada (lechugas, zanahoria, cebolla, tomate, vinagreta y mix de semillas) y decorados con perejil. Con pollo vegano con 13 grs proteína ........................   + 95",
+    "odoo_id": "REST-FITNESS-BR"
+  },
+  {
+    "name_en": "OUR OMELETTE",
+    "category": "Restaurant",
+    "price": 159,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/OMELETTE-600x600.jpg",
+    "description_en": "$159 Omelette con dos huevos de rancho (incluye 2 ingredientes\\*: queso, cebolla, jitomate, espinaca o champiñones), acompañado de frijoles orgánicos y ensalada (lechugas, zanahoria, cebolla, tomate, vinagreta y mix de semillas) o papas rústicas. Con pollo vegano con 13 grs proteína ....................................... +",
+    "odoo_id": "REST-OUR-OMELET"
+  },
+  {
+    "name_en": "EGGS BENEDICTINOS ROQUEFORT",
+    "category": "Restaurant",
+    "price": 289,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/HUEVO-BENEDIGTINOS-600x600.jpg",
+    "description_en": "$289 Huevos poché montados sobre tostada de pan orgánico, relleno de espinacas, champiñones, queso brie y bañados con salsa de roquefort; acompañados con papas rústicas, ensalada (lechugas, zanahoria, cebolla, tomate, vinagreta y mix de semillas). |     |     | | --- | --- | | - Con salmón vegano | \\+ .00 |",
+    "odoo_id": "REST-EGGS-BENED"
+  },
+  {
+    "name_en": "HUEVOS AL GUSTO",
+    "category": "Restaurant",
+    "price": 159,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/HUEVOS-CHORIZO-600x600.jpg",
+    "description_en": "Huevos al gusto (estrellados o revueltos) con un ingrediente, acompañados con pan o tortillas y ensalada o papas.",
+    "odoo_id": "REST-HUEVOS-AL-"
+  },
+  {
+    "name_en": "CHILAQUILES BIO",
+    "category": "Restaurant",
+    "price": 145,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/CHILAQUILES-BIO-600x600.jpg",
+    "description_en": "$145 Totopos en salsa de tu elección (roja o verde), cilantro, cebolla, queso de vaca o vegano y frijoles negros orgánicos. |     |     | | --- | --- | | - With egg | \\+ .00 | | - Vegan chorizo | \\+ $ 35.00 | | - Con huevo y chorizo vegano | \\+ $ 45.00 | | - Con pollo vegano con 13 grs proteína | \\+ $ 95.00 | x ### TOSTADAS - ### Tostadas",
+    "odoo_id": "REST-CHILAQUILE"
+  },
+  {
+    "name_en": "TOSTADAS DE AGUACATE",
+    "category": "Restaurant",
+    "price": 219,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TOSTADA-AGUACATE-600x600.jpg",
+    "description_en": "$219 Pan tostado y montado con hummus de pimiento rostizado, puré de aguacate y huevo poché, bañados con salsa matcha (mix de semillas en salsa de chile seco, limón y cilantro) y arúgula; acompañadas de ensalada. ![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Opción vegana: Tomates deshidratados, tomates cherry y una salsa matcha. |     |     | | --- | --- | | - Media orden | .00 | | - Gluten free | \\+ $ 25.00 |",
+    "odoo_id": "REST-TOSTADAS-D"
+  },
+  {
+    "name_en": "TOSTADA DE AGUACATE CON HUMMUS DE BETABEL Y HUEVO POCHÉ",
+    "category": "Restaurant",
+    "price": 145,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2025/06/TostadaAguacate.png",
+    "description_en": "Pan de masa madre, hummus de betabel, aguacate, huevo poché y brotes. |     |     | | --- | --- | | - Gluten free | \\+ $ 40.00 |",
+    "odoo_id": "REST-TOSTADA-DE"
+  },
+  {
+    "name_en": "TOSTADA DE AGUACATE CON HUMMUS DE BETABEL Y HONGOS",
+    "category": "Restaurant",
+    "price": 145,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TOSTADA-AGUACATE-HUMMUS-BETABEL_2-600x600.jpg",
+    "description_en": "$145 ![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Pan de masa madre, hummus de betabel, aguacate, hongos y brotes. |     |     | | --- | --- | | - Gluten free | \\+ .00 |",
+    "odoo_id": "REST-TOSTADA-DE"
+  },
+  {
+    "name_en": "TOSTADA DE AGUACATE CON KIMCHI Y HUEVO PONCHÉ",
+    "category": "Restaurant",
+    "price": 145,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TOSTADA-AGUACATE-KIMCHI-POCHE_2-600x600.jpg",
+    "description_en": "Pan de masa madre con, huevo poché, guacamole, kimchi y pimiento. |     |     | | --- | --- | | - Gluten free | \\+ $ 40.00 |",
+    "odoo_id": "REST-TOSTADA-DE"
+  },
+  {
+    "name_en": "TOSTADA DE AGUACATE CON KIMCHI Y TEMPEH",
+    "category": "Restaurant",
+    "price": 145,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TOSTADA-AGUACATE-KIMCHI-TEMPEH_2-600x600.jpg",
+    "description_en": "![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Pan de masa madre con guacamole, tempeh, kimchi y pimiento. |     |     | | --- | --- | | - Gluten free | \\+ $ 40.00 |",
+    "odoo_id": "REST-TOSTADA-DE"
+  },
+  {
+    "name_en": "TOSTADA DE SALMÓN VEGANO Y PESTO",
+    "category": "Restaurant",
+    "price": 175,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TOSTADA-AGUACATE-PESTO-SALMON_2-600x600.jpg",
+    "description_en": "![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Pan de masa madre con puré de aguacate, pesto, salmón vegano y germinados. |     |     | | --- | --- | | - Gluten free | \\+ $ 40.00 |",
+    "odoo_id": "REST-TOSTADA-DE"
+  },
+  {
+    "name_en": "VEGAN CAPRESSE TOAST",
+    "category": "Restaurant",
+    "price": 130,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2025/06/VeganCapresse.png",
+    "description_en": "![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Pan de masa madre, pesto, queso mozzarella vegano, tomate cherry, aceite de oliva y orégano. |     |     | | --- | --- | | - Gluten free | \\+ $ 25.00 | x ### SMOOTHIES BOWLS - ### Smoothies Bowls",
+    "odoo_id": "REST-VEGAN-CAPR"
+  },
+  {
+    "name_en": "CACAO BOWL",
+    "category": "Restaurant",
+    "price": 209,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/CACAO-BOWL-600x600.jpg",
+    "description_en": "$209 Frozen a base de plátano, cacao, yogur de coco, dátiles y crema de cacahuate, decorado con plátano, chispas de chocolate, almendras saladas, blueberries, granola, coco rallado, chía y trocitos de brownie de la casa.",
+    "odoo_id": "REST-CACAO-BOWL"
+  },
+  {
+    "name_en": "CHAI PRE WORK OUT BOWL",
+    "category": "Restaurant",
+    "price": 235,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2023/02/BOWL-CHAI-PRE-WORK-OUT-600x600.jpg",
+    "description_en": "$235 30 gramos de proteína Birdman Falcon sabor Chai, leche de coco, plátano y crema de cacahuate con topping de pepita de calabaza, coco rallado, chía, nuez, arándanos y crema de cacahuate.",
+    "odoo_id": "REST-CHAI-PRE-W"
+  },
+  {
+    "name_en": "CHERRY FIT WOMAN BOWL",
+    "category": "Restaurant",
+    "price": 255,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BOWL-FIT-WOMAN-600x600.jpg",
+    "description_en": "$255 30 gramos de proteína Birdman Fitmingo, blueberries, leche de almendra, cerezas y fresas con topping de pepita de calabaza, coco rallado, chía, nuez, arándanos, moras goji y crema de cacahuate.",
+    "odoo_id": "REST-CHERRY-FIT"
+  },
+  {
+    "name_en": "PROTEIN BOWL",
+    "category": "Restaurant",
+    "price": 209,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PROTEIN-BOWL-600x600.jpg",
+    "description_en": "$209 Frozen a base de plátano, mango, 20 grs. de proteína orgánica y leche de coco decorado con plátano, kiwi, almendras fileteadas, blueberries, coco rallado y granola.",
+    "odoo_id": "REST-PROTEIN-BO"
+  },
+  {
+    "name_en": "REAL ACAI BOWL",
+    "category": "Restaurant",
+    "price": 195,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2023/02/REAL-ACAI-BOWL-600x600.jpg",
+    "description_en": "$195 Pulpa de acaí, frutos rojos, plátano, yogurt de coco, con topping de crema de cacahuate, granola casera, arándanos, fresa y coco rallado. x ### ENTRADAS - ### Starters - BONELESS DE COLIFLOR  Boneless de coliflor rebozados y bañados en salsa BBQ acompañados con crudités, hummus y queso de almendras.",
+    "odoo_id": "REST-REAL-ACAI-"
+  },
+  {
+    "name_en": "TRIO DE HUMMUS",
+    "category": "Restaurant",
+    "price": 149,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TRIO-HUMUS-600x600.jpg",
+    "description_en": "$149 Hummus betabel, hummus pimiento y hummus tradicional con crudites o pan pita.",
+    "odoo_id": "REST-TRIO-DE-HU"
+  },
+  {
+    "name_en": "GUACAMOLE",
+    "category": "Restaurant",
+    "price": 149,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/GUACAMOLE-600x600.jpg",
+    "description_en": "$149 Appetizing and nutritious avocado puree with onion, coriander, tomato and lemon. Served with tortilla chips in the shape of a flower. |     |     | | --- | --- | | - Con crudites | \\+ .00 |",
+    "odoo_id": "REST-GUACAMOLE"
+  },
+  {
+    "name_en": "VEGAN NACHOS BIO",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/NACHOS-VEGANOS-600x600.jpg",
+    "description_en": "$189 Totopos con frijoles orgánicos refritos, chorizo y queso cheddar vegano. acompañados con guacamole, pico de gallo, veganesa de chipotle y jalapeños. CON POLLO VEGANO  CON 13 GRS DE PROTEINA........................................ +",
+    "odoo_id": "REST-VEGAN-NACH"
+  },
+  {
+    "name_en": "SOUP OF THE DAY",
+    "category": "Restaurant",
+    "price": 95,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/SOPA-LENTEJAS-600x600.jpg",
+    "description_en": "Ask your waiter for the soup of the day.",
+    "odoo_id": "REST-SOUP-OF-TH"
+  },
+  {
+    "name_en": "RUSTIC POTATOES",
+    "category": "Restaurant",
+    "price": 109,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PAPAS-RUSTICAS-600x600.jpg",
+    "description_en": "Nuestras famosas papas rústicas acompañadas con salsa cátsup. |     |     | | --- | --- | | - With vegan chesse | \\+ $ 35.00 | x ### ENSALADAS - ### Salads",
+    "odoo_id": "REST-RUSTIC-POT"
+  },
+  {
+    "name_en": "ARABIC SALAD",
+    "category": "Restaurant",
+    "price": 169,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/ENSALADA-ARABE-600x600.jpg",
+    "description_en": "$169 Pepino, jitomate, cebolla morada, quinoa, perejil, menta, sal, pimienta negra, jugo de limón y aceite de oliva.",
+    "odoo_id": "REST-ARABIC-SAL"
+  },
+  {
+    "name_en": "SUPER SALAD",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/SUPER-ENSALADA-600x600.jpg",
+    "description_en": "$189 Mix de lechugas, arúgula, cebolla morada, jitomate, zanahoria, mix de nueces, queso de almendras, mix de semillas, semillas de hemp. Aderezado con vinagreta de miel y mostaza. Our vegetables are disinfected through ozonophication. x ### ESPECIALES - ### Platos Fuertes - CEVICHE VEGANO SÚPER PROTEIN $189 Champiñones, tofu, aminos, alga wakame, jitomate, cebolla, pepino, aguacate, aceitunas, especias y limón; acompañado con totopos.",
+    "odoo_id": "REST-SUPER-SALA"
+  },
+  {
+    "name_en": "FALAFEL TO THE PLATE",
+    "category": "Restaurant",
+    "price": 179,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/FALAFEL-PLATO-600x600.jpg",
+    "description_en": "$179 Deliciosas croquetas de garbanzo sobre fresca ensalada árabe estilo BIO: pepino, jitomate, cebolla morada, quinoa, perejil, menta, sal, pimienta negra, jugo de limón y aceite de oliva.",
+    "odoo_id": "REST-FALAFEL-TO"
+  },
+  {
+    "name_en": "GRINGA DE PASTOR VEGANO",
+    "category": "Restaurant",
+    "price": 225,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/GRINGA-PASTOR-600x600.jpg",
+    "description_en": "$225 Tortilla de harina con cilantro, pastor de soya, queso orgánico o vegano, guacamole, salsa verde, salsa roja y piña. |     |     | | --- | --- | | - Media orden | .00 |",
+    "odoo_id": "REST-GRINGA-DE-"
+  },
+  {
+    "name_en": "RISOTTO KETO DE COLIFLOR",
+    "category": "Restaurant",
+    "price": 209,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/RISOTTO-COLIFLOR-600x600.jpg",
+    "description_en": "$209 Delicioso y cremoso rissoto de arroz de coliflor, con brócoli, cebolla, champiñones y nuez pecana. Bajo en calorías y carbohidratos.",
+    "odoo_id": "REST-RISOTTO-KE"
+  },
+  {
+    "name_en": "TACOS BAJA",
+    "category": "Restaurant",
+    "price": 155,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TACOS-BAJA-600x600.jpg",
+    "description_en": "$155 Orden de 4 tacos de vegetales tempura capeados; acompañados con guacamole. |     |     | | --- | --- | | - Taco por pieza | .00 |",
+    "odoo_id": "REST-TACOS-BAJA"
+  },
+  {
+    "name_en": "VEGAN SHEPHERD TACOS",
+    "category": "Restaurant",
+    "price": 155,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TACOS-PASTOR-600x600.jpg",
+    "description_en": "$155 Orden de 4 tacos de pastor de soya, con salsa verde, queso vegano, cilantro, cebolla y piña. |     |     | | --- | --- | | - Taco por pieza | .00 | - ### Pastas Crudiveganas - PASTA CRUDIVEGANA PESTO $190 Calabaza italiana, pesto crudivegano, tomate deshidratado y almendra fileteada, acompañada con rawmesano. x ### COMIDA RÁPIDA - ### Hamburguesas - HAMBURGUESA DE POLLO VEGANO CRUJIENTE $ 229 Crujiente por fuera, jugosa por dentro, hecha con pollo vegano empanizado estilo tempura y contiene 13 g de proteína vegetal. Se sirve con hummus de pimiento asado, queso vegano, lechuga, jitomate y arúgula fresca, todo en un pan artesanal integral. Una experiencia llena de sabor, textura y energía, sin culpa y 100% plant-based. Con aguacate     ...........................................................  +$29 Con aro de cebolla   ....................................................  +$45 - HAMBURGUESA BEYOND $ 289 Medallón de BEYOND MEAT con pan integral, hummus betabel, queso mozzarella vegano, queso vegano, lechuga, tomate, cebolla morada, arúgula y aguacate. Con aguacate    ........................................................................+$29 Con aro de cebolla  .................................................................+$45",
+    "odoo_id": "REST-VEGAN-SHEP"
+  },
+  {
+    "name_en": "BIO-NATURAL HAMBURGER",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/HAMBURGUESA-BIO-600x600.jpg",
+    "description_en": "$189 Deliciosa carne asada de soya y portobello con especias, con pan integral, veganesa de chipotle, lechuga, tomate y cebolla acompañada de papas rústicas y cátsup. Con queso ......................................................................... +  Con aguacate .................................................................... + $ 29 Con aro de cebolla ............................................................ + $ 45 - ### Pitas Choose one of our delicious pitas. All our pitas are stuffed with hummus, lettuce, carrot, tomato, red onion and vinaigrette in addition to the choice (pastor, falafel or egg with chorizo). Try our delicious pitas. All our pitas are stuffed with hummus, lettuce, carrot, tomato, red onion and vinaigrette in addition to the choice (pastor, falafel or egg with chorizo). \\* CHOOSE THE SAUCE OF YOUR PITA! Beetroot, tartar, vegan cheddar, chipotle mayo, wasabi vegan, green sauce, red sauce, dried chili sauce, habanero sauce, or tzatziki sauce. Beets, tartar, vegan cheddar, chipotle majo, veganese wasabi, green salsa, red salsa, dry chile salsa, habanero salsa or tzatziki salsa.",
+    "odoo_id": "REST-BIO-NATURA"
+  },
+  {
+    "name_en": "PITA BURGER",
+    "category": "Restaurant",
+    "price": 219,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PITA-BURGER-600x600.jpg",
+    "description_en": "$219 Deliciosa carne de hamburguesa vegana en pan pita con salsa tártara, lechuga, tomate, cebolla, aguacate y parmesano vegano acompañada de papas rústicas y cátsup o ensalada.",
+    "odoo_id": "REST-PITA-BURGE"
+  },
+  {
+    "name_en": "FALAFEL PITA",
+    "category": "Restaurant",
+    "price": 155,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PITA-FILAFEL-600x600.jpg",
+    "description_en": "$155 Rellena de croquetas de garbanzo, hummus, lechuga, tomate, cebolla morada y zanahoria rallada.",
+    "odoo_id": "REST-FALAFEL-PI"
+  },
+  {
+    "name_en": "PITA WITH EGG AND CHORIZO",
+    "category": "Restaurant",
+    "price": 159,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PITA-HUEVO-CHORIZO-600x600.jpg",
+    "description_en": "$159 Stuffed with ranch eggs and vegan chorizo.",
+    "odoo_id": "REST-PITA-WITH-"
+  },
+  {
+    "name_en": "PITA CON PASTOR VEGANO",
+    "category": "Restaurant",
+    "price": 175,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PITA-PASTOR-600x600.jpg",
+    "description_en": "$175 Rellena con pastor de soya. - ### Baguettes",
+    "odoo_id": "REST-PITA-CON-P"
+  },
+  {
+    "name_en": "BAGUETTE DE AGUACATE",
+    "category": "Restaurant",
+    "price": 165,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BAGUETTE-AGUACATE-600x600.jpg",
+    "description_en": "$165 Aguacate, calabaza italiana, hummus, queso mozzarella, espinaca, arúgula, cebolla caramelizada y pimiento rojo.",
+    "odoo_id": "REST-BAGUETTE-D"
+  },
+  {
+    "name_en": "BAGUETTE MEDITERRANEO",
+    "category": "Restaurant",
+    "price": 165,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BAGUETTE-MEDITERRANEO-600x600.jpg",
+    "description_en": "$165 Tempeh, hummus pimiento, espinaca, pepino, tomate deshidratado, aceitunas Kalamata y cebolla morada. - ### Burritos",
+    "odoo_id": "REST-BAGUETTE-M"
+  },
+  {
+    "name_en": "BURRITO VEGETARIANO",
+    "category": "Restaurant",
+    "price": 155,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BURRITO-VEGETARIANO-600x600.jpg",
+    "description_en": "$155 Tortilla de harina y cilantro con frijol, arroz, guacamole, pimientos asados, elotes, lechuga, tomate, cebolla morada y queso orgánico. |     |     | | --- | --- | | - Con pollo vegano con 13 grs de proteína | \\+ .00 |",
+    "odoo_id": "REST-BURRITO-VE"
+  },
+  {
+    "name_en": "BURRITO VEGETARIANO GLUTEN FREE",
+    "category": "Restaurant",
+    "price": 229,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BURRITO-GLUTEN-FREE-600x600.jpg",
+    "description_en": "$229 Tortilla de calabaza con frijol, guacamole, pimientos asados, lechuga, tomate, cebolla morada y queso orgánico. |     |     | | --- | --- | | - Opción vegana: Cambia el queso orgánico por queso mozzarella vegano. | \\+ .00 | x ### BOWLS - ### Bolws Salados",
+    "odoo_id": "REST-BURRITO-VE"
+  },
+  {
+    "name_en": "BALI BOWL",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BALI-BOWL-600x600.jpg",
+    "description_en": "$189 Base de ensalada árabe de quinoa, espirales de zuccini o arroz, con tempeh, brócoli, kimchi y aguacate, espinacas, rawmesano, verdes sazonados, mozzarella vegano y lentejas. |     |     | | --- | --- | | - Con fideos de arroz | \\+ .00 | | - With egg | \\+ $ 18.00 | | - Con pollo vegano con 13 grs de proteína | \\+ $ 95.00 |",
+    "odoo_id": "REST-BALI-BOWL"
+  },
+  {
+    "name_en": "ARABIC BOWL",
+    "category": "Restaurant",
+    "price": 209,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BOWL-ARABE-600x600.jpg",
+    "description_en": "$209 Ensalada árabe, arúgula, falafel, aceitunas Kalamata, salsa tzatziki, tomates, hummus y salsa tahini. Con pollo vegano con 13 grs de proteína ........................................................... +",
+    "odoo_id": "REST-ARABIC-BOW"
+  },
+  {
+    "name_en": "ORIGINAL QUINOA BOWL",
+    "category": "Restaurant",
+    "price": 160,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BOWL-QUINOA-ORIGINAL-600x600.jpg",
+    "description_en": "$160 Ensalada de quinoa orgánica con arándanos, pasas, cebolla morada, zanahoria, perejil, menta, naranja, vinagre de jerez, aceite de olivo, queso mozzarella vegano, mix de nueces y arúgula. |     |     | | --- | --- | | - With egg | \\+ .00 | | - Con pollo vegano con 13 grs de proteína | \\+ $ 95.00 |",
+    "odoo_id": "REST-ORIGINAL-Q"
+  },
+  {
+    "name_en": "SALMÓN VEGANO BOWL",
+    "category": "Restaurant",
+    "price": 189,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BOWL-SALMON-600x600.jpg",
+    "description_en": "$189 Base de ensalada árabe de quinoa, espirales de zuccini o arroz, con salmón vegano, queso mozzarella vegano, garbanzos, cebolla curtida con piña, hummus de betabel, zanahoria, brócoli con veganesa chipotle, tofu, verdes, aderezo y pan con pesto crudivegano. |     |     | | --- | --- | | - Con fideos de arroz | \\+ .00 | | - Con pollo vegano con 13 grs de proteína | \\+ $ 95.00 | | - With egg | \\+ $ 18.00 |",
+    "odoo_id": "REST-SALM-N-VEG"
+  },
+  {
+    "name_en": "TACO BOWL",
+    "category": "Restaurant",
+    "price": 165,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TACO-BOWL-600x600.jpg",
+    "description_en": "$165 Frijoles orgánicos, jitomate, elote, guacamole, espinacas, pastor de soya, chile jalapeño, queso vegano y arroz blanco. |     |     | | --- | --- | | - With egg | \\+ .00 | | - Con pollo vegano con 13 grs de proteína | \\+ $ 95.00 |",
+    "odoo_id": "REST-TACO-BOWL"
+  },
+  {
+    "name_en": "TERIYAKI AND TOFU BOWL",
+    "category": "Restaurant",
+    "price": 190,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TERIYAKI-TOFU-BOWL-600x600.jpg",
+    "description_en": "$190 Fideos de arroz en salsa teriyaki acompañados con champiñones camote, tofu, alga wakame, edamames, tomates y veganesa de wasabi espolvoreados con ajonjolí negro. Con pollo vegano con 13 grs de proteína ................................................+$95 Con huevo ...............................................................................................18.00 x ### SMOOTHIES - ### Smoothies - BAMBA CON PROTEINA  Plátano, leche de arroz, crema de cacahuate y 30 gramos de proteína orgánica de chocolate o vainilla. - PROTEÍNA EXPRESSO CHOCOLATE $ 135 Leche de almendras, shot de espresso y 20 gramos de proteína orgánica de chocolate o vainilla. - ACAI $95 Fresa, zarzamora, leche de coco, acaí, plátano y jarabe de agave. - BAMBA $89 Banana, rice milk and peanut butter - BAMBA HEMP $ 95 Banana, peanut butter, almond milk and hemp protein. - BAMBA SPIRULINA $ 95 Leche de arroz, plátano, crema de cacahuate y espirulina. - NATURAL BIO $120.00 Mango, orange and apple juice - CACAO $95.00 Cacao, leche de almendras, dátiles y plátano congelado. - CARIBBEAN $89.00 Pineapple, mango, orange and lucuma - CHAI PRE WORK OUT $150.00 30 gramos de Proteína Birdman Falcon sabor Chai, leche de coco, plátano y crema de cacahuate. - CHERRY FIT WOMAN $180.00 30 gramos de Proteína Birdman Fitmingo, blueberries, leche de almendra, cerezas y fresas. - ENERGY $ 95 Banana, strawberry, almond milk and maca - GINGER MANGO $85.00 Mango, orange and ginger - MATCHA MANGO $ 95 Mango, té de matcha, leche de coco y plátano. - PROTEINA ESPRESSO CHOCOLATE $135.00 Leche de almendras, shot de espresso y 20 gramos de proteína orgánica de chocolate o vainilla. - GREEN MATCHA $125.00 Jugo de manzana vivo, apio, espinaca, té de matcha, jugo de limón, hierba buena y hemp. x ### DRINKS - ### Jugos Prensados en Frío They nourish you with 100% of their properties compared to extracted juices that give you only 40%”. - COLON CLEANER $119.00 Piña, manzana, pepino, clorofila y jengibre. - COLD DETOX $135.00 Apio, manzana, pepino, espirulina, jugo de limón y hojas de menta. - HAPPY GINGER $140.00 Carrot, apple, lemon and ginger. - MAGNIFICENT $ 125 Pineapple, apple and carrot. - VERY HEALTHY $125.00 Betabel, zanahoria, manzana y menta. - LIQUID GOLD $90.00 Cucumber, pineapple, turmeric and ginger. - Celery juice $89.00 - JUGO DE BETABEL $119.00 - APPLE JUICE $119.00 - CUCUMBER JUICE $ 89 - PINEAPPLE JUICE $ 100 - CARROT JUICE $ 95 - ### Jugos Naturales - GREEN JUICE $ 75 Jugo de naranja, apio, espinaca y menta. - ORANGE JUICE $79.00 - ### Bebidas 0 Calorías - BERRIES $69.00 Agua mineral, frutos rojos y menta. - COOL $69.00 Agua mineral, pepino, limón y menta. - ### Cocteles - HARD KOMBUCHA GLASS $ 165 - HARD KOMBUCHA NATURAL $ 165 - HARD KOMBUCHA PEPINO & BLUE SPIRULINA COCTAIL $ 165 - HARD KOMBUCHA SHOT $ 55 - HEALTHY WITCH KOMBUCHA $ 145 - KOMBUCHA KARMENCITA 375 ML $ 115 - MANGO & TE VERDE HARD KOMBUCHA COCTAIL $ 165 - ### Shots - ANTIFLU $55.00 Limón, naranja, miel de abeja, jugo vivo de jengibre, cúrcuma y pimiento de Cayena. - WAKE UP $45.00 Jugo vivo de jengibre, manzana, pimiento de Cayena y limón. - INMUNITY $55.00 Pimiento de Cayena, jengibre, limón, aceite de orégano y aceite de oliva. - TUMERIC TONIC $45.00 Cúrcuma, piña, aloe, jugo vivo de jengibre y pimiento de Cayena. - GINGER $ 45 Jugo vivo de jengibre. - LEMON $15.00 Jugo vivo de limón. - ### Otras Bebidas - ALKALINE BEVERAGE $69.00 Jengibre, miel de abeja y vinagre de sidra de manzana. - BLUE CUCUMBER $75.00 Jugo vivo de pepino, spirulina azul, limón y jarabe de agave. - LEMONADE FRAPPÉ $65.00 - LIMONADA CON CHÍA $59.00 - COCONUT WATER $ 95 - KOMBUCHA 375 ML $ 135 - AGUA EVIAN 1 L $130.00 - AGUA MINERAL S. PELLEGRINO 250 ML $ 69 - AGUA MINERAL S. PELLEGRINO 750 ML $129 x ### COFFEE AND TEA - ### Coffee - MATCHA DESSERT $ 135.00 Mix de matcha y leche de coco, crema batida, polvo de matcha on top y galleta de finger lady. - AMERICAN ORGANIC COFFEE Organic coffee from Itsmo de Tehuantepec, Oaxaca. Collected by indigenous fair trade cooperatives. Caliente   $55     \\|     Frío   $65     \\|     Frappe   $75   - Agrega leche de almendras, de coco, de arroz o leche orgánica de vaca por $15 adicionales. - PEANUT BUTTER MACA COFFEE Maca, coffee, almond milk, peanut butter. Caliente   $115     \\|     Frío   $125     \\|     Frappe   $135 - MOKA CAFÉ WITH ORGANIC COCOA Cocoa, coffee, almond milk, honey agave. Caliente   $95     \\|     Frío   $105     \\|     Frappe   $115 - EXPRESS COFFEE The classic Italian espresso. Caliente   $46     \\|     Frío   $56     \\|     Doble   $72 - MACCHIATO Expresso con leche orgánica de vaca, almendra, coco o arroz. Caliente   $85     \\|     Frío   $95     \\|     Frappe   $110 - CAPUCHINO / LATTE The classic frothy coffee with organic cow, almond, coconut or rice. Caliente   $85     \\|     Frío   $95     \\|     Frappe   $110 - ### Teas - TE VERDE CON MANGO FRÍO $65 Tiene efecto carminativo y depurativo. Es digestivo, ideal para ayudar en caso de digestión lenta. - TE DE ROMERO FRÍO O CALIENTE $65 Un excelente diurético natural pudiendo ser utilizado en dietas para bajar de peso y combatir la retención de líquidos en el cuerpo. Endulzado con miel de agave. - INFUSIÓN DE MENTA, JENGIBRE Y LIMÓN $69 Desinflama tu estómago y quita náuseas con su delicioso sabor.   - Pídelo Frío por $69 - MANZANILLA TEA WITH MACA $65 It has anti-inflammatory, anti-allergic, anti-bacterial and sedative properties. Relieves pain, calms heaviness and is helpful in relieving ulcers or gastritis. Maca is a hormonal regulator and increases libido in men and women.   - Pídelo Frío por $65 o en Frappe por $75 - ORGANIC MATCHA TEA WITH MILK $115 El poderoso té japonés de la juventud. Cada porción contiene los antioxidantes de treinta (30) tazas de té verde. Elige entre leche de almendras o de coco.   - CALIENTE ....................$   115.00   - FRIO ..............................$  125.00 - CHAI TEA $95 Sabor intenso y llena de matices al paladar y al olfato. Endulzado con Fruto del Monje. Elige entre Leche de Coco o de Almendra. Caliente / Frío   $95     \\|     Frappe   $129 _Dark Chai:_ Agrega a tu bebida un shot de Café Expresso por $45.00 adicionales. x ### DESSERTS - ### Desserts",
+    "odoo_id": "REST-TERIYAKI-A"
+  },
+  {
+    "name_en": "PASTEL DE CHOCOLATE KETO CON HELADO DE BROWNIE KETO",
+    "category": "Restaurant",
+    "price": 190,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2025/06/PastelChocolate.png",
+    "description_en": "Pastel de chocolate amargo a base de almendras, cacao, fruto del monje, mantequilla, vainilla, huevo y nueces, con relleno cremoso de queso crema y acompañado de una bola de helado brownie keto.",
+    "odoo_id": "REST-PASTEL-DE-"
+  },
+  {
+    "name_en": "AFFOGATO",
+    "category": "Restaurant",
+    "price": 135,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2025/06/Afogatto.png",
+    "description_en": ".00 Helado vegano de vainilla y café espresso.",
+    "odoo_id": "REST-AFFOGATO"
+  },
+  {
+    "name_en": "BROWNIE GLUTEN FREE",
+    "category": "Restaurant",
+    "price": 95,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BROWNIE-600x600.jpg",
+    "description_en": "Deliciosa versión del clásico brownie con el inigualable sabor del chocolate y nueces en su forma más saludable. |     |     | | --- | --- | | - Con helado vegano | \\+ $ 95.00 | - VEGAN ICE CREAM |     |     | | --- | --- | | - Helado Sencillo | $ 120.00 | | - Helado Doble | $ 169.00 | | _\\\\* Ask about our flavors._ |",
+    "odoo_id": "REST-BROWNIE-GL"
+  },
+  {
+    "name_en": "PASTEL DE ZANAHORIA CRUDIVEGANO",
+    "category": "Restaurant",
+    "price": 169,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PASTEL-ZANAHORIA-600x600.jpg",
+    "description_en": "$169.00 ![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Base de Zanahoria rallada, dátiles, nuez pecan, extracto de vainilla, pizca de sal, pizca de canela en polvo y pasas uvas. Para el Frosting utilizamos una deliciosa crema de coco, nuez de la india, extracto de vainilla, pizca de sal y jugo de limón.",
+    "odoo_id": "REST-PASTEL-DE-"
+  },
+  {
+    "name_en": "RAW CHEESE CAKE",
+    "category": "Restaurant",
+    "price": 169,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/PAY-QUESO-600x600.jpg",
+    "description_en": "$169.00 ![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Pay de queso de nuez de la india, pruébalo y no podrás creer su riquísimo sabor, con base de dátiles y nuez pecana con salsa de zarzamora.",
+    "odoo_id": "REST-RAW-CHEESE"
+  },
+  {
+    "name_en": "TRUFA VEGANA KETO 1 PZA",
+    "category": "Restaurant",
+    "price": 75,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/TRUFA-VEGANA-KETO-600x600.jpg",
+    "description_en": ".00 Cacao, chocolate amargo, semilla de girasol, harina de almendra, coco, nuez y fruto del monje.",
+    "odoo_id": "REST-TRUFA-VEGA"
+  },
+  {
+    "name_en": "VEGAN BANANA SPLIT",
+    "category": "Restaurant",
+    "price": 229,
+    "image_url": "https://bio-natural.mx/wp-content/uploads/2019/12/BANANA-SPLIT-600x600.jpg",
+    "description_en": "$229 ![](http://bio-natural.mx/wp-content/uploads/2020/01/icono-vegan-web.jpg) Tres bolas de delicioso helado vegano a elegir\\*, acompañado de frutas, chocolate, granola, crema batida. Es excelente para compartir. x ### Extras - ### Extras - Extras • Granola $30 • Hummus de pimientos $25 • Hummus de betabel   $25 • Hummus natural $25 • Extra fruta $25 • Queso mozzarella vegano $30 • Salsa frutos rojos $20 • Almendra fileteada $20 • Almendra entera $35 • Pasitas $30 • Dátiles $30 • Salmón vegano $75 • Chispas de chocolate $45 • Vinagreta de mostaza $35 • Fresas $20 • Guacamole $35 • Mango congelado $12 • Tempeh $55 • Queso Bové $30 • Aguacate $40 • Bowl para llevar $10 • Carne al pastor vegana $35 • Chorizo vegano $30 • Verduras (espinaca, jitomate, champiñón) $25 • Leche vegana $15 • Pan sin gluten $40 • Pan pita $30 • Queso de almendras $35 • Salsa matcha $25 • Yogurt vegetal $35 - ### Extras Bebidas - Extras Bebidas   - Proteína Falcon u Orgain 30g $59   - Espirulina 5g $19   - Maca 5g $19   - Lúcuma 5g $19 x [![](https://bio-natural.mx/wp-content/uploads/2019/01/BIO-Logotipo-RS-02-1-300x111.png)](https://bio-natural.mx/en/menu/#) BIRD. 10 BETWEEN CONSTITUENTS AND 16 NORTH. TELS: (984) 147 3181 / (984) 267 2208 5th. BIRD. BETWEEN 40 AND 42 NORTH. TEL: (984) 859 1017 [![en_US](https://bio-natural.mx/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png) English](https://bio-natural.mx/en/menu/# \"English\") [![en_US](https://bio-natural.mx/wp-content/plugins/translatepress-multilingual/assets/images/flags/en_US.png) English](https://bio-natural.mx/en/menu/# \"English\") [![es_ES](https://bio-natural.mx/wp-content/plugins/translatepress-multilingual/assets/images/flags/es_ES.png) Spanish](https://bio-natural.mx/menu/ \"Spanish\") The Bio&Natural way® Derechos Reservados 2025  [Scroll to top](https://bio-natural.mx/en/menu/# \"Scroll to top\") WhatsApp WhatsApp WhatsApp WhatsApp How can I help you? 529841888982 How can I help you?",
+    "odoo_id": "REST-VEGAN-BANA"
+  }
+]

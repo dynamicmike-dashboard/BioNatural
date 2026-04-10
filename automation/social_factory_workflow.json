@@ -1,0 +1,62 @@
+{
+  "name": "BioNatural: 30-Day Social Media Factory",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "months", "interval": 1 }] }
+      },
+      "name": "Schedule (Monthly)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [100, 300]
+    },
+    {
+      "parameters": {
+        "operation": "list",
+        "baseId": "bse7mZjwbFQlNeB5UXU",
+        "tableId": "tblCLPch6m0IC3D3y43",
+        "limit": 30
+      },
+      "name": "Teable: Get Top Products",
+      "type": "n8n-nodes-base.teable",
+      "typeVersion": 1,
+      "position": [300, 300]
+    },
+    {
+      "parameters": {
+        "modelDescription": "gemini-pro",
+        "prompt": "=Act as the BioNatural Creative Director. \nUse the Product Benefits and Target Issues from Teable: \n- Product: {{ $json.Name_EN }}\n- Benefits: {{ $json.Health_Benefits }}\n\nGenerate 1 high-engagement social media post for this product.\nThe output MUST be a JSON object with: \n1. caption_en\n2. caption_es\n3. image_prompt (for AI generation, e.g. DALL-E/Midjourney)\n4. call_to_action\n\nEnsure the tone is 'Supportive, Not Medical', using phrases like 'May support' or 'It is recommended for'. \nThe vibe is Healthy, Local, and Quality.",
+        "options": { "jsonMode": true }
+      },
+      "name": "Google AI: Generate Post",
+      "type": "n8n-nodes-base.googleAiStudio",
+      "typeVersion": 1,
+      "position": [550, 300]
+    },
+    {
+      "parameters": {
+        "operation": "upsert",
+        "table": "social_calendar",
+        "columnToMatchOn": "publish_date",
+        "valuesToSend": {
+          "values": [
+            { "name": "publish_date", "value": "={{ $now.plus({ days: $position }).toISODate() }}" },
+            { "name": "product_id", "value": "={{ $node[\"Teable: Get Top Products\"].json.Odoo_ID }}" },
+            { "name": "caption_en", "value": "={{ $json.caption_en }}" },
+            { "name": "caption_es", "value": "={{ $json.caption_es }}" },
+            { "name": "image_prompt", "value": "={{ $json.image_prompt }}" }
+          ]
+        }
+      },
+      "name": "Supabase: Store Calendar",
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [800, 300]
+    }
+  ],
+  "connections": {
+    "Schedule (Monthly)": { "main": [[{ "node": "Teable: Get Top Products", "type": "main", "index": 0 }]] },
+    "Teable: Get Top Products": { "main": [[{ "node": "Google AI: Generate Post", "type": "main", "index": 0 }]] },
+    "Google AI: Generate Post": { "main": [[{ "node": "Supabase: Store Calendar", "type": "main", "index": 0 }]] }
+  }
+}

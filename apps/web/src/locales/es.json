@@ -1,0 +1,21 @@
+{
+  "common": {
+    "title": "BioNatural - Saludable, Local, Calidad",
+    "nav": {
+      "home": "Inicio",
+      "menu": "Menú",
+      "shop": "Tienda",
+      "about": "Acerca de"
+    },
+    "hero": {
+      "title": "Saludable, Local, Calidad",
+      "subtitle": "Suplementos auténticos, altos en proteína y experiencia de restaurante enfocada en lo local.",
+      "cta": "Explorar Menú"
+    },
+    "about": {
+      "title": "Nuestra Misión",
+      "description": "En BioNatural, cerramos la brecha entre el bienestar y el sabor. Fundado por Meybell Glez, nuestra cocina en PDC es un tributo a los ingredientes locales y la ciencia de la salud.",
+      "founders": "Fundado por Meybell Glez"
+    }
+  }
+}

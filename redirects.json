@@ -1,0 +1,1012 @@
+[
+  {
+    "source": "/productos/keto/pan-keto-healthy-brand",
+    "destination": "/tienda/producto/pan-keto-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/muffin-de-zanahoria-50-gr-keto-healthy-brand",
+    "destination": "/tienda/producto/muffin-de-zanahoria-50-gr-keto-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/pasta-keto-80gr-healthy-brand",
+    "destination": "/tienda/producto/pasta-keto-80gr-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/ketotillas-160gr-keto-healthy-brand",
+    "destination": "/tienda/producto/ketotillas-160gr-keto-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/ketotopos-100gr-keto-healthy-brand",
+    "destination": "/tienda/producto/ketotopos-100gr-keto-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/brownie-keto-45gr-healthy-brand",
+    "destination": "/tienda/producto/brownie-keto-45gr-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/galleta-chocochip-keto-40-gr-healthy-brand",
+    "destination": "/tienda/producto/galleta-chocochip-keto-40-gr-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/granola-keto-250-gr-healthy-brand",
+    "destination": "/tienda/producto/granola-keto-250-gr-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/muffin-chocolate-keto-56-gr-healthy-brand",
+    "destination": "/tienda/producto/muffin-chocolate-keto-56-gr-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/keto/chocolatin-keto-40-gr-healthy-brand",
+    "destination": "/tienda/producto/chocolatin-keto-40-gr-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/base-para-pizza-precocida-keto-100gr-healthy-brand",
+    "destination": "/tienda/producto/base-para-pizza-precocida-keto-100gr-healthy-brand",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/galleta-de-arroz-ajonjoli-72gr-bsd-foods",
+    "destination": "/tienda/producto/galleta-de-arroz-ajonjoli-72gr-bsd-foods",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/galleta-de-arroz-quinoa-bsd-foods-72gr",
+    "destination": "/tienda/producto/galleta-de-arroz-quinoa-bsd-foods-72gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/alfajor-marplatense-gioccolato",
+    "destination": "/tienda/producto/alfajor-marplatense-gioccolato",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/chips-papas-espinaca-tomate-gluten-free-ines-42-5gr",
+    "destination": "/tienda/producto/chips-papas-espinaca-tomate-gluten-free-ines-42-5gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/aceite-de-mct-puro-now-473ml",
+    "destination": "/tienda/producto/aceite-de-mct-puro-now-473ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/agua-de-coco-a-de-coco-1lt",
+    "destination": "/tienda/producto/agua-de-coco-a-de-coco-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/bebida-artesanal-niu-de-maracuya-350ml",
+    "destination": "/tienda/producto/bebida-artesanal-niu-de-maracuya-350ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/cereales-y-granolas/granola-gourmet-quinoa-platano-natural-company-312gr",
+    "destination": "/tienda/producto/granola-gourmet-quinoa-platano-natural-company-312gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/agua-alcalina-garrafon-refil-select-aquaclyva-20lt",
+    "destination": "/tienda/producto/agua-alcalina-garrafon-refil-select-aquaclyva-20lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/galletas-de-amaranto-y-girasol-sano-mundo-120gr",
+    "destination": "/tienda/producto/galletas-de-amaranto-y-girasol-sano-mundo-120gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/inciensos/incienso-copal-paquete-10-varitas-axaatic",
+    "destination": "/tienda/producto/incienso-copal-paquete-10-varitas-axaatic",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pastas-granos-y-legumbres/chia-negra-cerealisimo-350gr",
+    "destination": "/tienda/producto/chia-negra-cerealisimo-350gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/especias-y-salsas/salsa-de-soya-aminoacidos-liquidos-braggs-473ml",
+    "destination": "/tienda/producto/salsa-de-soya-aminoacidos-liquidos-braggs-473ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/pan-organico-variedad-de-granos-alpine-valley-680gr",
+    "destination": "/tienda/producto/pan-organico-variedad-de-granos-alpine-valley-680gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pastas-granos-y-legumbres/linaza-en-polvo-cerepack-1kg",
+    "destination": "/tienda/producto/linaza-en-polvo-cerepack-1kg",
+    "permanent": true
+  },
+  {
+    "source": "/productos/especias-y-salsas/sal-flor-de-sal-aires-del-campo-250gr",
+    "destination": "/tienda/producto/sal-flor-de-sal-aires-del-campo-250gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pastas-granos-y-legumbres/frijol-negro-great-1kg",
+    "destination": "/tienda/producto/frijol-negro-great-1kg",
+    "permanent": true
+  },
+  {
+    "source": "/productos/nueces-y-frutos-secos/mango-enchilado-120gr",
+    "destination": "/tienda/producto/mango-enchilado-120gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pastas-granos-y-legumbres/semillas-de-girasol-cerepak-500gr",
+    "destination": "/tienda/producto/semillas-de-girasol-cerepak-500gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/chicle-organico-canela-mini-15gr-chicza",
+    "destination": "/tienda/producto/chicle-organico-canela-mini-15gr-chicza",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/jabon-uiixol-coco-100gr",
+    "destination": "/tienda/producto/jabon-uiixol-coco-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/nueces-y-frutos-secos/nuez-organica-aires-del-campo-150gr",
+    "destination": "/tienda/producto/nuez-organica-aires-del-campo-150gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/taco-oriental-healthy-evolution-450gr",
+    "destination": "/tienda/producto/taco-oriental-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/endulzantes-y-mieles/miel-de-abeja-yokzonot-700gr",
+    "destination": "/tienda/producto/miel-de-abeja-yokzonot-700gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/totanjos-totopos-de-maiz-con-fibra-70gr",
+    "destination": "/tienda/producto/totanjos-totopos-de-maiz-con-fibra-70gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/kalan-obleas-de-arandanos-60gr",
+    "destination": "/tienda/producto/kalan-obleas-de-arandanos-60gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/bebida-de-almendra-organica-vainilla-kirkland-946ml",
+    "destination": "/tienda/producto/bebida-de-almendra-organica-vainilla-kirkland-946ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/galleta-de-arroz-saladitas-bsd-foods-72gr",
+    "destination": "/tienda/producto/galleta-de-arroz-saladitas-bsd-foods-72gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/strudel-de-manzana-y-canela-gioccolato",
+    "destination": "/tienda/producto/strudel-de-manzana-y-canela-gioccolato",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/colageno-hidrolizado-puro-con-biotina-y-ah-vidanat-300gr",
+    "destination": "/tienda/producto/colageno-hidrolizado-puro-con-biotina-y-ah-vidanat-300gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/tortilla-de-arroz-integral-gluten-free-ezequiel-342gr",
+    "destination": "/tienda/producto/tortilla-de-arroz-integral-gluten-free-ezequiel-342gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/amaranto-con-chocolate-sin-azucar-picard-15gr",
+    "destination": "/tienda/producto/amaranto-con-chocolate-sin-azucar-picard-15gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/inciensos/incienso-copal-de-los-dioses-naturismo",
+    "destination": "/tienda/producto/incienso-copal-de-los-dioses-naturismo",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pastas-granos-y-legumbres/arroz-blanco-sano-mundo-1kg",
+    "destination": "/tienda/producto/arroz-blanco-sano-mundo-1kg",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/kixocolatl-chocolate-pimienta-y-especias-80gr",
+    "destination": "/tienda/producto/kixocolatl-chocolate-pimienta-y-especias-80gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/kixocolatl-amargo-con-pimienta-rosa-80gr",
+    "destination": "/tienda/producto/kixocolatl-amargo-con-pimienta-rosa-80gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/equilibrio-y-radiacion/protector-de-radiacion-24k",
+    "destination": "/tienda/producto/protector-de-radiacion-24k",
+    "permanent": true
+  },
+  {
+    "source": "/productos/cereales-y-granolas/avena-de-coccion-rapida-sin-gluten-bobs-red-mill-794gr",
+    "destination": "/tienda/producto/avena-de-coccion-rapida-sin-gluten-bobs-red-mill-794gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-de-coco-calahua-1lt",
+    "destination": "/tienda/producto/leche-de-coco-calahua-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/chorizo-de-soja-healthy-evolution-450gr",
+    "destination": "/tienda/producto/chorizo-de-soja-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/especias-y-salsas/sal-fina-aires-del-campo-250gr",
+    "destination": "/tienda/producto/sal-fina-aires-del-campo-250gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aceites-y-vinagres-comestibles/aceite-de-coco-organico-a-de-coco-946gr",
+    "destination": "/tienda/producto/aceite-de-coco-organico-a-de-coco-946gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/endulzantes-y-mieles/miel-floracion-de-girasol-aires-del-campo-350gr",
+    "destination": "/tienda/producto/miel-floracion-de-girasol-aires-del-campo-350gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/agua-de-coco-organica-acapulcoco-330ml",
+    "destination": "/tienda/producto/agua-de-coco-organica-acapulcoco-330ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/tostalinaza-avena-anis-con-piloncillo",
+    "destination": "/tienda/producto/tostalinaza-avena-anis-con-piloncillo",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/galletas-de-avena-120gr-sano",
+    "destination": "/tienda/producto/galletas-de-avena-120gr-sano",
+    "permanent": true
+  },
+  {
+    "source": "/productos/especias-y-salsas/caldo-organico-pollo-aires-de-campo-946ml",
+    "destination": "/tienda/producto/caldo-organico-pollo-aires-de-campo-946ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/brocheta-healthy-evolution-450gr",
+    "destination": "/tienda/producto/brocheta-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/te-verde-gud-330ml",
+    "destination": "/tienda/producto/te-verde-gud-330ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/cereales-y-granolas/cereal-organico-fruti-campo-220gr-campo-vivo",
+    "destination": "/tienda/producto/cereal-organico-fruti-campo-220gr-campo-vivo",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/bistek-healthy-evolution-450gr",
+    "destination": "/tienda/producto/bistek-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-de-arroz-gud-1lt",
+    "destination": "/tienda/producto/leche-de-arroz-gud-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/nueces-y-frutos-secos/coco-deshidratado-aires-de-campo-250gr",
+    "destination": "/tienda/producto/coco-deshidratado-aires-de-campo-250gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/limonada-con-chia-bio-natural-500ml",
+    "destination": "/tienda/producto/limonada-con-chia-bio-natural-500ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/melograno-san-pellegrino-330ml",
+    "destination": "/tienda/producto/melograno-san-pellegrino-330ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/superfoods/maca-peruana-sabia-madre-tierra-250gr",
+    "destination": "/tienda/producto/maca-peruana-sabia-madre-tierra-250gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/bolsa-negra-de-tela-bio-natural",
+    "destination": "/tienda/producto/bolsa-negra-de-tela-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/nueces-y-frutos-secos/platano-macho-deshidratado-saweya-130grs",
+    "destination": "/tienda/producto/platano-macho-deshidratado-saweya-130grs",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/alga-marina-sazonada-y-tostada-kirkland-17gr",
+    "destination": "/tienda/producto/alga-marina-sazonada-y-tostada-kirkland-17gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/sincategorizar/obleas-kalan-matcha-60gr",
+    "destination": "/tienda/producto/obleas-kalan-matcha-60gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/hamburguesa-tofu-avena-healthy-evolution-450-gr",
+    "destination": "/tienda/producto/hamburguesa-tofu-avena-healthy-evolution-450-gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/charritos-limon-quali-40gr",
+    "destination": "/tienda/producto/charritos-limon-quali-40gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aromas-aceites-esenciales/aceite-esencia-jojoba-bio-natural-10ml",
+    "destination": "/tienda/producto/aceite-esencia-jojoba-bio-natural-10ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/hamburguesas-de-soja-healthy-evolution-450gr",
+    "destination": "/tienda/producto/hamburguesas-de-soja-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/jabon-uiixol-menta-100gr",
+    "destination": "/tienda/producto/jabon-uiixol-menta-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/pasta-dental-gel-arbol-de-te-y-neem-181gr",
+    "destination": "/tienda/producto/pasta-dental-gel-arbol-de-te-y-neem-181gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/galletas-de-amaranto-c-chocochispas-4pzas-quali",
+    "destination": "/tienda/producto/galletas-de-amaranto-c-chocochispas-4pzas-quali",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/kixocolatl-con-leche-suggar-free-80gr",
+    "destination": "/tienda/producto/kixocolatl-con-leche-suggar-free-80gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aromas-aceites-esenciales/aceite-esencial-centella-asiatica-bio-natural-10ml",
+    "destination": "/tienda/producto/aceite-esencial-centella-asiatica-bio-natural-10ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/cereales-y-granolas/amaranto-organico-aires-del-campo-250gr",
+    "destination": "/tienda/producto/amaranto-organico-aires-del-campo-250gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/pan-cereales-germinados-sin-harina-ezekiel-680gr",
+    "destination": "/tienda/producto/pan-cereales-germinados-sin-harina-ezekiel-680gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/otros-productos/popote-de-bambu-sin-cepillo-ecologico",
+    "destination": "/tienda/producto/popote-de-bambu-sin-cepillo-ecologico",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/bebida-aloe-vera-sabor-mango-t-best-500ml",
+    "destination": "/tienda/producto/bebida-aloe-vera-sabor-mango-t-best-500ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/agua-marina-bio-natural-390ml",
+    "destination": "/tienda/producto/agua-marina-bio-natural-390ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/otros-productos/popote-de-acero-con-cepillo-cero-plastico",
+    "destination": "/tienda/producto/popote-de-acero-con-cepillo-cero-plastico",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/aguacate-pz",
+    "destination": "/tienda/producto/aguacate-pz",
+    "permanent": true
+  },
+  {
+    "source": "/productos/cereales-y-granolas/avena-adc-500gr",
+    "destination": "/tienda/producto/avena-adc-500gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/agua-mineral-san-pellegrino-505-ml",
+    "destination": "/tienda/producto/agua-mineral-san-pellegrino-505-ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/bebida-de-aloe-vera-1-5-lts-t-best",
+    "destination": "/tienda/producto/bebida-de-aloe-vera-1-5-lts-t-best",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aromas-aceites-esenciales/aceite-esencial-almendras-dulces-bio-natural-10ml",
+    "destination": "/tienda/producto/aceite-esencial-almendras-dulces-bio-natural-10ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/carne-al-adobo-healthy-evolution-450gr",
+    "destination": "/tienda/producto/carne-al-adobo-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/kixocolatl-dark-suggar-free-80gr",
+    "destination": "/tienda/producto/kixocolatl-dark-suggar-free-80gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aceites-y-vinagres-comestibles/aceite-de-coco-extra-virgen-aires-del-campo-473-ml",
+    "destination": "/tienda/producto/aceite-de-coco-extra-virgen-aires-del-campo-473-ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/alimentos-refrigerados/yogurth-griego-kirkland-907gr",
+    "destination": "/tienda/producto/yogurth-griego-kirkland-907gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/brownie-nueces-y-ganache-gioccolato",
+    "destination": "/tienda/producto/brownie-nueces-y-ganache-gioccolato",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/obleas-de-amaranto-golmex-27gr",
+    "destination": "/tienda/producto/obleas-de-amaranto-golmex-27gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/natures-bakery-blueberry-56-6gr",
+    "destination": "/tienda/producto/natures-bakery-blueberry-56-6gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/chispi-chocos-waah-48gr",
+    "destination": "/tienda/producto/chispi-chocos-waah-48gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/kixocolatl-limon-y-almendras-80gr",
+    "destination": "/tienda/producto/kixocolatl-limon-y-almendras-80gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/paleta-sintos-individual",
+    "destination": "/tienda/producto/paleta-sintos-individual",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/gomitas-de-ositos-yummy-earth-71gr",
+    "destination": "/tienda/producto/gomitas-de-ositos-yummy-earth-71gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/brownie-dulce-de-leche-y-almendras-gioccolato",
+    "destination": "/tienda/producto/brownie-dulce-de-leche-y-almendras-gioccolato",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/yerba-mate-efervescente-guayakil-354ml",
+    "destination": "/tienda/producto/yerba-mate-efervescente-guayakil-354ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/salchichas-de-tofu-healthy-evolution-450gr",
+    "destination": "/tienda/producto/salchichas-de-tofu-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/tabaco-organico-ciggies-25gr",
+    "destination": "/tienda/producto/tabaco-organico-ciggies-25gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/brownie-con-cacao-y-avellanas-gioccolato",
+    "destination": "/tienda/producto/brownie-con-cacao-y-avellanas-gioccolato",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-de-coco-con-azucar-gud-1lt",
+    "destination": "/tienda/producto/leche-de-coco-con-azucar-gud-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/totanjos-totopos-de-maiz-con-fibra-200gr",
+    "destination": "/tienda/producto/totanjos-totopos-de-maiz-con-fibra-200gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/alimentos-refrigerados/yogurth-natural-bove-1lt",
+    "destination": "/tienda/producto/yogurth-natural-bove-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/barra-de-raspberry-natures-baker-57gr",
+    "destination": "/tienda/producto/barra-de-raspberry-natures-baker-57gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pollo-organico-congelado/pechuga-de-pollo-con-hueso-aires-de-campo-kg",
+    "destination": "/tienda/producto/pechuga-de-pollo-con-hueso-aires-de-campo-kg",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-de-soya-sin-azucar-gud-1lt",
+    "destination": "/tienda/producto/leche-de-soya-sin-azucar-gud-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/datil-bio-natural-200gr",
+    "destination": "/tienda/producto/datil-bio-natural-200gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/chicharitos-bio-natural-100gr",
+    "destination": "/tienda/producto/chicharitos-bio-natural-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/nueces-y-frutos-secos/coco-rallado-bio-natural-100-gr",
+    "destination": "/tienda/producto/coco-rallado-bio-natural-100-gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/superfoods/curcuma-en-polvo-bio-natural-100gr",
+    "destination": "/tienda/producto/curcuma-en-polvo-bio-natural-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/arroz-basmati-bio-natural-340gr",
+    "destination": "/tienda/producto/arroz-basmati-bio-natural-340gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/seitan-clasico-bio-natural",
+    "destination": "/tienda/producto/seitan-clasico-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/cereales-y-granolas/granola-bio-natural-400gr",
+    "destination": "/tienda/producto/granola-bio-natural-400gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/agua-alcalina-bio-natural-1lt",
+    "destination": "/tienda/producto/agua-alcalina-bio-natural-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/bio-te-bio-natural-1lt",
+    "destination": "/tienda/producto/bio-te-bio-natural-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/brownie-horneado-gluten-free-bio-natural",
+    "destination": "/tienda/producto/brownie-horneado-gluten-free-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/queso-de-almendras-bio-natural",
+    "destination": "/tienda/producto/queso-de-almendras-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/falafel-bio-natural",
+    "destination": "/tienda/producto/falafel-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/seitan-japones-bio-natural",
+    "destination": "/tienda/producto/seitan-japones-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/seitan-mediterraneo-bio-natural",
+    "destination": "/tienda/producto/seitan-mediterraneo-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/seitan-mexicano-bio-natural",
+    "destination": "/tienda/producto/seitan-mexicano-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/limonada-menta-con-chia-bio-natural-1lt",
+    "destination": "/tienda/producto/limonada-menta-con-chia-bio-natural-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/hummus-bio-natural",
+    "destination": "/tienda/producto/hummus-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/nuggets-veganos-bio-natural",
+    "destination": "/tienda/producto/nuggets-veganos-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/cilindro-de-vidrio-bio-natural-600ml",
+    "destination": "/tienda/producto/cilindro-de-vidrio-bio-natural-600ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/salchichas-de-soja-healthy-evolution-450gr",
+    "destination": "/tienda/producto/salchichas-de-soja-healthy-evolution-450gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/te-de-menta-con-jengibre-bio-natural-1lt",
+    "destination": "/tienda/producto/te-de-menta-con-jengibre-bio-natural-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aromas-aceites-esenciales/aceite-esencial-tea-tree-bio-natural-10ml",
+    "destination": "/tienda/producto/aceite-esencial-tea-tree-bio-natural-10ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/carne-de-hamburguesa-vegana-bio-natural-180gr-pz",
+    "destination": "/tienda/producto/carne-de-hamburguesa-vegana-bio-natural-180gr-pz",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pollo-organico-congelado/milanesa-de-pollo-organico-aires-del-campo",
+    "destination": "/tienda/producto/milanesa-de-pollo-organico-aires-del-campo",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/mazapan-con-cacahuate-alnat-43gr",
+    "destination": "/tienda/producto/mazapan-con-cacahuate-alnat-43gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/cepillo-dental-de-bambu",
+    "destination": "/tienda/producto/cepillo-dental-de-bambu",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/crema-de-cacahuate-organica-kirkland-793gr",
+    "destination": "/tienda/producto/crema-de-cacahuate-organica-kirkland-793gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-de-coco-sin-azucar-gud-1lt",
+    "destination": "/tienda/producto/leche-de-coco-sin-azucar-gud-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/otros-productos/papel-de-canamo-organico-1-1-4",
+    "destination": "/tienda/producto/papel-de-canamo-organico-1-1-4",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/agua-de-coco-bio-natural-1lt",
+    "destination": "/tienda/producto/agua-de-coco-bio-natural-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/agua-alcalina-bio-natural-500ml",
+    "destination": "/tienda/producto/agua-alcalina-bio-natural-500ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/alimentos-refrigerados/tofu-organico-house-foods-396gr-2",
+    "destination": "/tienda/producto/tofu-organico-house-foods-396gr-2",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/cloruro-de-magnesio-maxicloruro-100gr",
+    "destination": "/tienda/producto/cloruro-de-magnesio-maxicloruro-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/pan-organico-daves-killer-580gr",
+    "destination": "/tienda/producto/pan-organico-daves-killer-580gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/alimentos-refrigerados/queso-tipo-manchego-bove-400gr-2",
+    "destination": "/tienda/producto/queso-tipo-manchego-bove-400gr-2",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-nuez-de-macadamia-gud-1lt",
+    "destination": "/tienda/producto/leche-nuez-de-macadamia-gud-1lt",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aromas-aceites-esenciales/aceite-esencial-lavanda-bio-natural-10ml",
+    "destination": "/tienda/producto/aceite-esencial-lavanda-bio-natural-10ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/jabon-uiixon-violetas-100gr",
+    "destination": "/tienda/producto/jabon-uiixon-violetas-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/galletas-de-arroz-con-quinoa-okko-140gr",
+    "destination": "/tienda/producto/galletas-de-arroz-con-quinoa-okko-140gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/clorofila-con-spirulina-vidanat-500ml",
+    "destination": "/tienda/producto/clorofila-con-spirulina-vidanat-500ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-deslactosada-bove-1lt-2",
+    "destination": "/tienda/producto/leche-deslactosada-bove-1lt-2",
+    "permanent": true
+  },
+  {
+    "source": "/productos/alimentos-refrigerados/tofu-al-chipotle-sano-mundo-200gr",
+    "destination": "/tienda/producto/tofu-al-chipotle-sano-mundo-200gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/alimentos-refrigerados/tofu-finas-hierbas-sano-mundo-200gr-2",
+    "destination": "/tienda/producto/tofu-finas-hierbas-sano-mundo-200gr-2",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/yogurth-de-coco-vegano-bio-natural",
+    "destination": "/tienda/producto/yogurth-de-coco-vegano-bio-natural",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/tabaco-natural-flor-morada-25gr",
+    "destination": "/tienda/producto/tabaco-natural-flor-morada-25gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/jabon-uiixol-mandarina-100gr",
+    "destination": "/tienda/producto/jabon-uiixol-mandarina-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/agua-santa-maria-1lt-2",
+    "destination": "/tienda/producto/agua-santa-maria-1lt-2",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/clorofila-hierbabuena-vidanat-500ml",
+    "destination": "/tienda/producto/clorofila-hierbabuena-vidanat-500ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/chicle-organico-chicza-menta-15gr",
+    "destination": "/tienda/producto/chicle-organico-chicza-menta-15gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/proteina-organica-one-nature-chocolate-40gr",
+    "destination": "/tienda/producto/proteina-organica-one-nature-chocolate-40gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aromas-aceites-esenciales/aceite-esencial-bio-natural-sandalo-10ml",
+    "destination": "/tienda/producto/aceite-esencial-bio-natural-sandalo-10ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pollo-organico-congelado/salchichas-organicas-de-pollo-aires-de-campo-400gr",
+    "destination": "/tienda/producto/salchichas-organicas-de-pollo-aires-de-campo-400gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/jabon-uiixol-lavanda-100gr",
+    "destination": "/tienda/producto/jabon-uiixol-lavanda-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/alimentos-refrigerados/queso-amarillo-vegano-gud-180gr",
+    "destination": "/tienda/producto/queso-amarillo-vegano-gud-180gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/obleas-de-coco-kalan-60gr",
+    "destination": "/tienda/producto/obleas-de-coco-kalan-60gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/jabon-uiixol-sandia-100gr",
+    "destination": "/tienda/producto/jabon-uiixol-sandia-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/gel-desinfectante-bio-natural-60ml",
+    "destination": "/tienda/producto/gel-desinfectante-bio-natural-60ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/veggies-straws-ranch-surtido-vegetales-28gr",
+    "destination": "/tienda/producto/veggies-straws-ranch-surtido-vegetales-28gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pastas-granos-y-legumbres/arroz-integral-y-quinoa-organica-kirkland-240gr",
+    "destination": "/tienda/producto/arroz-integral-y-quinoa-organica-kirkland-240gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/semillas-de-hemp-sin-cascara-bio-natural-100gr",
+    "destination": "/tienda/producto/semillas-de-hemp-sin-cascara-bio-natural-100gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/kixocolatl-con-cafe-80gr",
+    "destination": "/tienda/producto/kixocolatl-con-cafe-80gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/carnes-veganas/soya-texturizada-sano-mundo-500gr-2",
+    "destination": "/tienda/producto/soya-texturizada-sano-mundo-500gr-2",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pastas-granos-y-legumbres/lentejas-organica-aires-del-campo-500gr-2",
+    "destination": "/tienda/producto/lentejas-organica-aires-del-campo-500gr-2",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/churranjos-linaza-chia-ajon-nopal-70gr",
+    "destination": "/tienda/producto/churranjos-linaza-chia-ajon-nopal-70gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/obleas-skinny-40gr",
+    "destination": "/tienda/producto/obleas-skinny-40gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/kixocolatl-dark-80gr",
+    "destination": "/tienda/producto/kixocolatl-dark-80gr",
+    "permanent": true
+  },
+  {
+    "source": "/productos/botanas-saludables/tostalinaz-mini-28pz",
+    "destination": "/tienda/producto/tostalinaz-mini-28pz",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aceites-y-vinagres-comestibles/vinagre-sidra-de-manzana-braggs-946ml",
+    "destination": "/tienda/producto/vinagre-sidra-de-manzana-braggs-946ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/superfoods/levadura-nutricional-braggs-127-grs",
+    "destination": "/tienda/producto/levadura-nutricional-braggs-127-grs",
+    "permanent": true
+  },
+  {
+    "source": "/productos/barras-dulces/mazapan-de-spirulina",
+    "destination": "/tienda/producto/mazapan-de-spirulina",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aromas-aceites-esenciales/eucalipto-aceite-esencial-bio-natural-10ml",
+    "destination": "/tienda/producto/eucalipto-aceite-esencial-bio-natural-10ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/especias-y-salsas/amino-de-coco-braggs-296ml",
+    "destination": "/tienda/producto/amino-de-coco-braggs-296ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/te-de-menta-con-jengibre-y-limon-bio-natural-500ml",
+    "destination": "/tienda/producto/te-de-menta-con-jengibre-y-limon-bio-natural-500ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/aceites-y-vinagres-comestibles/vinagre-de-sidra-de-manzana-braggs-473ml",
+    "destination": "/tienda/producto/vinagre-de-sidra-de-manzana-braggs-473ml",
+    "permanent": true
+  },
+  {
+    "source": "/productos/pollo-organico-congelado/pechuga-de-pollo-deshuesada-kg",
+    "destination": "/tienda/producto/pechuga-de-pollo-deshuesada-kg",
+    "permanent": true
+  },
+  {
+    "source": "/productos/los-mas-vendidos/cbd-oil-950mg",
+    "destination": "/tienda/producto/cbd-oil-950mg",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/gel-desinfectante-bio-natural-1tl",
+    "destination": "/tienda/producto/gel-desinfectante-bio-natural-1tl",
+    "permanent": true
+  },
+  {
+    "source": "/productos/leche-y-sustitutos-de-leche/leche-de-almendras-s-azucar",
+    "destination": "/tienda/producto/leche-de-almendras-s-azucar",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/kombucha-la-bruja-islena",
+    "destination": "/tienda/producto/kombucha-la-bruja-islena",
+    "permanent": true
+  },
+  {
+    "source": "/productos/cereales-y-granolas/avena-rolada-great",
+    "destination": "/tienda/producto/avena-rolada-great",
+    "permanent": true
+  },
+  {
+    "source": "/productos/bebidas-saludables/kombucha-bruja-sana",
+    "destination": "/tienda/producto/kombucha-bruja-sana",
+    "permanent": true
+  },
+  {
+    "source": "/productos/agricultura/semillas-agroecologicas",
+    "destination": "/tienda/producto/semillas-agroecologicas",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/jugo-de-naranja-bio-natural-1tl",
+    "destination": "/tienda/producto/jugo-de-naranja-bio-natural-1tl",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/huevos-organicos-docenera",
+    "destination": "/tienda/producto/huevos-organicos-docenera",
+    "permanent": true
+  },
+  {
+    "source": "/productos/exclusivos-bio/gel-desinfectante-bio-natural-250ml",
+    "destination": "/tienda/producto/gel-desinfectante-bio-natural-250ml",
+    "permanent": true
+  },
+  {
+    "source": "/menu",
+    "destination": "/restaurante",
+    "permanent": true
+  },
+  {
+    "source": "/quienes-somos",
+    "destination": "/nosotros",
+    "permanent": true
+  },
+  {
+    "source": "/franquicia",
+    "destination": "/franquicia",
+    "permanent": true
+  },
+  {
+    "source": "/nuevos-proveedores",
+    "destination": "/proveedores",
+    "permanent": true
+  }
+]

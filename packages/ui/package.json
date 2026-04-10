@@ -1,0 +1,14 @@
+{
+  "name": "@bionatural/ui",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.tsx",
+  "types": "./index.tsx",
+  "dependencies": {
+    "react": "^19.0.0",
+    "lucide-react": "^0.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

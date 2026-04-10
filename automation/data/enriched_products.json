@@ -1,0 +1,72 @@
+[
+  {
+    "Odoo_ID": "BN-PROD-01",
+    "name_es": "Clorofila",
+    "name_en": "Chlorophyll",
+    "benefits_es": ["Apoya la desintoxicación natural", "Puede ayudar con el mal aliento", "Apoya la salud digestiva", "Aporta antioxidantes", "Favorece una sensación de frescura y bienestar"],
+    "benefits_en": ["Supports natural detox pathways", "May help with bad breath", "Supports digestive health", "Provides antioxidant support", "Promotes freshness and overall wellness"],
+    "issues_es": ["Mal aliento", "Digestión pesada", "Dieta baja en vegetales", "Sensación de inflamación", "Necesidad de apoyo antioxidante"],
+    "issues_en": ["Bad breath", "Heavy digestion", "Low-vegetable diet", "Feeling bloated", "Need for antioxidant support"],
+    "category": "Suplementos"
+  },
+  {
+    "Odoo_ID": "BN-PROD-02",
+    "name_es": "Espirulina",
+    "name_en": "Spirulina",
+    "benefits_es": ["Fuente natural de nutrientes", "Apoya la energía", "Aporta antioxidantes", "Apoya el sistema inmune", "Complementa dietas veganas"],
+    "benefits_en": ["Natural source of nutrients", "Supports energy", "Provides antioxidants", "Supports the immune system", "Helps complement vegan diets"],
+    "issues_es": ["Cansancio", "Dieta con bajo aporte nutricional", "Baja energía", "Necesidad de apoyo inmune", "Alimentación vegetariana o vegana"],
+    "issues_en": ["Fatigue", "Nutrient-poor diet", "Low energy", "Need for immune support", "Vegetarian or vegan diet"],
+    "category": "Suplementos"
+  },
+  {
+    "Odoo_ID": "BN-PROD-03",
+    "name_es": "Vitamina C",
+    "name_en": "Vitamin C",
+    "benefits_es": ["Apoya el sistema inmune", "Ayuda en la formación de colágeno", "Aporta antioxidantes", "Apoya la piel", "Favorece la absorción de hierro"],
+    "benefits_en": ["Supports the immune system", "Helps collagen formation", "Provides antioxidant support", "Supports skin health", "Helps iron absorption"],
+    "issues_es": ["Defensas bajas", "Recuperación lenta", "Estrés oxidativo", "Piel opaca", "Dieta baja en frutas y verduras"],
+    "issues_en": ["Low immune defenses", "Slow recovery", "Oxidative stress", "Dull skin", "Low fruit and vegetable intake"],
+    "category": "Suplementos"
+  },
+  {
+    "Odoo_ID": "BN-PROD-04",
+    "name_es": "GABA",
+    "name_en": "GABA",
+    "benefits_es": ["Puede promover relajación", "Apoya el descanso", "Puede ayudar con tensión mental", "Favorece sensación de calma", "Apoya la calidad del sueño"],
+    "benefits_en": ["May promote relaxation", "Supports rest", "May help mental tension", "Promotes calmness", "Supports sleep quality"],
+    "issues_es": ["Estrés", "Tensión nerviosa", "Dificultad para relajarse", "Sueño ligero", "Rutinas intensas"],
+    "issues_en": ["Stress", "Nervous tension", "Trouble relaxing", "Light sleep", "High-stress routines"],
+    "category": "Suplementos"
+  },
+  {
+    "Odoo_ID": "BN-PROD-22",
+    "name_es": "Ashwagandha",
+    "name_en": "Ashwagandha",
+    "benefits_es": ["Adaptógeno conocido", "Apoya manejo del estrés", "Puede ayudar con calma", "Apoya energía equilibrada", "Puede apoyar descanso"],
+    "benefits_en": ["Well-known adaptogen", "Supports stress management", "May help promote calm", "Supports balanced energy", "May support rest"],
+    "issues_es": ["Estrés", "Cansancio mental", "Dificultad para relajarse", "Rutinas intensas", "Sueño no reparador"],
+    "issues_en": ["Stress", "Mental fatigue", "Trouble relaxing", "Intense routines", "Non-restorative sleep"],
+    "category": "Suplementos"
+  },
+  {
+    "Odoo_ID": "BN-PROD-23",
+    "name_es": "Melena de león",
+    "name_en": "Lion’s Mane",
+    "benefits_es": ["Apoya enfoque mental", "Puede apoyar claridad mental", "Apoya rendimiento cognitivo", "Muy usado en rutinas de productividad", "Complementa bienestar cerebral"],
+    "benefits_en": ["Supports mental focus", "May support mental clarity", "Supports cognitive performance", "Commonly used for productivity routines", "Supports brain wellness"],
+    "issues_es": ["Falta de enfoque", "Niebla mental", "Cansancio mental", "Rutinas de estudio o trabajo", "Baja concentración"],
+    "issues_en": ["Poor focus", "Brain fog", "Mental fatigue", "Study or work demands", "Low concentration"],
+    "category": "Suplementos"
+  },
+  {
+    "Odoo_ID": "BN-PROD-68",
+    "name_es": "Péptidos de Colágeno Pure Essence",
+    "name_en": "Collagen Peptides Pure Essence",
+    "benefits_es": ["Apoya la salud de la piel", "Apoya cabello y uñas", "Favorece la hidratación de la piel", "Ayuda a complementar la producción de colágeno", "Buen complemento para belleza integral"],
+    "benefits_en": ["Supports skin health", "Supports hair and nails", "Supports skin hydration", "Helps support collagen formation", "Good addition to beauty-from-within routines"],
+    "issues_es": ["Piel reseca", "Uñas frágiles", "Cabello débil", "Piel con apariencia cansada", "Rutina antiedad"],
+    "issues_en": ["Dry skin", "Fragile nails", "Weak hair", "Tired-looking skin", "Anti-aging support routine"],
+    "category": "Cuidado Personal"
+  }
+]

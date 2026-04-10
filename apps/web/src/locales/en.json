@@ -1,0 +1,21 @@
+{
+  "common": {
+    "title": "BioNatural - Healthy, Local, Quality",
+    "nav": {
+      "home": "Home",
+      "menu": "Menu",
+      "shop": "Shop",
+      "about": "About"
+    },
+    "hero": {
+      "title": "Healthy, Local, Quality",
+      "subtitle": "Authentic, high-protein supplements and local-first restaurant experience.",
+      "cta": "Explore Menu"
+    },
+    "about": {
+      "title": "Our Mission",
+      "description": "At BioNatural, we bridge the gap between wellness and flavor. Founded by Meybell Glez, our PDC kitchen is a tribute to local ingredients and premium health science.",
+      "founders": "Founded by Meybell Glez"
+    }
+  }
+}

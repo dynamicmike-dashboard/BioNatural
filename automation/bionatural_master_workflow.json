@@ -1,0 +1,77 @@
+{
+  "name": "Bio-Sales & Lead Capture Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "bot-commerce-webhook",
+        "options": {}
+      },
+      "name": "Webhook (BotCommerce)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "operation": "list",
+        "baseId": "bse7mZjwbFQlNeB5UXU",
+        "tableId": "tblCLPch6m0IC3D3y43",
+        "filters": {
+          "conditions": [
+            {
+              "field": "Keyword_Trigger",
+              "operation": "equal",
+              "value": "={{ $json.body.message.text.toUpperCase() }}"
+            }
+          ]
+        }
+      },
+      "name": "Teable: Search Product",
+      "type": "n8n-nodes-base.teable",
+      "typeVersion": 1,
+      "position": [450, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.sendr.com/v1/leads",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "name", "value": "={{ $node[\"Webhook (BotCommerce)\"].json.body.user.name }}" },
+            { "name": "phone", "value": "={{ $node[\"Webhook (BotCommerce)\"].json.body.user.phone }}" },
+            { "name": "campaign", "value": "BioNatural_Leads" }
+          ]
+        },
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "Bearer YOUR_SENDR_API_KEY" }
+          ]
+        }
+      },
+      "name": "Sendr: Capture Lead",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [650, 200]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $node[\"Webhook (BotCommerce)\"].json.body.callback_url }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"text\": \"🌿 {{ $json.Name_EN }}\\nPrice: {{ $json.Price }} MXN\\nBenefits: {{ $json.Health_Benefits }}\\nBuy here: {{ $json.Direct_URL }}\" }",
+        "options": {}
+      },
+      "name": "BotCommerce: Send Response",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "position": [850, 300]
+    }
+  ],
+  "connections": {
+    "Webhook (BotCommerce)": { "main": [[{ "node": "Teable: Search Product", "type": "main", "index": 0 }]] },
+    "Teable: Search Product": { "main": [[{ "node": "Sendr: Capture Lead", "type": "main", "index": 0 }, { "node": "BotCommerce: Send Response", "type": "main", "index": 0 }]] }
+  }
+}

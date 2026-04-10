@@ -1,0 +1,84 @@
+{
+  "name": "Bio-Sales & Lead Capture Workflow (V2 - Loyalty + Promos)",
+  "nodes": [
+    {
+      "parameters": { "httpMethod": "POST", "path": "bot-commerce-webhook", "options": {} },
+      "name": "Webhook (BotCommerce)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "id": "webhook-node",
+      "position": [100, 300]
+    },
+    {
+      "parameters": {
+        "operation": "list",
+        "baseId": "bse7mZjwbFQlNeB5UXU",
+        "tableId": "tblCLPch6m0IC3D3y43",
+        "filters": {
+          "conditions": [
+            { "field": "Keyword_Trigger", "operation": "equal", "value": "={{ $json.body.message.text.toUpperCase() }}" }
+          ]
+        }
+      },
+      "name": "Teable: Search Product",
+      "type": "n8n-nodes-base.teable",
+      "typeVersion": 1,
+      "id": "teable-node",
+      "position": [300, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [{ "value1": "={{ new Date().toLocaleDateString('en-US', { weekday: 'long' }) }}", "value2": "Tuesday" }]
+        }
+      },
+      "name": "If: Pure Essence Tuesday?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "id": "if-tuesday-node",
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.sendr.com/v1/leads",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "name", "value": "={{ $node[\"Webhook (BotCommerce)\"].json.body.user.name }}" },
+            { "name": "phone", "value": "={{ $node[\"Webhook (BotCommerce)\"].json.body.user.phone }}" },
+            { "name": "campaign", "value": "BioNatural_Leads" }
+          ]
+        },
+        "headerParameters": {
+          "parameters": [{ "name": "Authorization", "value": "Bearer YOUR_SENDR_API_KEY" }]
+        }
+      },
+      "name": "Sendr: Capture Lead",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "id": "sendr-node",
+      "position": [700, 150]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $node[\"Webhook (BotCommerce)\"].json.body.callback_url }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={ \"text\": \"🌿 *{{ $json.Name_EN }}*\\n\\n✨ *Suggested Benefits:* This product is traditionally recommended for {{ $json.Issues_Targeted }} and may support your overall wellness. It is known to {{ $json.Health_Benefits }}.\\n\\n💰 Price: {{ $json.Price }} MXN\\n\\n{% if $node['If: Pure Essence Tuesday?'].json.matched %}🔥 *TUESDAY PROMO:* Buy 1 get 10% off, Buy 3 get 20% off!{% endif %}\\n\\n🛒 *Buy here:* {{ $json.Direct_URL }}\\n\\n🎁 *Loyalty:* You are 1 stamp away from a free juice! Claim your card: https://app.welcomeback.io/business/32LLGAUM49gT5GSK7gjGUD/download-card/bio_members_gifts_2\" }",
+        "options": {}
+      },
+      "name": "BotCommerce: Send Response",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 3,
+      "id": "response-node",
+      "position": [900, 300]
+    }
+  ],
+  "connections": {
+    "Webhook (BotCommerce)": { "main": [[{ "node": "Teable: Search Product", "type": "main", "index": 0 }]] },
+    "Teable: Search Product": { "main": [[{ "node": "If: Pure Essence Tuesday?", "type": "main", "index": 0 }]] },
+    "If: Pure Essence Tuesday?": { "main": [[{ "node": "Sendr: Capture Lead", "type": "main", "index": 0 }, { "node": "BotCommerce: Send Response", "type": "main", "index": 0 }]] }
+  }
+}
