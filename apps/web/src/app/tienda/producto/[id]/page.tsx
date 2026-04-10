@@ -128,6 +128,30 @@ export default async function ProductPage({
           </div>
         </section>
       )}
+      {/* AEO / JSON-LD Knowledge Graph */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": name,
+            "description": description,
+            "brand": { "@type": "Brand", "name": "BioNatural" },
+            "offers": {
+              "@type": "Offer",
+              "price": product.price,
+              "priceCurrency": product.currency || "MXN",
+              "availability": product.stock_quantity > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock"
+            },
+            "isRelatedTo": relatedProducts?.map(rel => ({
+              "@type": "Product",
+              "name": rel.name_en,
+              "url": `https://bio-natural.vercel.app/tienda/producto/${rel.Odoo_ID}`
+            }))
+          })
+        }}
+      />
     </article>
   );
 }
