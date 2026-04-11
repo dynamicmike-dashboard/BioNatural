@@ -24,6 +24,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { CartProvider } from "@/context/CartContext";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -42,15 +44,17 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans">
-        <Suspense fallback={null}>
-          <Navigation />
-        </Suspense>
-        <main className="flex-1">
-          {children}
-        </main>
-        <Suspense fallback={null}>
-          <FooterWrapper />
-        </Suspense>
+        <CartProvider>
+          <Suspense fallback={null}>
+            <Navigation />
+          </Suspense>
+          <main className="flex-1">
+            {children}
+          </main>
+          <Suspense fallback={null}>
+            <FooterWrapper />
+          </Suspense>
+        </CartProvider>
       </body>
     </html>
   );

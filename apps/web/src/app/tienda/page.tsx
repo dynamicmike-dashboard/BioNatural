@@ -2,6 +2,7 @@ import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import AddToCartSmall from "@/components/AddToCartSmall";
 
 export default async function TiendaPage({
   searchParams,
@@ -32,12 +33,26 @@ export default async function TiendaPage({
         </p>
       </header>
 
-      {/* Categories Filter - Visual Mockup */}
-      <div className="flex flex-wrap gap-4 border-b border-foreground/5 pb-8">
-        {(lang === 'en' ? ['All', 'Supplements', 'Superfoods', 'Bakery', 'CBD'] : ['Todos', 'Suplementos', 'Superalimentos', 'Panadería', 'CBD']).map((cat) => (
-          <button key={cat} className="px-6 py-2 rounded-full border border-foreground/10 text-sm font-bold hover:border-primary hover:text-primary transition-all active:scale-95">
-            {cat}
-          </button>
+      {/* Categories Filter */}
+      <div className="flex flex-wrap gap-4 border-b border-foreground/5 pb-8 overflow-x-auto no-scrollbar">
+        {[
+          { id: '', en: 'All', es: 'Todos' },
+          { id: 'Suplementos', en: 'Supplements', es: 'Suplementos' },
+          { id: 'Superfoods', en: 'Superfoods', es: 'Superalimentos' },
+          { id: 'CBD', en: 'CBD', es: 'CBD' },
+          { id: 'Bakery', en: 'Bakery', es: 'Panadería' }
+        ].map((cat) => (
+          <Link 
+            key={cat.id} 
+            href={`/tienda?lang=${lang}${cat.id ? `&category=${cat.id}` : ''}`}
+            className={`px-8 py-3 rounded-full border text-sm font-black uppercase tracking-widest transition-all active:scale-95 whitespace-nowrap ${
+              (category === cat.id || (!category && !cat.id))
+                ? 'bg-foreground text-background border-foreground' 
+                : 'border-foreground/10 text-foreground/40 hover:border-primary hover:text-primary'
+            }`}
+          >
+            {lang === 'en' ? cat.en : cat.es}
+          </Link>
         ))}
       </div>
 
@@ -47,7 +62,7 @@ export default async function TiendaPage({
           <Link 
             key={product.odoo_id} 
             href={`/tienda/producto/${product.odoo_id}?lang=${lang}`}
-            className="group relative bg-muted/30 rounded-[2.5rem] p-4 transition-all hover:bg-white hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] hover:-translate-y-2 border border-transparent hover:border-foreground/5"
+            className="group relative bg-muted/30 rounded-[2.5rem] p-4 transition-all hover:bg-white hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.15)] hover:-translate-y-2 border border-transparent hover:border-foreground/5"
           >
             <div className="aspect-[4/5] relative rounded-[2rem] overflow-hidden bg-white mb-6">
               {product.image_url ? (
@@ -85,9 +100,7 @@ export default async function TiendaPage({
                    <span className="text-xs font-bold text-foreground/30 uppercase tracking-widest">{lang === "en" ? "Price" : "Precio"}</span>
                    <span className="text-2xl font-display font-black text-primary">${product.price}</span>
                 </div>
-                <div className="bg-foreground text-background w-12 h-12 rounded-2xl flex items-center justify-center transition-all group-hover:bg-primary group-hover:scale-110 active:scale-90 shadow-xl shadow-black/10">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
-                </div>
+                <AddToCartSmall product={product} lang={lang} />
               </div>
             </div>
           </Link>

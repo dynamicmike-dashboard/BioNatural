@@ -22,8 +22,12 @@ const nextConfig: NextConfig = {
     cpus: 1,
   },
   images: {
-    // Sharp worker crashes are common on Vercel with large product catalogs
     unoptimized: true, 
+    remotePatterns: [
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'bio-natural.mx' },
+      { protocol: 'https', hostname: 'nueuzrkjwsbvnhsrosny.supabase.co' }
+    ]
   },
   turbopack: {}, // Explicitly requested by error message
   webpack: (config) => {

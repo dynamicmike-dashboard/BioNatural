@@ -1,6 +1,8 @@
 import { createClient } from "@/lib/supabase/server";
 import Image from "next/image";
+import Link from "next/link";
 import { notFound } from "next/navigation";
+import ProductActions from "@/components/ProductActions";
 
 export default async function ProductPage({
   params,
@@ -34,13 +36,13 @@ export default async function ProductPage({
     'Energy & Focus': ['BN-002', 'BN-007', 'BN-013', 'BN-044', 'BN-056']
   };
 
-  const currentCluster = Object.values(clusters).find(c => c.includes(product.Odoo_ID)) || [];
-  const relatedIds = currentCluster.filter(id => id !== product.Odoo_ID).slice(0, 3);
+  const currentCluster = Object.values(clusters).find(c => c.includes(product.odoo_id)) || [];
+  const relatedIds = currentCluster.filter(id => id !== product.odoo_id).slice(0, 3);
 
   const { data: relatedProducts } = await supabase
     .from("master_inventory")
     .select("*")
-    .in("Odoo_ID", relatedIds);
+    .in("odoo_id", relatedIds);
 
   return (
     <article className="max-w-7xl mx-auto p-8 lg:py-24">
@@ -92,14 +94,7 @@ export default async function ProductPage({
           </div>
 
           {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 pt-4 border-b border-gray-100 pb-12">
-             <button className="flex-2 px-10 py-6 bg-[#2E7D32] text-white rounded-[28px] font-black text-xl hover:bg-[#1B5E20] transition-all transform shadow-2xl shadow-[#2E7D32]/30 active:scale-95">
-                {lang === "en" ? "Proceed to Checkout" : "Continuar al Pago"}
-             </button>
-             <button className="px-10 py-6 bg-white text-[#2E7D32] border-4 border-[#F1F8E9] rounded-[28px] font-black text-xl hover:bg-[#F1F8E9] transition-all">
-                {lang === "en" ? "Add to Cart" : "Agregar"}
-             </button>
-          </div>
+          <ProductActions product={product} lang={lang} />
         </div>
       </div>
 
@@ -109,9 +104,9 @@ export default async function ProductPage({
           <h2 className="text-4xl font-black text-[#1B5E20] tracking-tighter mb-12">Complete Your Wellness</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {relatedProducts.map((rel: any) => (
-              <a 
-                key={rel.Odoo_ID}
-                href={`/tienda/producto/${rel.Odoo_ID}?lang=${lang}`}
+              <Link 
+                key={rel.odoo_id}
+                href={`/tienda/producto/${rel.odoo_id}?lang=${lang}`}
                 className="group p-6 bg-white rounded-[40px] border border-gray-100 hover:border-[#8BC34A] transition-all shadow-xl hover:shadow-2xl hover:shadow-[#8BC34A]/10"
               >
                 <div className="aspect-square bg-[#F9FBE7] rounded-[30px] mb-6 relative overflow-hidden">
@@ -123,7 +118,7 @@ export default async function ProductPage({
                 </div>
                 <h3 className="text-xl font-black text-[#1B5E20] group-hover:text-[#2E7D32]">{rel[`name_${lang.toLowerCase()}`] || rel.name_en}</h3>
                 <p className="text-sm font-bold text-[#8BC34A] mt-2 uppercase tracking-widest">{rel.category}</p>
-              </a>
+              </Link>
             ))}
           </div>
         </section>
@@ -147,7 +142,7 @@ export default async function ProductPage({
             "isRelatedTo": relatedProducts?.map(rel => ({
               "@type": "Product",
               "name": rel.name_en,
-              "url": `https://bio-natural.vercel.app/tienda/producto/${rel.Odoo_ID}`
+              "url": `https://bio-natural.vercel.app/tienda/producto/${rel.odoo_id}`
             }))
           })
         }}
