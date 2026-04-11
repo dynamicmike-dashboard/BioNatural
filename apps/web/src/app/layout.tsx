@@ -14,10 +14,14 @@ const outfit = Outfit({
   subsets: ["latin"],
 });
 
+import Footer from "@/components/Footer";
+
 export const metadata: Metadata = {
   title: "BioNatural | Healthy, Local, Quality Wellness in PDC & Tulum",
-  description: "Playa del Carmen's premium health store and restaurant. High-protein superfoods, vegan tacos, and curated organic supplements. Visit us in PDC, Tulum & Cancún.",
-  keywords: ["organic food Playa del Carmen", "vegan restaurant Tulum", "keto supplements Mexico", "BioNatural PDC", "healthy grocery delivery"],
+  description: "Playa del Carmen's premium health store and restaurant. High-protein superfoods, vegan tacos, and curated organic supplements.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -31,7 +35,6 @@ export default function RootLayout({
       className={`${inter.variable} ${outfit.variable} h-full antialiased`}
     >
       <head>
-        {/* TinyTalk Global Widget */}
         <script 
           src="https://widget.tinytalk.ai/v1/widget.js" 
           data-token={process.env.TINYTALK_API_KEY} 
@@ -45,7 +48,16 @@ export default function RootLayout({
         <main className="flex-1">
           {children}
         </main>
+        <Suspense fallback={null}>
+          <FooterWrapper />
+        </Suspense>
       </body>
     </html>
   );
+}
+
+function FooterWrapper() {
+  // We'll use a client component or a wrapper to handle lang safely if needed
+  // For now, let's just use the Footer. 
+  return <Footer lang="en" />;
 }

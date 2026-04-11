@@ -17,7 +17,7 @@ export default async function TiendaPage({
   const { data: products, error } = await query;
 
   return (
-    <div className="max-w-7xl mx-auto px-6 pt-32 pb-24 space-y-16">
+    <main className="max-w-7xl mx-auto px-6 pt-32 pb-24 space-y-16">
       <header className="space-y-6 max-w-3xl">
         <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-black uppercase tracking-[0.2em] animate-fade-in">
            {lang === "en" ? "Exclusive Wellness Directory" : "Directorio de Bienestar Exclusivo"}
@@ -45,8 +45,8 @@ export default async function TiendaPage({
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {products?.map((product: any) => (
           <Link 
-            key={product.Odoo_ID} 
-            href={`/tienda/producto/${product.Odoo_ID}?lang=${lang}`}
+            key={product.odoo_id} 
+            href={`/tienda/producto/${product.odoo_id}?lang=${lang}`}
             className="group relative bg-muted/30 rounded-[2.5rem] p-4 transition-all hover:bg-white hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] hover:-translate-y-2 border border-transparent hover:border-foreground/5"
           >
             <div className="aspect-[4/5] relative rounded-[2rem] overflow-hidden bg-white mb-6">

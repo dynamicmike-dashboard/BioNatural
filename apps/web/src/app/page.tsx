@@ -1,6 +1,7 @@
 import Link from "next/link";
 import en from "@/locales/en.json";
 import es from "@/locales/es.json";
+import Footer from "@/components/Footer";
 
 export default async function Home({
   searchParams,
@@ -11,9 +12,8 @@ export default async function Home({
   const t = lang === "en" ? en.common : es.common;
 
   const locations = [
-    { name: "Playa del Carmen", slug: "pdc", status: "Open Now" },
-    { name: "Tulum", slug: "tulum", status: "Open Now" },
-    { name: "Cancún", slug: "cancun", status: "Opening Summer 2026" },
+    { name: "Sucursal Constituyentes", slug: "pdc-10", status: "Open Now", address: "Ave. 10 entre Constituyentes y 16 Nte." },
+    { name: "Sucursal Quinta Avenida", slug: "pdc-5ta", status: "Open Now", address: "5ta. Avenida, entre 40 y 42 Nte." },
   ];
 
   return (
@@ -27,7 +27,7 @@ export default async function Home({
       <section className="max-w-7xl mx-auto px-6 py-24 md:py-40 flex flex-col items-center text-center space-y-12">
         <div className="space-y-6 animate-fade-in">
           <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-black uppercase tracking-[0.2em]">
-            {lang === "en" ? "Playa del Carmen · Tulum · Cancún" : "Riviera Maya Exclusive"}
+            {lang === "en" ? "Playa del Carmen · The Heart of Wellness" : "Playa del Carmen · El Corazón del Bienestar"}
           </span>
           <h1 className="text-6xl md:text-9xl font-display font-black text-foreground leading-[0.85] tracking-tighter max-w-5xl mx-auto">
             {t.hero.title}
@@ -53,12 +53,13 @@ export default async function Home({
         </div>
 
         {/* Location Quick Links */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full pt-32 animate-fade-in delay-500 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-4xl pt-32 animate-fade-in delay-500 text-left">
           {locations.map((loc) => (
             <div key={loc.name} className="group p-8 rounded-[2.5rem] bg-muted/30 border border-transparent hover:border-foreground/5 transition-all hover:bg-white hover:shadow-2xl">
               <span className="text-[10px] font-black uppercase tracking-widest text-primary mb-2 block">{loc.status}</span>
-              <h3 className="text-3xl font-display font-black tracking-tight mb-4">{loc.name}</h3>
-              <p className="text-sm text-foreground/40 font-medium leading-relaxed mb-6">
+              <h3 className="text-3xl font-display font-black tracking-tight mb-2">{loc.name}</h3>
+              <p className="text-sm text-foreground/40 font-bold mb-4">{loc.address}</p>
+              <p className="text-sm text-foreground/60 font-medium leading-relaxed mb-6">
                 {lang === "en" ? "Experience BioNatural's holistic synergy at our premier location." : "Vive la sinergia holística de BioNatural en nuestra ubicación principal."}
               </p>
               <div className="w-12 h-1 bg-foreground/5 rounded-full group-hover:bg-primary group-hover:w-full transition-all duration-700" />
@@ -89,44 +90,8 @@ export default async function Home({
           </div>
         </div>
       </section>
-
-      {/* Trust & SEO Footer */}
-      <footer className="border-t border-foreground/5 bg-muted/10 py-24">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-16">
-          <div className="md:col-span-4 space-y-6">
-            <h2 className="text-2xl font-display font-black tracking-tighter text-gradient">BioNatural</h2>
-            <p className="text-foreground/40 font-medium leading-relaxed">
-              Founded in Playa del Carmen, our mission is to provide the highest quality organic nutrition and wellness support for the conscious community.
-            </p>
-          </div>
-          <div className="md:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="space-y-4">
-              <h4 className="text-xs font-black uppercase tracking-widest text-foreground/20">Market</h4>
-              <ul className="text-sm font-bold space-y-2">
-                <li><Link href={`/tienda?lang=${lang}`}>Bio Shop</Link></li>
-                <li><Link href={`/restaurante?lang=${lang}`}>Restaurant</Link></li>
-                <li>PWA Access</li>
-              </ul>
-            </div>
-            <div className="space-y-4">
-              <h4 className="text-xs font-black uppercase tracking-widest text-foreground/20">Legal</h4>
-              <ul className="text-sm font-bold space-y-2 opacity-50">
-                <li>Privacy</li>
-                <li>Terms</li>
-                <li>Shipping</li>
-              </ul>
-            </div>
-            <div className="md:col-span-2 space-y-4">
-               <h4 className="text-xs font-black uppercase tracking-widest text-foreground/20">Join our community</h4>
-               <p className="text-sm font-medium text-foreground/40">Enter your email to receive wellness insights and local offers.</p>
-               <div className="flex gap-2">
-                  <input type="text" placeholder="your@email.com" className="bg-white rounded-2xl px-4 py-3 text-sm flex-1 border border-foreground/5" />
-                  <button className="bg-foreground text-background px-6 py-3 rounded-2xl text-xs font-black uppercase">GO</button>
-               </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer lang={lang} />
     </div>
   );
 }
+

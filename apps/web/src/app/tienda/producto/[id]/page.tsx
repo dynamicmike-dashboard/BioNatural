@@ -16,7 +16,7 @@ export default async function ProductPage({
   const { data: product, error } = await supabase
     .from("master_inventory")
     .select("*")
-    .eq("Odoo_ID", id)
+    .eq("odoo_id", id)
     .single();
 
   if (!product || error) {

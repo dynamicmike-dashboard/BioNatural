@@ -10,14 +10,24 @@ export default async function RestaurantePage({
   const { lang = "en" } = await searchParams;
   const supabase = await createClient();
 
-  const { data: menuItems, error } = await supabase
+  const { data: items } = await supabase
     .from("master_inventory")
     .select("*")
     .eq("is_restaurant_item", true);
 
   const categories = lang === "en" 
-    ? ['Breakfast', 'Vegan Tacos', 'Juice Bar', 'Bowls']
-    : ['Desayunos', 'Tacos Veganos', 'Juice Bar', 'Bowls'];
+    ? [
+        { id: 'Desayunos', label: 'Breakfast' },
+        { id: 'Tacos Veganos', label: 'Vegan Tacos' },
+        { id: 'Juice Bar', label: 'Juice Bar' },
+        { id: 'Bowls', label: 'Bowls' }
+      ]
+    : [
+        { id: 'Desayunos', label: 'Desayunos' },
+        { id: 'Tacos Veganos', label: 'Tacos Veganos' },
+        { id: 'Juice Bar', label: 'Juice Bar' },
+        { id: 'Bowls', label: 'Bowls' }
+      ];
 
   return (
     <div className="max-w-7xl mx-auto px-6 pt-32 pb-24 space-y-24">
@@ -37,18 +47,18 @@ export default async function RestaurantePage({
 
       {/* Menu Sections */}
       <div className="space-y-32">
-        {categories.map((category, idx) => {
-          const items = menuItems?.filter(i => i.category === category) || [];
+        {categories.map((cat) => {
+          const categoryItems = items?.filter(item => item.category === cat.id) || [];
           
           return (
-            <section key={category} className={`space-y-12 animate-fade-in`} style={{ animationDelay: `${idx * 150}ms` }}>
-              <div className="flex items-center gap-8">
-                <h2 className="text-4xl md:text-5xl font-display font-black text-foreground tracking-tighter">{category}</h2>
-                <div className="flex-1 h-px bg-foreground/5" />
+            <section key={cat.id} className="space-y-12">
+              <div className="flex items-center gap-6">
+                <h2 className="text-4xl font-display font-black tracking-tighter text-stone-900">{cat.label}</h2>
+                <div className="h-px flex-1 bg-stone-100" />
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
-                {(items.length > 0 ? items : [1, 2, 3]).map((item: any, i) => {
+                {(categoryItems.length > 0 ? categoryItems : []).map((item: any, i) => {
                   const dishName = item[`name_${lang}`] || item.name || "Signature Dish";
                   const waMessage = encodeURIComponent(lang === "en" 
                     ? `Hi! I'd like to order the ${dishName} from the Restaurant menu.` 

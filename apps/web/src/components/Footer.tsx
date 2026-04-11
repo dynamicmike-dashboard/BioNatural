@@ -47,8 +47,8 @@ export default function Footer({ lang = "en" }: { lang?: string }) {
       <div className="max-w-7xl mx-auto mt-24 pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 text-[10px] font-bold uppercase tracking-[0.2em]">
         <p>© 2026 BioNatural - The Bio & Natural Way</p>
         <div className="flex gap-8">
-          <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-          <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+          <Link href={`/privacy?lang=${lang}`} className="hover:text-white transition-colors">{lang === "en" ? "Privacy Policy" : "Política de Privacidad"}</Link>
+          <Link href={`/terms?lang=${lang}`} className="hover:text-white transition-colors">{lang === "en" ? "Terms of Service" : "Términos de Servicio"}</Link>
         </div>
       </div>
     </footer>
