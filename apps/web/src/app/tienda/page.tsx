@@ -118,6 +118,6 @@ export default async function TiendaPage({
         </div>
       )}
       <Footer lang={lang} />
-    </div>
+    </main>
   );
 }

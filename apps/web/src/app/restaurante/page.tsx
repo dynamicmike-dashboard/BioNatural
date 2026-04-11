@@ -122,7 +122,7 @@ export default async function RestaurantePage({
             {lang === "en" ? "Planning a visit to the restaurant?" : "¿Planeas una visita al restaurante?"}
           </h3>
           <p className="text-xl text-background/60 font-medium max-w-sm relative z-10">
-            Secure your table instantly via our AI-powered concierge for PDC or Tulum.
+            {lang === "en" ? "Secure your table instantly via our concierge for our Playa del Carmen locations." : "Reserva tu mesa al instante vía conserje para nuestras ubicaciones en Playa del Carmen."}
           </p>
           <button className="px-16 py-6 bg-primary text-white rounded-[2.5rem] font-bold text-xl hover:scale-105 transition-all shadow-2xl shadow-primary/40 active:translate-y-1 relative z-10">
             {lang === "en" ? "Book via WhatsApp" : "Reservar vía WhatsApp"}
