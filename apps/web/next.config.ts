@@ -8,7 +8,6 @@ const withPWA = require("next-pwa")({
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@bionatural/ui"],
-  output: 'standalone',
   typescript: {
     ignoreBuildErrors: true,
   },

@@ -6,18 +6,8 @@
       "permanent": true
     },
     {
-      "source": "/franquicia",
-      "destination": "/franquicia",
-      "permanent": true
-    },
-    {
       "source": "/menu",
       "destination": "/restaurante",
-      "permanent": true
-    },
-    {
-      "source": "/contacto",
-      "destination": "/contacto",
       "permanent": true
     },
     {
@@ -28,11 +18,6 @@
     {
       "source": "/sitemap.xml",
       "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/blog",
-      "destination": "/blog",
       "permanent": true
     },
     {
