@@ -11,7 +11,7 @@ export default async function TiendaPage({
   const { lang = "en", category } = await searchParams;
   const supabase = await createClient();
 
-  let query = supabase.from("master_inventory").select("*");
+  let query = supabase.from("master_inventory").select("*").eq("is_restaurant_item", false);
   if (category) query = query.eq("category", category);
 
   const { data: products, error } = await query;

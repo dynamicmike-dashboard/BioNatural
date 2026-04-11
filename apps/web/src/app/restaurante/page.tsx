@@ -66,11 +66,9 @@ export default async function RestaurantePage({
                   const waLink = `https://wa.me/529841473181?text=${waMessage}`;
 
                   return (
-                    <a 
+                    <Link 
                       key={item.odoo_id || i} 
-                      href={waLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href={`/tienda/producto/${item.odoo_id}?lang=${lang}`}
                       className="group flex flex-col gap-6 relative transition-all"
                     >
                         <div className="aspect-[4/3] rounded-[2.5rem] bg-muted/30 overflow-hidden relative border border-transparent group-hover:border-foreground/5 group-hover:shadow-2xl transition-all duration-500">
@@ -102,7 +100,7 @@ export default async function RestaurantePage({
                               <span className="text-[10px] font-black uppercase tracking-widest text-foreground/20">{lang === "en" ? "Chef's Selection" : "Selección del Chef"}</span>
                           </div>
                         </div>
-                    </a>
+                    </Link>
                   );
                 })}
               </div>
@@ -124,9 +122,14 @@ export default async function RestaurantePage({
           <p className="text-xl text-background/60 font-medium max-w-sm relative z-10">
             {lang === "en" ? "Secure your table instantly via our concierge for our Playa del Carmen locations." : "Reserva tu mesa al instante vía conserje para nuestras ubicaciones en Playa del Carmen."}
           </p>
-          <button className="px-16 py-6 bg-primary text-white rounded-[2.5rem] font-bold text-xl hover:scale-105 transition-all shadow-2xl shadow-primary/40 active:translate-y-1 relative z-10">
+          <a 
+            href="https://wa.me/529841473181?text=Hola!%20Quisiera%20reservar%20una%20mesa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-16 py-6 bg-primary text-white rounded-[2.5rem] font-bold text-xl hover:scale-105 transition-all shadow-2xl shadow-primary/40 active:translate-y-1 relative z-10"
+          >
             {lang === "en" ? "Book via WhatsApp" : "Reservar vía WhatsApp"}
-          </button>
+          </a>
         </div>
       </section>
       <Footer lang={lang} />
