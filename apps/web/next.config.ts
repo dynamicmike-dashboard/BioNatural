@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 const withPWA = require("next-pwa")({
   dest: "public",
-  disable: process.env.NODE_ENV === "development",
+  disable: true, // Emergency bypass for next-pwa in Next.js 15
   register: true,
   skipWaiting: true,
 });
@@ -21,6 +21,11 @@ const nextConfig: NextConfig = {
     workerThreads: false,
     cpus: 1,
   },
+  images: {
+    // Sharp worker crashes are common on Vercel with large product catalogs
+    unoptimized: true, 
+  },
+  turbopack: {}, // Explicitly requested by error message
   webpack: (config) => {
     // Explicitly using webpack as suggested by the error message
     return config;
