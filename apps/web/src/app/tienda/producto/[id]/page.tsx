@@ -25,9 +25,10 @@ export default async function ProductPage({
     notFound();
   }
 
-  const name = product[`name_${lang.toLowerCase()}`] || product.name_en;
-  const description = product[`description_${lang.toLowerCase()}`] || product.description_en;
+  const name = product[`name_${lang.toLowerCase()}`] || product[`name_es`] || product.name_en;
+  const description = product[`description_${lang.toLowerCase()}`] || product[`description_es`] || product.description_en;
   const seoTag = product.seo_stealth_tag;
+  const isRestaurant = product.is_restaurant_item;
 
   // Semantic Recommendations Logic
   const clusters: Record<string, string[]> = {
@@ -90,11 +91,39 @@ export default async function ProductPage({
           </header>
 
           <div className="prose prose-lg text-gray-600 font-medium leading-relaxed max-w-none border-t border-gray-100 pt-8">
-            <p className="whitespace-pre-line">{description}</p>
+            <p className="whitespace-pre-line">
+              {description?.replace(/\$\d+(\.\d+)?/g, '') // Remove price strings
+                          ?.replace(/x\s*###.*###/g, '') // Remove Odoo headers
+                          ?.trim()}
+            </p>
           </div>
 
           {/* Action Buttons */}
-          <ProductActions product={product} lang={lang} />
+          <div className="space-y-6">
+            {!isRestaurant ? (
+              <ProductActions product={product} lang={lang} />
+            ) : (
+              <div className="flex flex-col gap-4">
+                <a 
+                  href={`https://wa.me/529841473181?text=Hola! Quiero ordenar el ${name} para pickup.`}
+                  target="_blank"
+                  className="w-full text-center px-10 py-6 bg-primary text-white rounded-[28px] font-black text-xl hover:scale-105 transition-all shadow-2xl shadow-primary/30"
+                >
+                  {lang === "en" ? "Order for Pickup" : "Ordenar para Recoger"}
+                </a>
+                <a 
+                  href="https://www.rappi.com.mx/restaurantes/900109988-bionatural" 
+                  target="_blank"
+                  className="w-full text-center px-10 py-6 bg-white text-primary border-4 border-primary/10 rounded-[28px] font-black text-xl hover:bg-primary/5 transition-all"
+                >
+                  {lang === "en" ? "Order on Rappi" : "Pedir por Rappi"}
+                </a>
+                <p className="text-center text-xs font-bold text-gray-300 uppercase tracking-widest pt-2">
+                  {lang === "en" ? "Self-service for delivery only" : "Solo para entrega a domicilio"}
+                </p>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 

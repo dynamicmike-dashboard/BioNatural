@@ -38,17 +38,18 @@ export default async function TiendaPage({
         {[
           { id: '', en: 'All', es: 'Todos' },
           { id: 'Suplementos', en: 'Supplements', es: 'Suplementos' },
-          { id: 'Superfoods', en: 'Superfoods', es: 'Superalimentos' },
-          { id: 'CBD', en: 'CBD', es: 'CBD' },
-          { id: 'Bakery', en: 'Bakery', es: 'Panadería' }
+          { id: 'Superfoods', en: 'Superfoods', es: 'Superfoods' },
+          { id: 'Pantry', en: 'Pantry', es: 'Despensa' },
+          { id: 'Minerales', en: 'Minerals', es: 'Minerales' },
+          { id: 'Vitaminas', en: 'Vitamins', es: 'Vitaminas' }
         ].map((cat) => (
           <Link 
             key={cat.id} 
             href={`/tienda?lang=${lang}${cat.id ? `&category=${cat.id}` : ''}`}
             className={`px-8 py-3 rounded-full border text-sm font-black uppercase tracking-widest transition-all active:scale-95 whitespace-nowrap ${
               (category === cat.id || (!category && !cat.id))
-                ? 'bg-foreground text-background border-foreground' 
-                : 'border-foreground/10 text-foreground/40 hover:border-primary hover:text-primary'
+                ? 'bg-foreground text-background border-foreground text-[10px]' 
+                : 'border-foreground/10 text-foreground/40 hover:border-primary hover:text-primary text-[10px]'
             }`}
           >
             {lang === 'en' ? cat.en : cat.es}

@@ -23,15 +23,25 @@ const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [cart, setCart] = useState<CartItem[]>([]);
+  const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
     const savedCart = localStorage.getItem('bionatural_cart');
-    if (savedCart) setCart(JSON.parse(savedCart));
+    if (savedCart) {
+      try {
+        setCart(JSON.parse(savedCart));
+      } catch (e) {
+        console.error("Failed to parse cart", e);
+      }
+    }
+    setIsHydrated(true);
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('bionatural_cart', JSON.stringify(cart));
-  }, [cart]);
+    if (isHydrated) {
+      localStorage.setItem('bionatural_cart', JSON.stringify(cart));
+    }
+  }, [cart, isHydrated]);
 
   const addToCart = (item: CartItem) => {
     setCart(prev => {
