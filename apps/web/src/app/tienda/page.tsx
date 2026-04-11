@@ -1,4 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
+import Link from "next/link";
+import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export default async function TiendaPage({
@@ -32,7 +34,7 @@ export default async function TiendaPage({
 
       {/* Categories Filter - Visual Mockup */}
       <div className="flex flex-wrap gap-4 border-b border-foreground/5 pb-8">
-        {['All', 'Supplements', 'Superfoods', 'Bakery', 'CBD'].map((cat) => (
+        {(lang === 'en' ? ['All', 'Supplements', 'Superfoods', 'Bakery', 'CBD'] : ['Todos', 'Suplementos', 'Superalimentos', 'Panadería', 'CBD']).map((cat) => (
           <button key={cat} className="px-6 py-2 rounded-full border border-foreground/10 text-sm font-bold hover:border-primary hover:text-primary transition-all active:scale-95">
             {cat}
           </button>
@@ -42,8 +44,9 @@ export default async function TiendaPage({
       {/* Product Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {products?.map((product: any) => (
-          <div 
+          <Link 
             key={product.Odoo_ID} 
+            href={`/tienda/producto/${product.Odoo_ID}?lang=${lang}`}
             className="group relative bg-muted/30 rounded-[2.5rem] p-4 transition-all hover:bg-white hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.1)] hover:-translate-y-2 border border-transparent hover:border-foreground/5"
           >
             <div className="aspect-[4/5] relative rounded-[2rem] overflow-hidden bg-white mb-6">
@@ -57,7 +60,7 @@ export default async function TiendaPage({
               ) : (
                 <div className="w-full h-full flex flex-col items-center justify-center text-foreground/20 font-display font-black text-2xl p-12 text-center">
                   <span className="opacity-10 mb-4 block">BioNatural</span>
-                  IMAGE PENDING
+                  {lang === "en" ? "IMAGE PENDING" : "IMAGEN PENDIENTE"}
                 </div>
               )}
               
@@ -73,21 +76,21 @@ export default async function TiendaPage({
                    {product[`name_${lang}`] || product.name}
                  </h3>
                  <p className="text-sm text-foreground/40 line-clamp-2 font-medium leading-relaxed">
-                   {product[`description_${lang}`] || product.description || "Holistic wellness support crafted for local residents."}
+                   {product[`description_${lang}`] || product.description || (lang === "en" ? "Holistic wellness support crafted for local residents." : "Apoyo de bienestar holístico creado para residentes locales.") }
                  </p>
               </div>
 
               <div className="flex items-end justify-between pt-2">
                 <div className="flex flex-col">
-                   <span className="text-xs font-bold text-foreground/30 uppercase tracking-widest">Price</span>
+                   <span className="text-xs font-bold text-foreground/30 uppercase tracking-widest">{lang === "en" ? "Price" : "Precio"}</span>
                    <span className="text-2xl font-display font-black text-primary">${product.price}</span>
                 </div>
-                <button className="bg-foreground text-background w-12 h-12 rounded-2xl flex items-center justify-center transition-all hover:bg-primary hover:scale-110 active:scale-90 shadow-xl shadow-black/10">
+                <div className="bg-foreground text-background w-12 h-12 rounded-2xl flex items-center justify-center transition-all group-hover:bg-primary group-hover:scale-110 active:scale-90 shadow-xl shadow-black/10">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
-                </button>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 
@@ -114,6 +117,7 @@ export default async function TiendaPage({
            </div>
         </div>
       )}
+      <Footer lang={lang} />
     </div>
   );
 }

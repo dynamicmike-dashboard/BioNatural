@@ -12,9 +12,7 @@ export default function Navigation() {
     { name_en: "Shop", name_es: "Tienda", href: "/tienda" },
     { name_en: "Restaurant", name_es: "Restaurante", href: "/restaurante" },
     { name_en: "Blog", name_es: "Blog", href: "/blog" },
-    { name_en: "Providers", name_es: "Proveedores", href: "/proveedores" },
     { name_en: "Breakfast", name_es: "Desayuno", href: "/breakfast-surprise" },
-    { name_en: "Franchise", name_es: "Franquicia", href: "/franquicia" },
   ];
 
   const switchLang = (newLang: string) => {

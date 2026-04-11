@@ -1,4 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
+import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default async function RestaurantePage({
   searchParams,
@@ -13,7 +15,9 @@ export default async function RestaurantePage({
     .select("*")
     .eq("is_restaurant_item", true);
 
-  const categories = ['Desayunos', 'Tacos Veganos', 'Juice Bar', 'Bowls'];
+  const categories = lang === "en" 
+    ? ['Breakfast', 'Vegan Tacos', 'Juice Bar', 'Bowls']
+    : ['Desayunos', 'Tacos Veganos', 'Juice Bar', 'Bowls'];
 
   return (
     <div className="max-w-7xl mx-auto px-6 pt-32 pb-24 space-y-24">
@@ -44,33 +48,53 @@ export default async function RestaurantePage({
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
-                {(items.length > 0 ? items : [1, 2, 3]).map((item: any, i) => (
-                   <div key={item.Odoo_ID || i} className="group flex flex-col gap-6 relative">
-                      <div className="aspect-[4/3] rounded-[2.5rem] bg-muted/30 overflow-hidden relative border border-transparent group-hover:border-foreground/5 group-hover:shadow-2xl transition-all duration-500">
-                         {item.image_url ? (
-                            <img src={item.image_url} alt={item.name} className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110" />
-                         ) : (
-                            <div className="w-full h-full flex items-center justify-center text-foreground/10 font-display font-black text-xl">
-                               PENDING
-                            </div>
-                         )}
-                         <div className="absolute top-4 right-4 glass-morphism px-4 py-2 rounded-2xl">
-                            <span className="text-xs font-black text-primary">${item.price || "---"}</span>
-                         </div>
-                      </div>
-                      <div className="space-y-3 px-2">
-                         <h3 className="font-display font-black text-2xl text-foreground group-hover:text-primary transition-colors">
-                            {item[`name_${lang}`] || item.name || "Signature Dish Name"}
-                         </h3>
-                         <p className="text-foreground/50 font-medium leading-relaxed line-clamp-2">
-                            {item[`description_${lang}`] || item.description || "Freshly sourced local ingredients prepared with artisanal care."}
-                         </p>
-                         <div className="pt-2">
-                            <span className="text-[10px] font-black uppercase tracking-widest text-foreground/20">Chef's Selection</span>
-                         </div>
-                      </div>
-                   </div>
-                ))}
+                {(items.length > 0 ? items : [1, 2, 3]).map((item: any, i) => {
+                  const dishName = item[`name_${lang}`] || item.name || "Signature Dish";
+                  const waMessage = encodeURIComponent(lang === "en" 
+                    ? `Hi! I'd like to order the ${dishName} from the Restaurant menu.` 
+                    : `¡Hola! Me gustaría ordenar el ${dishName} del menú del Restaurante.`);
+                  const waLink = `https://wa.me/529841473181?text=${waMessage}`;
+
+                  return (
+                    <a 
+                      key={item.odoo_id || i} 
+                      href={waLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group flex flex-col gap-6 relative transition-all"
+                    >
+                        <div className="aspect-[4/3] rounded-[2.5rem] bg-muted/30 overflow-hidden relative border border-transparent group-hover:border-foreground/5 group-hover:shadow-2xl transition-all duration-500">
+                          {item.image_url ? (
+                              <img src={item.image_url} alt={dishName} className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-110" />
+                          ) : (
+                              <div className="w-full h-full flex items-center justify-center text-foreground/10 font-display font-black text-xl">
+                                {lang === "en" ? "PENDING" : "PENDIENTE"}
+                              </div>
+                          )}
+                          <div className="absolute top-4 right-4 glass-morphism px-4 py-2 rounded-2xl">
+                              <span className="text-xs font-black text-primary">${item.price || "---"}</span>
+                          </div>
+                          {/* Animated Plus overlay */}
+                          <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
+                             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-xl transform scale-0 group-hover:scale-100 transition-transform duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-primary"><path d="M5 12h14"/><path d="M12 5v14"/></svg>
+                             </div>
+                          </div>
+                        </div>
+                        <div className="space-y-3 px-2">
+                          <h4 className="font-display font-black text-2xl text-foreground group-hover:text-primary transition-colors">
+                              {dishName}
+                          </h4>
+                          <p className="text-foreground/50 font-medium leading-relaxed line-clamp-2">
+                              {item[`description_${lang}`] || item.description || (lang === "en" ? "Freshly sourced local ingredients prepared with artisanal care." : "Ingredientes locales frescos preparados con cuidado artesanal.")}
+                          </p>
+                          <div className="pt-2">
+                              <span className="text-[10px] font-black uppercase tracking-widest text-foreground/20">{lang === "en" ? "Chef's Selection" : "Selección del Chef"}</span>
+                          </div>
+                        </div>
+                    </a>
+                  );
+                })}
               </div>
             </section>
           );
@@ -95,6 +119,7 @@ export default async function RestaurantePage({
           </button>
         </div>
       </section>
+      <Footer lang={lang} />
     </div>
   );
 }
