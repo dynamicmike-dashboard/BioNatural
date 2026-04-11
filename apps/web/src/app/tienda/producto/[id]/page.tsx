@@ -14,7 +14,7 @@ export default async function ProductPage({
   const supabase = await createClient();
 
   const { data: product, error } = await supabase
-    .from("Master_Inventory")
+    .from("master_inventory")
     .select("*")
     .eq("Odoo_ID", id)
     .single();
@@ -38,7 +38,7 @@ export default async function ProductPage({
   const relatedIds = currentCluster.filter(id => id !== product.Odoo_ID).slice(0, 3);
 
   const { data: relatedProducts } = await supabase
-    .from("Master_Inventory")
+    .from("master_inventory")
     .select("*")
     .in("Odoo_ID", relatedIds);
 

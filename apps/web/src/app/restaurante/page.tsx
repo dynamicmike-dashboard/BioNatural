@@ -9,7 +9,7 @@ export default async function RestaurantePage({
   const supabase = await createClient();
 
   const { data: menuItems, error } = await supabase
-    .from("Master_Inventory")
+    .from("master_inventory")
     .select("*")
     .eq("is_restaurant_item", true);
 

@@ -9,7 +9,7 @@ export default async function TiendaPage({
   const { lang = "en", category } = await searchParams;
   const supabase = await createClient();
 
-  let query = supabase.from("Master_Inventory").select("*");
+  let query = supabase.from("master_inventory").select("*");
   if (category) query = query.eq("category", category);
 
   const { data: products, error } = await query;
