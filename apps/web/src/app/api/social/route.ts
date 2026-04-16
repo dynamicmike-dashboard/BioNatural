@@ -24,12 +24,17 @@ export async function GET() {
   }
 }
 
-// Optional POST for updating status (Approve/Reject)
+// POST for updating record data (Status, Captions)
 export async function POST(request: Request) {
   try {
-    const { recordId, status } = await request.json();
+    const { recordId, status, caption_en, caption_es } = await request.json();
     
-    // We update the record status to "Approved"
+    // Construct the update payload based on what's provided
+    const fields: any = {};
+    if (status) fields["Status"] = status;
+    if (caption_en !== undefined) fields["Caption_EN"] = caption_en;
+    if (caption_es !== undefined) fields["Caption_ES"] = caption_es;
+
     const res = await fetch(`https://app.teable.ai/api/table/${CALENDAR_TABLE_ID}/record/${recordId}`, {
       method: 'PATCH',
       headers: {
@@ -38,15 +43,14 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         record: {
-          fields: {
-            "Status": status
-          }
+          fields
         }
       })
     });
 
     if (!res.ok) {
-      return NextResponse.json({ error: 'Update Failed' }, { status: res.status });
+      const errorText = await res.text();
+      return NextResponse.json({ error: 'Update Failed', details: errorText }, { status: res.status });
     }
 
     return NextResponse.json({ success: true });

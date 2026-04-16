@@ -6,6 +6,8 @@ export default function SocialDashboardPage() {
   const [contentList, setContentList] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState<string | null>(null);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editValues, setEditValues] = useState({ en: '', es: '' });
 
   useEffect(() => {
     fetchContent();
@@ -50,9 +52,35 @@ export default function SocialDashboardPage() {
     }
   };
 
+  const startEditing = (item: any) => {
+    setEditingId(item.id);
+    setEditValues({ en: item.caption_en, es: item.caption_es });
+  };
+
+  const saveEdit = async (id: string) => {
+    setActionLoading(id);
+    try {
+      const res = await fetch('/api/social', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          recordId: id, 
+          caption_en: editValues.en, 
+          caption_es: editValues.es 
+        }),
+      });
+      if (res.ok) {
+        setContentList(prev => prev.map(item => item.id === id ? { ...item, caption_en: editValues.en, caption_es: editValues.es } : item));
+        setEditingId(null);
+      }
+    } finally {
+      setActionLoading(null);
+    }
+  };
+
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-stone-50">
+      <div className="min-h-screen flex items-center justify-center bg-stone-50 pt-32">
         <div className="text-center animate-pulse">
           <div className="text-3xl mb-4">✨</div>
           <h2 className="text-lg font-serif text-stone-600">Syncing with Teable Core...</h2>
@@ -62,11 +90,14 @@ export default function SocialDashboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-50 p-6 md:p-12">
+    <div className="min-h-screen bg-stone-50 p-6 md:p-12 pt-32">
       <div className="max-w-6xl mx-auto">
         <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between border-b border-stone-200 pb-6">
           <div>
-            <h1 className="text-4xl font-bold text-green-900 font-serif mb-2">Social Hub</h1>
+            <div className="flex items-center gap-3 mb-2">
+               <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-tighter">Alpha Dashboard</span>
+               <h1 className="text-4xl font-bold text-green-900 font-serif">Social Hub</h1>
+            </div>
             <p className="text-stone-500">Review, approve, and chat with AI about your upcoming content.</p>
           </div>
           <div className="mt-4 md:mt-0 flex gap-4">
@@ -74,7 +105,7 @@ export default function SocialDashboardPage() {
                 Ask AI Assistant 🤖
              </button>
              <button className="bg-green-700 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow-md hover:bg-green-800 transition-all">
-                Publish Approved
+                Submit Approved Batch
              </button>
           </div>
         </header>
@@ -98,14 +129,37 @@ export default function SocialDashboardPage() {
                 </div>
                 
                 <div className="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-stone-50 p-4 rounded-xl border border-stone-100">
-                     <p className="text-xs text-stone-400 uppercase font-bold mb-2">English</p>
-                     <p className="text-sm text-stone-700 whitespace-pre-wrap">{item.caption_en}</p>
-                  </div>
-                  <div className="bg-stone-50 p-4 rounded-xl border border-stone-100">
-                     <p className="text-xs text-stone-400 uppercase font-bold mb-2">Español</p>
-                     <p className="text-sm text-stone-700 whitespace-pre-wrap">{item.caption_es}</p>
-                  </div>
+                  {editingId === item.id ? (
+                    <>
+                      <div className="space-y-2">
+                        <label className="text-[10px] font-black uppercase text-stone-400">English Caption</label>
+                        <textarea 
+                          value={editValues.en}
+                          onChange={(e) => setEditValues({ ...editValues, en: e.target.value })}
+                          className="w-full h-32 p-4 bg-stone-50 border border-stone-200 rounded-xl text-sm focus:ring-2 focus:ring-green-500 outline-none"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <label className="text-[10px] font-black uppercase text-stone-400">Spanish Caption</label>
+                        <textarea 
+                          value={editValues.es}
+                          onChange={(e) => setEditValues({ ...editValues, es: e.target.value })}
+                          className="w-full h-32 p-4 bg-stone-50 border border-stone-200 rounded-xl text-sm focus:ring-2 focus:ring-green-500 outline-none"
+                        />
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="bg-stone-50 p-4 rounded-xl border border-stone-100">
+                         <p className="text-xs text-stone-400 uppercase font-bold mb-2">English</p>
+                         <p className="text-sm text-stone-700 whitespace-pre-wrap">{item.caption_en}</p>
+                      </div>
+                      <div className="bg-stone-50 p-4 rounded-xl border border-stone-100">
+                         <p className="text-xs text-stone-400 uppercase font-bold mb-2">Español</p>
+                         <p className="text-sm text-stone-700 whitespace-pre-wrap">{item.caption_es}</p>
+                      </div>
+                    </>
+                  )}
                 </div>
                 
                 <div className="bg-indigo-50/50 p-4 rounded-2xl mb-6 border border-indigo-100">
@@ -113,32 +167,47 @@ export default function SocialDashboardPage() {
                   <p className="text-sm text-indigo-700/80 italic">" {item.prompt} "</p>
                 </div>
                 
-                {item.status !== 'Approved' && (
-                  <div className="flex gap-3 mt-4">
+                <div className="flex gap-3 mt-4">
+                  {editingId === item.id ? (
                     <button 
-                      onClick={() => handleApprove(item.id)}
+                      onClick={() => saveEdit(item.id)}
                       disabled={actionLoading === item.id}
-                      className="flex-1 bg-green-50 text-green-700 font-semibold py-3 rounded-xl hover:bg-green-100 transition-colors disabled:opacity-50"
+                      className="flex-1 bg-green-700 text-white font-bold py-3 rounded-xl hover:bg-green-800 transition-colors"
                     >
-                      {actionLoading === item.id ? 'Approving...' : 'Approve Media'}
+                      {actionLoading === item.id ? 'Saving...' : 'Save Changes'}
                     </button>
-                    <button className="flex-1 bg-stone-100 text-stone-600 font-semibold py-3 rounded-xl hover:bg-stone-200 transition-colors">
-                      Edit Copy
-                    </button>
-                  </div>
-                )}
+                  ) : (
+                    <>
+                      {item.status !== 'Approved' && (
+                        <button 
+                          onClick={() => handleApprove(item.id)}
+                          disabled={actionLoading === item.id}
+                          className="flex-1 bg-green-50 text-green-700 font-semibold py-3 rounded-xl hover:bg-green-100 transition-colors disabled:opacity-50"
+                        >
+                          {actionLoading === item.id ? 'Approving...' : 'Approve for Generation'}
+                        </button>
+                      )}
+                      <button 
+                        onClick={() => startEditing(item)}
+                        className="flex-1 bg-stone-100 text-stone-600 font-semibold py-3 rounded-xl hover:bg-stone-200 transition-colors"
+                      >
+                        Edit Copy
+                      </button>
+                    </>
+                  )}
+                </div>
               </div>
             ))}
           </div>
 
-          <div className="bg-white p-6 rounded-3xl shadow-sm border border-stone-100 h-fit sticky top-6">
+          <div className="bg-white p-6 rounded-3xl shadow-sm border border-stone-100 h-fit sticky top-32">
              <h2 className="font-serif text-xl text-stone-800 mb-4">Gemini Assistant Database</h2>
              <p className="text-sm text-stone-500 mb-6">Chat natively with your AI. The assistant has full access to reading the Teable inventory, social schedules, and sales tags to help you analyze performance.</p>
              
              <div className="bg-stone-50 rounded-2xl p-4 h-[400px] flex flex-col justify-end border border-stone-100">
                 <div className="mb-auto mt-4 mx-2">
                    <div className="bg-green-100 text-green-900 text-sm p-3 rounded-r-xl rounded-bl-xl w-3/4 mb-2 shadow-sm">
-                      Hola Meybell! I'm synchronized with your 30-day calendar. Everything looks ready for your review. Would you like me to analyze which products are missing SEO?
+                      Hola Meybell! I'm synchronized with your 30-day calendar. Everything looks ready for your review. Once you "Approve" a post, it will enter the queue for high-resolution image generation.
                    </div>
                 </div>
                 <input 
@@ -146,6 +215,13 @@ export default function SocialDashboardPage() {
                   placeholder="Ask Gemini to run a report..." 
                   className="w-full px-4 py-3 bg-white border border-stone-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
                 />
+             </div>
+             
+             <div className="mt-8 p-4 bg-amber-50 rounded-2xl border border-amber-100">
+                <p className="text-[10px] font-black uppercase text-amber-700 mb-2">Workflow Note</p>
+                <p className="text-[11px] text-amber-800/80 leading-relaxed">
+                  Approving a post locks the copy and triggers the <b>AI Graphic Synthesis</b>. Final images will appear in your "Approved" feed within 15 minutes of batch submission.
+                </p>
              </div>
           </div>
         </div>
