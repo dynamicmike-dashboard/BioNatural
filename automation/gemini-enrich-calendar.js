@@ -1,8 +1,8 @@
 const https = require('https');
 
-const TEABLE_API_TOKEN = 'teable_acchP4Hm8Z4MJCQkmrR_YlbPxji2yRC+bOIV8Wr5Rn+l+oevsoy26OxI6HKd43U=';
+const TEABLE_API_TOKEN = process.env.TEABLE_API_TOKEN;
 const CALENDAR_TABLE_ID = 'tblUz4P5EgMygtQlBL8';
-const GEMINI_API_KEY = 'AIzaSyDfVdAMiHvHM6G19ruKvZqkCe9aVJAiUqw';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 async function fetchCalendarRecords() {
   return new Promise((resolve, reject) => {

@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const TEABLE_API_TOKEN = process.env.TEABLE_API_TOKEN || 'teable_acchP4Hm8Z4MJCQkmrR_YlbPxji2yRC+bOIV8Wr5Rn+l+oevsoy26OxI6HKd43U=';
+const TEABLE_API_TOKEN = process.env.TEABLE_API_TOKEN;
 const CALENDAR_TABLE_ID = 'tblUz4P5EgMygtQlBL8';
 
 export async function GET() {

@@ -1,6 +1,6 @@
 const https = require('https');
 
-const TEABLE_API_TOKEN = 'teable_acchP4Hm8Z4MJCQkmrR_YlbPxji2yRC+bOIV8Wr5Rn+l+oevsoy26OxI6HKd43U=';
+const TEABLE_API_TOKEN = process.env.TEABLE_API_TOKEN;
 const BASE_ID = 'bse7mZjwbFQlNeB5UXU';
 const INVENTORY_TABLE_ID = 'tblCLPch6m0IC3D3y43';
 const CALENDAR_TABLE_ID = 'tblUz4P5EgMygtQlBL8';
