@@ -161,6 +161,30 @@ export default function SocialDashboardPage() {
                     </>
                   )}
                 </div>
+
+                {/* AI Visual Asset Display */}
+                <div className="mb-6">
+                   <div className="aspect-square md:aspect-video w-full bg-stone-100 rounded-2xl overflow-hidden border border-stone-200 relative group">
+                      <img 
+                        src={`/assets/social/april/${item.date}-${(item.product_focus || '').toLowerCase().replace(/\s+/g, '-')}.png`} 
+                        alt={item.product_focus}
+                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        onError={(e: any) => {
+                          e.target.style.display = 'none';
+                          e.target.nextSibling.style.display = 'flex';
+                        }}
+                      />
+                      <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-stone-50/50">
+                        <div className="text-2xl mb-2">🎨</div>
+                        <p className="text-[10px] font-bold uppercase tracking-widest">Asset Sync Pending</p>
+                      </div>
+                      {item.status === 'Approved' && (
+                        <div className="absolute top-4 right-4 bg-green-500 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg">
+                           READY FOR SYNC
+                        </div>
+                      )}
+                   </div>
+                </div>
                 
                 <div className="bg-indigo-50/50 p-4 rounded-2xl mb-6 border border-indigo-100">
                   <p className="text-xs text-indigo-400 font-bold uppercase tracking-wider mb-2">📸 AI Media Generation Prompt:</p>
