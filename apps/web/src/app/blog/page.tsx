@@ -49,7 +49,12 @@ export default async function BlogListingPage({
               <article className="space-y-4">
                 <div className="aspect-[16/10] rounded-3xl overflow-hidden shadow-lg border border-stone-100">
                   <img 
-                    src={post.image_url || "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800"} 
+                    src={(() => {
+                      const title = (post[`title_${lang}`] || post.title_en || '').toLowerCase();
+                      if (title.includes('detox') || title.includes('clorofila')) return "/assets/blog/detox.webp";
+                      if (title.includes('vitamins') || title.includes('suplementos')) return "/assets/blog/vitamins.webp";
+                      return post.image_url || "/assets/blog/vitamins.webp";
+                    })()} 
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                     alt={post[`title_${lang}`] || post.title_en}
                   />

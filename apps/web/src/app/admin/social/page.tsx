@@ -16,14 +16,22 @@ const ImageWithPlaceholder = ({ item, type }: { item: any, type: string }) => {
     `${item.date}-${(item.product_focus || '').toLowerCase().replace(/[^a-z0-9]/g, '')}`
   );
 
+  const fallbackPath = `/assets/products/${(item.product_focus || '').toLowerCase().replace(/[^a-z0-9]/g, '')}.webp`;
+
   return (
     <div className="aspect-square md:aspect-video w-full bg-silk rounded-[2rem] overflow-hidden border border-stone-200 relative group shadow-inner">
       {!error ? (
         <img 
-          src={`/assets/social/april/${imagePath}.webp?v=${item.status}-${type}`} 
+          src={!error ? `/assets/social/april/${imagePath}.webp?v=${item.status}` : fallbackPath} 
           alt={item.product_focus}
           className={`w-full h-full object-cover transition-all duration-1000 group-hover:scale-105 ${type === 'reel' ? 'brightness-50 blur-[1px]' : ''}`}
-          onError={() => setError(true)}
+          onError={(e: any) => {
+             if (e.target.src.includes('social/april')) {
+                e.target.src = fallbackPath;
+             } else {
+                setError(true);
+             }
+          }}
         />
       ) : (
         <div className="absolute inset-0 flex items-center justify-center flex-col text-stone-400 bg-silk/80 backdrop-blur-md px-12 text-center animate-in fade-in">

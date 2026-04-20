@@ -66,19 +66,24 @@ export default async function TiendaPage({
             className="group relative bg-muted/30 rounded-[2.5rem] p-4 transition-all hover:bg-white hover:shadow-[0_32px_64px_-16px_rgba(0,0,0,0.15)] hover:-translate-y-2 border border-transparent hover:border-foreground/5"
           >
             <div className="aspect-[4/5] relative rounded-[2rem] overflow-hidden bg-white mb-6">
-              {product.image_url ? (
-                 <Image 
-                    src={product.image_url} 
-                    alt={product[`name_${lang}`] || product.name} 
-                    fill 
-                    className="object-cover transition-transform duration-700 group-hover:scale-110" 
-                 />
-              ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center text-foreground/20 font-display font-black text-2xl p-12 text-center">
-                  <span className="opacity-10 mb-4 block">BioNatural</span>
-                  {lang === "en" ? "IMAGE PENDING" : "IMAGEN PENDIENTE"}
-                </div>
-              )}
+              {(() => {
+                const normalized = (product[`name_${lang}`] || product.name || '').toLowerCase();
+                if (normalized.includes('chlorophyll')) return <img src="/assets/products/chlorophyll.webp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />;
+                if (normalized.includes('spirulina')) return <img src="/assets/products/spirulina.webp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />;
+                if (normalized.includes('maca')) return <img src="/assets/products/maca.webp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />;
+                if (normalized.includes('magnesium')) return <img src="/assets/products/magnesium.webp" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />;
+                
+                if (product.image_url) {
+                  return <Image src={product.image_url} alt={product[`name_${lang}`]} fill className="object-cover transition-transform duration-700 group-hover:scale-110" />;
+                }
+                
+                return (
+                  <div className="w-full h-full flex flex-col items-center justify-center text-foreground/20 font-display font-black text-2xl p-12 text-center">
+                    <span className="opacity-10 mb-4 block italic font-serif">BioNatural Elite</span>
+                    {lang === "en" ? "Curated Asset Pending" : "Imagen en Alta Resolución"}
+                  </div>
+                );
+              })()}
               
               {/* Overlay Badge */}
               <div className="absolute top-4 right-4 glass-morphism px-4 py-2 rounded-2xl text-[10px] font-black uppercase tracking-widest text-foreground/80 z-10 backdrop-blur-md">
