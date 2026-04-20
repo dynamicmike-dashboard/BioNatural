@@ -174,17 +174,24 @@ export default function SocialDashboardPage() {
                           e.target.nextSibling.style.display = 'flex';
                         }}
                       />
-                      <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-stone-50/50">
-                        <div className="text-2xl mb-2">✨</div>
-                        <p className="text-[10px] font-bold uppercase tracking-widest">AI Rendering Queue...</p>
-                        <p className="text-[9px] mt-1 text-stone-400 font-medium italic">Approx 15 mins</p>
+                      <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-stone-50/10 backdrop-blur-sm">
+                        <div className="text-3xl mb-3">🎬</div>
+                        <p className="text-[10px] font-black uppercase tracking-widest text-stone-600">Awaiting Aesthetic Approval</p>
+                        <p className="text-[9px] mt-2 text-stone-500 max-w-[180px] text-center font-medium leading-relaxed">
+                          Once you approve the copy and creative prompt, the 8K High-Fidelity synthesis will be triggered.
+                        </p>
                       </div>
                       <div className="absolute top-4 left-4 flex gap-2">
                         <div className={`text-[10px] font-black px-3 py-1 rounded-full shadow-lg ${
-                          item.status === 'Approved' ? 'bg-green-500 text-white' : 'bg-amber-500 text-white'
+                          item.status === 'Approved' ? 'bg-green-500 text-white' : 'bg-stone-800 text-white'
                         }`}>
-                           {item.status === 'Approved' ? '✅ QUALITY VERIFIED' : '⏳ AWAITING APPROVAL'}
+                           {item.status === 'Approved' ? '✅ PRODUCTION READY' : '✨ DRAFT PREVIEW'}
                         </div>
+                        {item.bot_keyword.includes('eye') || item.bot_keyword.includes('shampoo') ? (
+                           <div className="bg-indigo-600 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg">
+                              📽️ VIDEO STORYBOARD QUEUED
+                           </div>
+                        ) : null}
                       </div>
                    </div>
                 </div>
