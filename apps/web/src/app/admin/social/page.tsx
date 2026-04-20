@@ -176,24 +176,39 @@ export default function SocialDashboardPage() {
                    <div className="flex justify-between items-center mb-3">
                       <p className="text-[10px] font-black uppercase text-stone-400">Media Format Selection</p>
                       <div className="flex bg-stone-100 p-1 rounded-lg gap-1 border border-stone-200">
-                         <button className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${!item.bot_keyword.includes('video') ? 'bg-white shadow-sm text-green-700' : 'text-stone-400'}`}>📸 STATIC</button>
-                         <button className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${item.bot_keyword.includes('video') ? 'bg-white shadow-sm text-blue-700' : 'text-stone-400'}`}>🎬 REEL</button>
+                         <button 
+                            onClick={() => handleToggleType(item.id, 'static')}
+                            className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${item.media_type === 'static' ? 'bg-white shadow-sm text-green-700' : 'text-stone-400'}`}
+                         >📸 STATIC</button>
+                         <button 
+                            onClick={() => handleToggleType(item.id, 'reel')}
+                            className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${item.media_type === 'reel' ? 'bg-white shadow-sm text-blue-700' : 'text-stone-400'}`}
+                         >🎬 REEL</button>
                       </div>
                    </div>
                    <div className="aspect-square md:aspect-video w-full bg-stone-100 rounded-2xl overflow-hidden border border-stone-200 relative group">
                       <img 
                         src={`/assets/social/april/${
-                          (item.bot_keyword === 'shampoo' || (item.product_focus || '').toLowerCase().includes('shampoo')) ? 'video-shampoo' :
-                          (item.bot_keyword === 'eye' || (item.product_focus || '').toLowerCase().includes('eye')) ? 'video-eyegel' : 
-                          `${item.date}-${(item.product_focus || '').toLowerCase().replace(/\s+/g, '-')}`
+                          item.media_type === 'reel' ? (
+                            (item.product_focus || '').toLowerCase().includes('shampoo') ? 'video-shampoo' : 'video-eyegel'
+                          ) : (
+                            `${item.date}-${(item.product_focus || '').toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`
+                          )
                         }.webp?v=${item.status}`} 
                         alt={item.product_focus}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        className={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${item.media_type === 'reel' ? 'brightness-75' : ''}`}
                         onError={(e: any) => {
                           e.target.style.display = 'none';
                           e.target.nextSibling.style.display = 'flex';
                         }}
                       />
+                      {item.media_type === 'reel' && (
+                        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                           <div className="w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 shadow-2xl">
+                              <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[18px] border-l-white border-b-[10px] border-b-transparent ml-1"></div>
+                           </div>
+                        </div>
+                      )}
                       <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-stone-50/10 backdrop-blur-sm">
                         <div className="text-3xl mb-3">{item.status === 'Approved' ? '⚙️' : '🎬'}</div>
                         <p className="text-[10px] font-black uppercase tracking-widest text-stone-600">
