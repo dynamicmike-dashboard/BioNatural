@@ -1,0 +1,26 @@
+[
+  {
+    "product": "Hydrating Eye Contour Gel",
+    "visual_focus": "Macro shot of a clear, lightweight gel texture being applied to cooling stone rollers.",
+    "message_en": "De-puff and refresh.",
+    "message_es": "Adiós a las ojeras.",
+    "target_issue": "Puffy eyes and tired-looking skin",
+    "sora_prompt": "High fidelity, cinematic close-up of a clear gel texture being smoothed out by an icy jade roller. Soft morning light over smooth river stones, minimal and elegant. 4k, 60fps."
+  },
+  {
+    "product": "Day & Night Hydrating Cream 25+",
+    "visual_focus": "A soft-focus morning routine in a Playa del Carmen interior. Golden hour light hitting the 'Pure Essence' glass jar.",
+    "message_en": "Continuous hydration for your natural barrier.",
+    "message_es": "Hidratación continua para tu barrera natural.",
+    "target_issue": "Dry skin and basic routine maintenance",
+    "sora_prompt": "A beautiful lifestyle shot of a woman with glowing skin opening a frosted glass jar of cream. Tropical golden hour sunlight, breezy linen curtains, extreme realism and slow, calming motion. 4k, 60fps."
+  },
+  {
+    "product": "Rosemary & Biotin Shampoo",
+    "visual_focus": "Slow-motion water droplets on fresh rosemary leaves, transitioning to a scalp massage with rich lather.",
+    "message_en": "Strengthen from the root.",
+    "message_es": "Fuerza desde la raíz.",
+    "target_issue": "Hair loss and lack of volume",
+    "sora_prompt": "Macro dramatic lighting on fresh rosemary sprigs catching a water droplet. Cut to a luxurious shower scene with rich foam, holistic wellness vibe. Japandi aesthetic. 4k, 60fps."
+  }
+]
