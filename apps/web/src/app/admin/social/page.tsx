@@ -90,113 +90,111 @@ export default function SocialDashboardPage() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-50 p-6 md:p-12 pt-32">
+    <div className="min-h-screen bg-silk p-6 md:p-12 pt-32">
       <div className="max-w-6xl mx-auto">
         <header className="mb-10 flex flex-col md:flex-row md:items-end justify-between border-b border-stone-200 pb-6">
           <div>
             <div className="flex items-center gap-3 mb-2">
-               <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-tighter">Alpha Dashboard</span>
-               <h1 className="text-4xl font-bold text-green-900 font-serif">Social Hub</h1>
+               <span className="bg-sand/10 text-sand px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-tighter border border-sand/20">Alpha Intelligence</span>
+               <h1 className="text-4xl font-bold text-forest font-serif">Marketing Hub</h1>
             </div>
-            <p className="text-stone-500">Review, approve, and chat with AI about your upcoming content.</p>
+            <p className="text-stone-500 text-sm">Design, refine, and schedule your social strategy with BioNatural AI.</p>
           </div>
-          <div className="mt-4 md:mt-0 flex gap-4">
-             <button className="bg-white border border-stone-200 text-stone-600 px-4 py-2 rounded-xl text-sm font-semibold shadow-sm hover:bg-stone-100 transition-all">
-                Ask AI Assistant 🤖
+          <div className="mt-6 md:mt-0 flex gap-4">
+             <button className="bg-white border border-stone-200 text-stone-600 px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest shadow-sm hover:bg-stone-100 transition-all">
+                AI Analytics 📊
              </button>
-             <button className="bg-green-700 text-white px-4 py-2 rounded-xl text-sm font-semibold shadow-md hover:bg-green-800 transition-all">
-                Submit Approved Batch
+             <button className="bg-forest text-white px-6 py-3 rounded-xl text-[10px] font-black uppercase tracking-widest shadow-lg hover:bg-sand transition-all">
+                Publish Batch 🚀
              </button>
           </div>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="md:col-span-2 space-y-6">
-            <h2 className="font-serif text-2xl text-stone-800 mb-4">Upcoming Schedule</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="lg:col-span-2 space-y-12">
+            <h2 className="font-serif text-3xl text-forest italic mb-8">Editorial Queue</h2>
             {contentList.map((item) => (
-              <div key={item.id} className="bg-white p-6 rounded-3xl shadow-sm border border-stone-100 relative">
-                <div className="flex justify-between items-start mb-4">
-                  <div className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${
-                    item.status === 'Approved' ? 'bg-green-100 text-green-800' : 
-                    item.status === 'Posted' ? 'bg-blue-100 text-blue-800' : 'bg-amber-100 text-amber-800'
+              <div key={item.id} className="bg-white p-8 rounded-[2rem] shadow-sm border border-stone-100 relative overflow-hidden">
+                <div className="flex justify-between items-start mb-6">
+                  <div className={`inline-flex items-center px-4 py-1.5 rounded-full text-[10px] font-black uppercase tracking-widest ${
+                    item.status === 'Approved' ? 'bg-green-100 text-green-700' : 
+                    item.status === 'Posted' ? 'bg-blue-100 text-blue-700' : 'bg-sand/10 text-sand'
                   }`}>
                     {item.status}
                   </div>
                   <div className="text-sm text-stone-400 font-mono flex items-center gap-2">
-                    <span className="text-green-600 font-bold bg-green-50 px-2 rounded">#{item.bot_keyword}</span>
+                    <span className="text-sand font-bold bg-silk px-2 py-0.5 rounded border border-sand/10">#{item.bot_keyword}</span>
                     {item.date}
                   </div>
                 </div>
                 
-                <div className="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                   {editingId === item.id ? (
                     <>
                       <div className="space-y-2">
-                        <label className="text-[10px] font-black uppercase text-stone-400">English Caption</label>
+                        <label className="text-[10px] font-black uppercase tracking-widest text-stone-400">English Capture</label>
                         <textarea 
                           value={editValues.en}
                           onChange={(e) => setEditValues({ ...editValues, en: e.target.value })}
-                          className="w-full h-32 p-4 bg-stone-50 border border-stone-200 rounded-xl text-sm focus:ring-2 focus:ring-green-500 outline-none"
+                          className="w-full h-40 p-5 bg-silk border border-stone-200 rounded-2xl text-sm focus:ring-2 focus:ring-sand outline-none font-medium text-forest"
                         />
                       </div>
                       <div className="space-y-2">
-                        <label className="text-[10px] font-black uppercase text-stone-400">Spanish Caption</label>
+                        <label className="text-[10px] font-black uppercase tracking-widest text-stone-400">Español Capture</label>
                         <textarea 
                           value={editValues.es}
                           onChange={(e) => setEditValues({ ...editValues, es: e.target.value })}
-                          className="w-full h-32 p-4 bg-stone-50 border border-stone-200 rounded-xl text-sm focus:ring-2 focus:ring-green-500 outline-none"
+                          className="w-full h-40 p-5 bg-silk border border-stone-200 rounded-2xl text-sm focus:ring-2 focus:ring-sand outline-none font-medium text-forest"
                         />
                       </div>
                       <div className="md:col-span-2 space-y-2">
-                        <label className="text-[10px] font-black uppercase text-stone-400">🎨 Visual Art Direction / Prompt</label>
+                        <label className="text-[10px] font-black uppercase tracking-widest text-stone-400">🎨 Aesthetic Directive (Prompt)</label>
                         <input 
                           type="text"
                           value={item.prompt}
-                          className="w-full p-4 bg-stone-50 border border-stone-200 rounded-xl text-sm italic text-stone-600 focus:ring-2 focus:ring-green-500 outline-none"
-                          placeholder="Describe the aesthetic (e.g. 'Morning light, minimalist, Japandi style') "
+                          className="w-full p-5 bg-silk border border-stone-200 rounded-2xl text-[11px] italic text-stone-500 focus:ring-2 focus:ring-sand outline-none"
                         />
                       </div>
                     </>
                   ) : (
                     <>
-                      <div className="bg-stone-50 p-4 rounded-xl border border-stone-100">
-                         <p className="text-xs text-stone-400 uppercase font-bold mb-2">English</p>
-                         <p className="text-sm text-stone-700 whitespace-pre-wrap">{item.caption_en}</p>
+                      <div className="bg-silk p-6 rounded-2xl border border-stone-100 group hover:border-sand transition-all">
+                         <p className="text-[10px] text-stone-400 uppercase font-black tracking-widest mb-3">Narrative (EN)</p>
+                         <p className="text-sm text-forest leading-relaxed font-medium">{item.caption_en}</p>
                       </div>
-                      <div className="bg-stone-50 p-4 rounded-xl border border-stone-100">
-                         <p className="text-xs text-stone-400 uppercase font-bold mb-2">Español</p>
-                         <p className="text-sm text-stone-700 whitespace-pre-wrap">{item.caption_es}</p>
+                      <div className="bg-silk p-6 rounded-2xl border border-stone-100 group hover:border-sand transition-all">
+                         <p className="text-[10px] text-stone-400 uppercase font-black tracking-widest mb-3">Narrativa (ES)</p>
+                         <p className="text-sm text-forest leading-relaxed font-medium">{item.caption_es}</p>
                       </div>
                     </>
                   )}
                 </div>
 
-                {/* AI Visual Asset Display & Format Selector */}
-                <div className="mb-6">
-                   <div className="flex justify-between items-center mb-3">
-                      <p className="text-[10px] font-black uppercase text-stone-400">Media Format Selection</p>
-                      <div className="flex bg-stone-100 p-1 rounded-lg gap-1 border border-stone-200">
+                <div className="mb-8">
+                   <div className="flex justify-between items-center mb-4">
+                      <p className="text-[11px] font-black uppercase tracking-[0.2em] text-sand">Asset Production Engine</p>
+                      <div className="flex bg-silk p-1 rounded-xl gap-1 border border-stone-200 shadow-inner">
                          <button 
                             onClick={() => handleToggleType(item.id, 'static')}
-                            className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${item.media_type === 'static' ? 'bg-white shadow-sm text-green-700' : 'text-stone-400'}`}
-                         >📸 STATIC</button>
+                            className={`px-5 py-2 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all ${item.media_type === 'static' ? 'bg-white shadow-md text-forest' : 'text-stone-300'}`}
+                         >📸 Static</button>
                          <button 
                             onClick={() => handleToggleType(item.id, 'reel')}
-                            className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${item.media_type === 'reel' ? 'bg-white shadow-sm text-blue-700' : 'text-stone-400'}`}
-                         >🎬 REEL</button>
+                            className={`px-5 py-2 rounded-lg text-[10px] font-black uppercase tracking-widest transition-all ${item.media_type === 'reel' ? 'bg-white shadow-md text-clay' : 'text-stone-300'}`}
+                         >🎬 Cinema</button>
                       </div>
                    </div>
-                   <div className="aspect-square md:aspect-video w-full bg-stone-100 rounded-2xl overflow-hidden border border-stone-200 relative group">
+                   <div className="aspect-square md:aspect-video w-full bg-silk rounded-[2rem] overflow-hidden border border-stone-200 relative group shadow-inner">
                       <img 
                         src={`/assets/social/april/${
                           item.media_type === 'reel' ? (
                             (item.product_focus || '').toLowerCase().includes('shampoo') ? 'video-shampoo' : 'video-eyegel'
                           ) : (
-                            `${item.date}-${(item.product_focus || '').toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`
+                            `${item.date}-${(item.product_focus || '').toLowerCase().replace(/[^a-z0-9]/g, '')}`
                           )
                         }.webp?v=${item.status}`} 
                         alt={item.product_focus}
-                        className={`w-full h-full object-cover transition-all duration-700 group-hover:scale-105 ${item.media_type === 'reel' ? 'brightness-75' : ''}`}
+                        className={`w-full h-full object-cover transition-all duration-1000 group-hover:scale-105 ${item.media_type === 'reel' ? 'brightness-50 blur-[1px]' : ''}`}
                         onError={(e: any) => {
                           e.target.style.display = 'none';
                           e.target.nextSibling.style.display = 'flex';
@@ -204,55 +202,53 @@ export default function SocialDashboardPage() {
                       />
                       {item.media_type === 'reel' && (
                         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                           <div className="w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/30 shadow-2xl">
-                              <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[18px] border-l-white border-b-[10px] border-b-transparent ml-1"></div>
+                           <div className="w-20 h-20 bg-white/20 backdrop-blur-xl rounded-full flex items-center justify-center border border-white/40 shadow-[0_0_50px_rgba(255,255,255,0.2)] animate-pulse">
+                              <div className="w-0 h-0 border-t-[12px] border-t-transparent border-l-[22px] border-l-white border-b-[12px] border-b-transparent ml-2"></div>
                            </div>
                         </div>
                       )}
-                      <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-stone-50/10 backdrop-blur-sm">
-                        <div className="text-3xl mb-3">{item.status === 'Approved' ? '⚙️' : '🎬'}</div>
-                        <p className="text-[10px] font-black uppercase tracking-widest text-stone-600">
-                           {item.status === 'Approved' ? 'Final 8K Synthesis in Progress' : 'Awaiting Aesthetic Approval'}
-                        </p>
-                        <p className="text-[9px] mt-2 text-stone-500 max-w-[180px] text-center font-medium leading-relaxed">
+                      <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-silk/80 backdrop-blur-md px-12 text-center">
+                        <div className="text-4xl mb-4 italic serif">Art Still Pending Final Render</div>
+                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-forest mb-4">Awaiting Curated Approval</p>
+                        <p className="text-[11px] text-stone-500 font-medium leading-relaxed max-w-sm">
                           {item.status === 'Approved' 
-                            ? 'The high-fidelity render engine is optimizing this asset for social media distribution.' 
-                            : 'Once you approve the copy and creative prompt, the 8K High-Fidelity synthesis will be triggered.'}
+                            ? 'Our render engine is synthesizing this asset in 8K based on your specific art direction.' 
+                            : 'Once you approve the narrative and aesthetic directive, the high-fidelity synthesis will be initiated.'}
                         </p>
                       </div>
-                      <div className="absolute top-4 left-4 flex gap-2">
-                        <div className={`text-[10px] font-black px-3 py-1 rounded-full shadow-lg ${
-                          item.status === 'Approved' ? 'bg-green-500 text-white' : 'bg-stone-800 text-white'
+                      <div className="absolute top-6 left-6 flex gap-3">
+                        <div className={`text-[9px] font-black px-4 py-1.5 rounded-full shadow-xl tracking-[0.2em] backdrop-blur-md ${
+                          item.status === 'Approved' ? 'bg-green-500/80 text-white' : 'bg-forest/80 text-white'
                         }`}>
-                           {item.status === 'Approved' ? '✅ PRODUCTION READY' : '✨ DRAFT PREVIEW'}
+                           {item.status === 'Approved' ? 'PRODUCTION READY' : 'ESTHETIC DRAFT'}
                         </div>
                       </div>
                    </div>
                 </div>
                 
                 {!editingId && (
-                  <div className="bg-indigo-50/50 p-4 rounded-2xl mb-6 border border-indigo-100 flex justify-between items-center group">
-                    <div className="max-w-[80%]">
-                      <p className="text-xs text-indigo-400 font-bold uppercase tracking-wider mb-1">📸 Visual Art Direction:</p>
-                      <p className="text-[11px] text-indigo-700/80 italic line-clamp-1 group-hover:line-clamp-none transition-all">" {item.prompt} "</p>
+                  <div className="bg-silk p-6 rounded-2xl mb-8 border border-stone-100 flex justify-between items-center group cursor-pointer hover:bg-white transition-all">
+                    <div className="max-w-[75%]">
+                      <p className="text-[10px] text-sand font-black uppercase tracking-[0.2em] mb-2">📸 Visual Narrative Control</p>
+                      <p className="text-[13px] text-stone-500 italic font-serif leading-relaxed">" {item.prompt} "</p>
                     </div>
                     <button 
-                      onClick={() => alert('🔄 Regeneration Request Sent: The AI is reshooting this scene based on your feedback.')}
-                      className="text-indigo-600 bg-white p-2 rounded-lg border border-indigo-200 shadow-sm hover:bg-indigo-600 hover:text-white transition-all text-xs font-bold"
+                      onClick={() => alert('🔄 Aesthetic Reshoot Request: The AI Photographer is re-synthesizing this scene based on your request.')}
+                      className="text-sand border border-sand/30 bg-white px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest shadow-sm hover:bg-sand hover:text-white transition-all whitespace-nowrap"
                     >
-                      🔄 REGEN
+                      🔄 Reshoot
                     </button>
                   </div>
                 )}
-                
-                <div className="flex gap-3 mt-4">
+
+                <div className="flex gap-4">
                   {editingId === item.id ? (
                     <button 
                       onClick={() => saveEdit(item.id)}
                       disabled={actionLoading === item.id}
-                      className="flex-1 bg-green-700 text-white font-bold py-3 rounded-xl hover:bg-green-800 transition-colors"
+                      className="flex-1 bg-forest text-white font-black uppercase tracking-widest text-[11px] py-4 rounded-2xl shadow-xl hover:bg-sand transition-all animate-pulse"
                     >
-                      {actionLoading === item.id ? 'Saving...' : 'Save Changes'}
+                      {actionLoading === item.id ? 'Securing Data...' : 'Confirm Edits'}
                     </button>
                   ) : (
                     <>
@@ -260,23 +256,23 @@ export default function SocialDashboardPage() {
                         <button 
                           onClick={() => handleApprove(item.id)}
                           disabled={actionLoading === item.id}
-                          className="flex-1 bg-green-50 text-green-700 font-semibold py-3 rounded-xl hover:bg-green-100 transition-colors disabled:opacity-50"
+                          className="flex-3 bg-silk text-forest border border-forest/20 font-black uppercase tracking-widest text-[11px] py-4 rounded-2xl hover:bg-forest hover:text-white transition-all shadow-sm"
                         >
-                          {actionLoading === item.id ? 'Approving...' : 'Approve for Generation'}
+                          {actionLoading === item.id ? 'Validating...' : 'Approve Media Strategy'}
                         </button>
                       ) : (
                         <button 
-                          onClick={() => alert('🚀 Schedule: This asset is ready. Contact Admin to link Meta API for final launch.')}
-                          className="flex-1 bg-green-700 text-white font-bold py-3 rounded-xl hover:bg-green-800 transition-all shadow-md flex items-center justify-center gap-2"
+                          onClick={() => alert('🚀 Schedule: This asset is primed. Deployment to Meta Ads Manager ready.')}
+                          className="flex-3 bg-forest text-white font-black uppercase tracking-widest text-[11px] py-4 rounded-2xl hover:bg-sand transition-all shadow-xl flex items-center justify-center gap-3"
                         >
-                          🚀 Schedule to Instagram
+                          🚀 Launch to Instagram
                         </button>
                       )}
                       <button 
                         onClick={() => startEditing(item)}
-                        className="flex-1 bg-stone-100 text-stone-600 font-semibold py-3 rounded-xl hover:bg-stone-200 transition-colors"
+                        className="flex-1 bg-white border border-stone-200 text-stone-500 font-black uppercase tracking-widest text-[11px] py-4 rounded-2xl hover:bg-stone-50 transition-all"
                       >
-                        Edit Copy
+                        Edit Narrative
                       </button>
                     </>
                   )}
@@ -285,27 +281,38 @@ export default function SocialDashboardPage() {
             ))}
           </div>
 
-          <div className="bg-white p-6 rounded-3xl shadow-sm border border-stone-100 h-fit sticky top-32">
-             <h2 className="font-serif text-xl text-stone-800 mb-4">Gemini Assistant Database</h2>
-             <p className="text-sm text-stone-500 mb-6">Chat natively with your AI. The assistant has full access to reading the Teable inventory, social schedules, and sales tags to help you analyze performance.</p>
-             
-             <div className="bg-stone-50 rounded-2xl p-4 h-[400px] flex flex-col justify-end border border-stone-100">
-                <div className="mb-auto mt-4 mx-2">
-                   <div className="bg-green-100 text-green-900 text-sm p-3 rounded-r-xl rounded-bl-xl w-3/4 mb-2 shadow-sm">
-                      Hola Meybell! I'm synchronized with your 30-day calendar. Everything looks ready for your review. Once you "Approve" a post, it will enter the queue for high-resolution image generation.
-                   </div>
-                </div>
-                <input 
-                  type="text" 
-                  placeholder="Ask Gemini to run a report..." 
-                  className="w-full px-4 py-3 bg-white border border-stone-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 text-sm"
-                />
+          <div className="bg-white p-8 rounded-[3rem] shadow-xl border border-stone-100 h-fit sticky top-32">
+             <div className="mb-8 pb-8 border-b border-stone-100">
+                <h2 className="font-serif text-2xl text-forest italic mb-3">AI Content Concierge</h2>
+                <p className="text-sm text-stone-500 leading-relaxed">Ask Gemini to analyze your local Playa del Carmen market trends or regenerate captions based on your tone of voice.</p>
              </div>
              
-             <div className="mt-8 p-4 bg-amber-50 rounded-2xl border border-amber-100">
-                <p className="text-[10px] font-black uppercase text-amber-700 mb-2">Workflow Note</p>
-                <p className="text-[11px] text-amber-800/80 leading-relaxed">
-                  Approving a post locks the copy and triggers the <b>AI Graphic Synthesis</b>. Final images will appear in your "Approved" feed within 15 minutes of batch submission.
+             <div className="bg-silk rounded-3xl p-6 h-[450px] flex flex-col justify-end border border-stone-50 shadow-inner relative">
+                <div className="absolute inset-0 p-6 overflow-y-auto no-scrollbar pb-24">
+                   <div className="bg-white text-forest text-[13px] leading-relaxed p-4 rounded-2xl rounded-bl-none w-4/5 mb-4 shadow-sm border border-stone-50">
+                      Hola Meybell! I've synchronized your 30-day strategy. We have 14 Hero Assets ready for launch. Simply "Approve" the narratives to trigger the final high-res renders.
+                   </div>
+                   <div className="bg-sand/10 border border-sand/20 text-sand text-[13px] leading-relaxed p-4 rounded-2xl rounded-br-none w-4/5 mb-4 ml-auto shadow-sm">
+                      ¿Puedes hacerme un resumen de los mejores horarios para publicar en Playa del Carmen?
+                   </div>
+                </div>
+                <div className="relative mt-auto">
+                   <input 
+                     type="text" 
+                     placeholder="Message Gemini..." 
+                     className="w-full px-5 py-4 bg-white border border-stone-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-sand text-sm shadow-md"
+                   />
+                </div>
+             </div>
+             
+             <div className="mt-10 p-6 bg-sand/5 rounded-[2rem] border border-sand/10">
+                <p className="text-[10px] font-black uppercase tracking-widest text-sand mb-3">System Health</p>
+                <div className="flex gap-2 mb-4">
+                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+                   <span className="text-[11px] text-stone-500 font-bold">Teable Engine Online</span>
+                </div>
+                <p className="text-[11px] text-stone-600 leading-relaxed font-medium">
+                  Approving a media strategy locks the draft and initiates the <b>Aesthetic Synthesis Engine</b>. High-fidelity renders propagate to the grid every 15 minutes.
                 </p>
              </div>
           </div>
