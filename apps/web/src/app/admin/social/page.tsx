@@ -166,7 +166,11 @@ export default function SocialDashboardPage() {
                 <div className="mb-6">
                    <div className="aspect-square md:aspect-video w-full bg-stone-100 rounded-2xl overflow-hidden border border-stone-200 relative group">
                       <img 
-                        src={`/assets/social/april/${item.date}-${(item.product_focus || '').toLowerCase().replace(/\s+/g, '-')}.png`} 
+                        src={`/assets/social/april/${
+                          (item.bot_keyword === 'shampoo' || (item.product_focus || '').toLowerCase().includes('shampoo')) ? 'video-shampoo' :
+                          (item.bot_keyword === 'eye' || (item.product_focus || '').toLowerCase().includes('eye')) ? 'video-eyegel' : 
+                          `${item.date}-${(item.product_focus || '').toLowerCase().replace(/\s+/g, '-')}`
+                        }.webp`} 
                         alt={item.product_focus}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         onError={(e: any) => {
