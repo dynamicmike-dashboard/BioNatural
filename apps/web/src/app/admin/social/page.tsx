@@ -147,6 +147,15 @@ export default function SocialDashboardPage() {
                           className="w-full h-32 p-4 bg-stone-50 border border-stone-200 rounded-xl text-sm focus:ring-2 focus:ring-green-500 outline-none"
                         />
                       </div>
+                      <div className="md:col-span-2 space-y-2">
+                        <label className="text-[10px] font-black uppercase text-stone-400">🎨 Visual Art Direction / Prompt</label>
+                        <input 
+                          type="text"
+                          value={item.prompt}
+                          className="w-full p-4 bg-stone-50 border border-stone-200 rounded-xl text-sm italic text-stone-600 focus:ring-2 focus:ring-green-500 outline-none"
+                          placeholder="Describe the aesthetic (e.g. 'Morning light, minimalist, Japandi style') "
+                        />
+                      </div>
                     </>
                   ) : (
                     <>
@@ -162,8 +171,15 @@ export default function SocialDashboardPage() {
                   )}
                 </div>
 
-                {/* AI Visual Asset Display */}
+                {/* AI Visual Asset Display & Format Selector */}
                 <div className="mb-6">
+                   <div className="flex justify-between items-center mb-3">
+                      <p className="text-[10px] font-black uppercase text-stone-400">Media Format Selection</p>
+                      <div className="flex bg-stone-100 p-1 rounded-lg gap-1 border border-stone-200">
+                         <button className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${!item.bot_keyword.includes('video') ? 'bg-white shadow-sm text-green-700' : 'text-stone-400'}`}>📸 STATIC</button>
+                         <button className={`px-3 py-1 rounded-md text-[10px] font-bold transition-all ${item.bot_keyword.includes('video') ? 'bg-white shadow-sm text-blue-700' : 'text-stone-400'}`}>🎬 REEL</button>
+                      </div>
+                   </div>
                    <div className="aspect-square md:aspect-video w-full bg-stone-100 rounded-2xl overflow-hidden border border-stone-200 relative group">
                       <img 
                         src={`/assets/social/april/${
@@ -195,19 +211,24 @@ export default function SocialDashboardPage() {
                         }`}>
                            {item.status === 'Approved' ? '✅ PRODUCTION READY' : '✨ DRAFT PREVIEW'}
                         </div>
-                        {item.bot_keyword.includes('eye') || item.bot_keyword.includes('shampoo') ? (
-                           <div className="bg-indigo-600 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg">
-                              📽️ VIDEO STORYBOARD QUEUED
-                           </div>
-                        ) : null}
                       </div>
                    </div>
                 </div>
                 
-                <div className="bg-indigo-50/50 p-4 rounded-2xl mb-6 border border-indigo-100">
-                  <p className="text-xs text-indigo-400 font-bold uppercase tracking-wider mb-2">📸 AI Media Generation Prompt:</p>
-                  <p className="text-sm text-indigo-700/80 italic">" {item.prompt} "</p>
-                </div>
+                {!editingId && (
+                  <div className="bg-indigo-50/50 p-4 rounded-2xl mb-6 border border-indigo-100 flex justify-between items-center group">
+                    <div className="max-w-[80%]">
+                      <p className="text-xs text-indigo-400 font-bold uppercase tracking-wider mb-1">📸 Visual Art Direction:</p>
+                      <p className="text-[11px] text-indigo-700/80 italic line-clamp-1 group-hover:line-clamp-none transition-all">" {item.prompt} "</p>
+                    </div>
+                    <button 
+                      onClick={() => alert('🔄 Regeneration Request Sent: The AI is reshooting this scene based on your feedback.')}
+                      className="text-indigo-600 bg-white p-2 rounded-lg border border-indigo-200 shadow-sm hover:bg-indigo-600 hover:text-white transition-all text-xs font-bold"
+                    >
+                      🔄 REGEN
+                    </button>
+                  </div>
+                )}
                 
                 <div className="flex gap-3 mt-4">
                   {editingId === item.id ? (
