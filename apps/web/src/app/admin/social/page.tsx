@@ -175,14 +175,17 @@ export default function SocialDashboardPage() {
                         }}
                       />
                       <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-stone-50/50">
-                        <div className="text-2xl mb-2">🎨</div>
-                        <p className="text-[10px] font-bold uppercase tracking-widest">Asset Sync Pending</p>
+                        <div className="text-2xl mb-2">✨</div>
+                        <p className="text-[10px] font-bold uppercase tracking-widest">AI Rendering Queue...</p>
+                        <p className="text-[9px] mt-1 text-stone-400 font-medium italic">Approx 15 mins</p>
                       </div>
-                      {item.status === 'Approved' && (
-                        <div className="absolute top-4 right-4 bg-green-500 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg">
-                           READY FOR SYNC
+                      <div className="absolute top-4 left-4 flex gap-2">
+                        <div className={`text-[10px] font-black px-3 py-1 rounded-full shadow-lg ${
+                          item.status === 'Approved' ? 'bg-green-500 text-white' : 'bg-amber-500 text-white'
+                        }`}>
+                           {item.status === 'Approved' ? '✅ QUALITY VERIFIED' : '⏳ AWAITING APPROVAL'}
                         </div>
-                      )}
+                      </div>
                    </div>
                 </div>
                 
@@ -202,13 +205,20 @@ export default function SocialDashboardPage() {
                     </button>
                   ) : (
                     <>
-                      {item.status !== 'Approved' && (
+                      {item.status !== 'Approved' ? (
                         <button 
                           onClick={() => handleApprove(item.id)}
                           disabled={actionLoading === item.id}
                           className="flex-1 bg-green-50 text-green-700 font-semibold py-3 rounded-xl hover:bg-green-100 transition-colors disabled:opacity-50"
                         >
                           {actionLoading === item.id ? 'Approving...' : 'Approve for Generation'}
+                        </button>
+                      ) : (
+                        <button 
+                          onClick={() => alert('🚀 Schedule: This asset is ready. Contact Admin to link Meta API for final launch.')}
+                          className="flex-1 bg-green-700 text-white font-bold py-3 rounded-xl hover:bg-green-800 transition-all shadow-md flex items-center justify-center gap-2"
+                        >
+                          🚀 Schedule to Instagram
                         </button>
                       )}
                       <button 
