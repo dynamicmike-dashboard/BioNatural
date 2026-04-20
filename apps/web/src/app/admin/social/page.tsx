@@ -170,7 +170,7 @@ export default function SocialDashboardPage() {
                           (item.bot_keyword === 'shampoo' || (item.product_focus || '').toLowerCase().includes('shampoo')) ? 'video-shampoo' :
                           (item.bot_keyword === 'eye' || (item.product_focus || '').toLowerCase().includes('eye')) ? 'video-eyegel' : 
                           `${item.date}-${(item.product_focus || '').toLowerCase().replace(/\s+/g, '-')}`
-                        }.webp`} 
+                        }.webp?v=${item.status}`} 
                         alt={item.product_focus}
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         onError={(e: any) => {
@@ -179,10 +179,14 @@ export default function SocialDashboardPage() {
                         }}
                       />
                       <div className="hidden absolute inset-0 items-center justify-center flex-col text-stone-400 bg-stone-50/10 backdrop-blur-sm">
-                        <div className="text-3xl mb-3">🎬</div>
-                        <p className="text-[10px] font-black uppercase tracking-widest text-stone-600">Awaiting Aesthetic Approval</p>
+                        <div className="text-3xl mb-3">{item.status === 'Approved' ? '⚙️' : '🎬'}</div>
+                        <p className="text-[10px] font-black uppercase tracking-widest text-stone-600">
+                           {item.status === 'Approved' ? 'Final 8K Synthesis in Progress' : 'Awaiting Aesthetic Approval'}
+                        </p>
                         <p className="text-[9px] mt-2 text-stone-500 max-w-[180px] text-center font-medium leading-relaxed">
-                          Once you approve the copy and creative prompt, the 8K High-Fidelity synthesis will be triggered.
+                          {item.status === 'Approved' 
+                            ? 'The high-fidelity render engine is optimizing this asset for social media distribution.' 
+                            : 'Once you approve the copy and creative prompt, the 8K High-Fidelity synthesis will be triggered.'}
                         </p>
                       </div>
                       <div className="absolute top-4 left-4 flex gap-2">
